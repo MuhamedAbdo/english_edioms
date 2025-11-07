@@ -62,19 +62,6 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        iconTheme: const IconThemeData(
-          color: Colors.white,
-        ),
-        title: const Text(
-          'المفضلة',
-          style: TextStyle(
-            color: Colors.white,
-          ),
-        ),
-        centerTitle: true,
-        backgroundColor: Colors.blue.shade600,
-      ),
       body: ValueListenableBuilder(
         valueListenable: Hive.box<FavoriteIdiom>('favorites').listenable(),
         builder: (context, Box<FavoriteIdiom> box, _) {
