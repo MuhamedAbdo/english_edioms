@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:english_idioms_app/screens/category_screen.dart';
-import 'package:english_idioms_app/data/idioms_data.dart';
+import 'package:english_idioms_app/data/categories.dart'; // ✅ تم التحديث
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
       body: ListView.builder(
-        itemCount: idiomsData.keys.length,
+        itemCount: idiomsData.keys.length, // ✅ نفس الاستخدام
         itemBuilder: (context, index) {
           final categoryName = idiomsData.keys.elementAt(index);
           return Card(
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                   MaterialPageRoute(
                     builder: (context) => CategoryScreen(
                       categoryName: categoryName,
-                      idioms: idiomsData[categoryName]!,
+                      idioms: idiomsData[categoryName]!, // ✅ نفس الاستخدام
                     ),
                   ),
                 );
