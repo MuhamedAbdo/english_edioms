@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:hive/hive.dart';
 import 'package:english_idioms_app/models/idiom.dart';
+import 'package:english_idioms_app/models/favorite_idiom.dart';
 
 class CategoryScreen extends StatefulWidget {
   final String categoryName;
@@ -47,6 +49,42 @@ class _CategoryScreenState extends State<CategoryScreen> {
                   .contains(query.toLowerCase());
         }).toList();
       }
+    });
+  }
+
+  void _toggleFavorite(Idiom idiom) {
+    final box = Hive.box<FavoriteIdiom>('favorites');
+    final exists = box.values.any((fav) => fav.phrase == idiom.phrase);
+
+    if (exists) {
+      // الحذف
+      final item = box.values.firstWhere((fav) => fav.phrase == idiom.phrase);
+      item.delete();
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('تم إزالة العبارة من المفضلة')),
+        );
+      }
+    } else {
+      // الإضافة
+      final favorite = FavoriteIdiom(
+        phrase: idiom.phrase,
+        meaningAr: idiom.meaningAr,
+        explanationAr: idiom.explanationAr,
+        exampleEn: idiom.exampleEn,
+        exampleTranslationAr: idiom.exampleTranslationAr,
+      );
+      box.add(favorite);
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('تمت إضافة العبارة إلى المفضلة')),
+        );
+      }
+    }
+
+    // تحديث الحالة لعكس التغيير في الأيقونة
+    setState(() {
+      // إعادة بناء الـ ListView
     });
   }
 
@@ -133,6 +171,10 @@ class _CategoryScreenState extends State<CategoryScreen> {
               itemCount: _filteredIdioms.length,
               itemBuilder: (context, index) {
                 final idiom = _filteredIdioms[index];
+                final box = Hive.box<FavoriteIdiom>('favorites');
+                final isFavorite =
+                    box.values.any((fav) => fav.phrase == idiom.phrase);
+
                 return Card(
                   margin: const EdgeInsets.symmetric(vertical: 10),
                   elevation: 4,
@@ -144,6 +186,21 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        // زر المفضلة في الأعلى
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            IconButton(
+                              icon: Icon(
+                                isFavorite
+                                    ? Icons.favorite
+                                    : Icons.favorite_border,
+                                color: isFavorite ? Colors.red : Colors.grey,
+                              ),
+                              onPressed: () => _toggleFavorite(idiom),
+                            ),
+                          ],
+                        ),
                         // العبارة الإنجليزية
                         Text(
                           idiom.phrase,

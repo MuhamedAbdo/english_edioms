@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:english_idioms_app/screens/splash_screen.dart'; // ← تغيير هنا
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:english_idioms_app/screens/splash_screen.dart';
+import 'package:english_idioms_app/models/favorite_idiom.dart';
 
-void main() {
+void main() async {
+  // تهيئة Hive
+  await Hive.initFlutter();
+  // تسجيل الـ Adapter
+  Hive.registerAdapter(FavoriteIdiomAdapter());
+  // فتح الـ Box
+  await Hive.openBox<FavoriteIdiom>('favorites');
+
   runApp(const MyApp());
 }
 
@@ -28,7 +37,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: const SplashScreen(), // ← تغيير هنا
+      home: const SplashScreen(),
     );
   }
 }
