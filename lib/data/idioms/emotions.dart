@@ -5,6 +5,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Over the moon",
     meaningAr: "فرحان جدًا",
+    literalMeaningAr: "فوق القمر", // ✅ صورة مجازية قوية
     explanationAr: "الشعور بسعادة غامرة لا توصف.",
     exampleEn:
         "She was over the moon when she got accepted into her dream university.",
@@ -13,6 +14,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "On cloud nine",
     meaningAr: "في قمة السعادة",
+    literalMeaningAr: "على سحابة تسع",
     explanationAr: "الشعور بسعادة خارجة عن المألوف، كأنك تطير.",
     exampleEn: "He’s been on cloud nine since he won the lottery.",
     exampleTranslationAr: "هو في قمة السعادة منذ فوزه في اليانصيب.",
@@ -20,6 +22,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Tickled pink",
     meaningAr: "مُبتهج جدًا",
+    literalMeaningAr: "تمسّد بلون وردي",
     explanationAr: "الشعور بالفرح والانبهار من موقف لطيف.",
     exampleEn:
         "She was tickled pink when her grandson called her ‘Best Grandma’.",
@@ -28,6 +31,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "In seventh heaven",
     meaningAr: "في جنة سابعة",
+    literalMeaningAr: "في السماء السابعة",
     explanationAr: "الشعور بسعادة مطلقة، وكأنك في عالم آخر.",
     exampleEn: "They were in seventh heaven during their honeymoon.",
     exampleTranslationAr: "كانوا في جنة سابعة خلال شهر العسل.",
@@ -35,6 +39,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Walking on air",
     meaningAr: "كأنك تمشي على الهواء",
+    literalMeaningAr: "تمشي في الهواء",
     explanationAr: "الشعور بالسعادة والانطلاق، كأنك لا تلامس الأرض.",
     exampleEn: "After the promotion, she was walking on air.",
     exampleTranslationAr: "بعد الترقية، كانت تمشي على الهواء.",
@@ -56,6 +61,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Overjoyed",
     meaningAr: "فرحان بجنون",
+    literalMeaningAr: "فرحان بجنون",
     explanationAr: "شعور بالفرح الشديد، غالبًا بسبب حدث مهم.",
     exampleEn:
         "The parents were overjoyed when their baby smiled for the first time.",
@@ -65,6 +71,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Over the top",
     meaningAr: "مبالغ فيه / مفرط في السعادة",
+    literalMeaningAr: "فوق القمة",
     explanationAr: "التعبير عن الفرح بشكل مفرط أو مبالغ فيه.",
     exampleEn:
         "Her reaction was over the top — she screamed and jumped up and down!",
@@ -74,6 +81,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "A weight off my shoulders",
     meaningAr: "راحة من همّ ثقيل",
+    literalMeaningAr: "حمل زال عن كتفي",
     explanationAr: "الشعور بالراحة بعد التخلص من ضغط أو قلق طويل.",
     exampleEn:
         "After paying off the debt, I felt like a weight had been lifted off my shoulders.",
@@ -85,6 +93,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Down in the dumps",
     meaningAr: "في حالة حزن عميق",
+    literalMeaningAr: "في الحاويات (مكان القمامة)",
     explanationAr: "الشعور بالحزن أو الاكتئاب لفترة طويلة.",
     exampleEn: "He’s been down in the dumps since his dog passed away.",
     exampleTranslationAr: "هو في حالة حزن منذ وفاة كلبه.",
@@ -92,6 +101,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "In a funk",
     meaningAr: "في مزاج سيء",
+    literalMeaningAr: "في حالة غريبة",
     explanationAr: "الشعور بالكآبة أو التعب العاطفي دون سبب واضح.",
     exampleEn: "I’ve been in a funk all week — nothing seems to cheer me up.",
     exampleTranslationAr: "أنا في مزاج سيء طوال الأسبوع — لا شيء يُفرّحني.",
@@ -99,6 +109,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Blue",
     meaningAr: "حزين",
+    literalMeaningAr: "أزرق",
     explanationAr: "تعبير بسيط وشائع عن الحزن أو الاكتئاب الخفيف.",
     exampleEn: "I’m feeling a bit blue today — maybe it’s the weather.",
     exampleTranslationAr: "أشعر ببعض الحزن اليوم — ربما الطقس.",
@@ -106,6 +117,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Feeling low",
     meaningAr: "متعكر المزاج",
+    literalMeaningAr: "يشعر بانخفاض",
     explanationAr: "الشعور بانخفاض في الحالة المزاجية أو الطاقة.",
     exampleEn: "Don’t worry, I’m just feeling low today.",
     exampleTranslationAr: "لا تقلق، أنا فقط متعكر المزاج اليوم.",
@@ -113,6 +125,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "In tears",
     meaningAr: "في حالة بكاء",
+    literalMeaningAr: "في دموع",
     explanationAr: "الشعور بالحزن الشديد لدرجة أنك تبكي.",
     exampleEn: "She was in tears after hearing the sad news.",
     exampleTranslationAr: "كانت في حالة بكاء بعد سماع الخبر الحزين.",
@@ -120,6 +133,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Heartbroken",
     meaningAr: "قلبه مكسور",
+    literalMeaningAr: "قلب مكسور",
     explanationAr: "الشعور بحزن عميق بسبب فقدان شخص عزيز أو علاقة.",
     exampleEn: "He was heartbroken after his girlfriend broke up with him.",
     exampleTranslationAr: "كان قلبه مكسورًا بعد أن فارقته صديقته.",
@@ -127,6 +141,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "On edge",
     meaningAr: "في حالة توتر شديد",
+    literalMeaningAr: "على الحافة",
     explanationAr: "الشعور بالقلق أو التوتر المستمر، كأنك تنتظر شيئًا سيئًا.",
     exampleEn: "I’ve been on edge ever since the break-in at my house.",
     exampleTranslationAr: "أنا في حالة توتر منذ السرقة في منزلي.",
@@ -134,6 +149,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Nervous wreck",
     meaningAr: "كارثة عصبية",
+    literalMeaningAr: "حطام عصبي",
     explanationAr: "شخص يعاني من توتر شديد أو قلق مفرط.",
     exampleEn: "She’s a nervous wreck before every exam.",
     exampleTranslationAr: "هي كارثة عصبية قبل كل امتحان.",
@@ -141,6 +157,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Furious",
     meaningAr: "غاضب بجنون",
+    literalMeaningAr: "مستعر",
     explanationAr: "الشعور بالغضب الشديد والعنيف.",
     exampleEn: "He was furious when he found out about the betrayal.",
     exampleTranslationAr: "كان غاضبًا بجنون عندما اكتشف الخيانة.",
@@ -148,6 +165,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "See red",
     meaningAr: "تغمرك الغضبة",
+    literalMeaningAr: "ترى اللون الأحمر",
     explanationAr: "الشعور بالغضب الشديد لدرجة أنك تفقد السيطرة.",
     exampleEn: "When he insulted her, she saw red and slapped him.",
     exampleTranslationAr: "عندما سبّها، غضبت بجنون وصفعته.",
@@ -157,6 +175,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Baffled",
     meaningAr: "مُربك / مُحير",
+    literalMeaningAr: "مُذهل",
     explanationAr: "الشعور بالحيرة الشديدة بسبب شيء غير مفهوم.",
     exampleEn: "I was baffled by the complex instructions.",
     exampleTranslationAr: "كنت مُحيرًا من التعليمات المعقدة.",
@@ -164,6 +183,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Flustered",
     meaningAr: "مُضطرب / مُربك",
+    literalMeaningAr: "مُضطرب",
     explanationAr: "الشعور بالارتباك أو التوتر بسبب موقف مفاجئ.",
     exampleEn:
         "She got flustered when the interviewer asked her a personal question.",
@@ -172,6 +192,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Embarrassed",
     meaningAr: "خجول / مُحرج",
+    literalMeaningAr: "مُحْرج",
     explanationAr: "الشعور بالخجل أو الإحراج بسبب موقف غير لائق.",
     exampleEn: "He was embarrassed when he tripped in front of everyone.",
     exampleTranslationAr: "كان مُحرجًا عندما عثر على نفسه أمام الجميع.",
@@ -179,6 +200,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Sheepish",
     meaningAr: "خجول منفعل",
+    literalMeaningAr: "مثل الحمل",
     explanationAr: "الشعور بالخجل بعد ارتكاب خطأ صغير.",
     exampleEn: "He gave a sheepish smile after forgetting her birthday.",
     exampleTranslationAr: "أعطى ابتسامة خجولة بعد نسيان عيد ميلادها.",
@@ -186,6 +208,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Taken aback",
     meaningAr: "مُفاجأة / مُذهل",
+    literalMeaningAr: "مأخوذ للخلف",
     explanationAr: "الشعور بالدهشة أو المفاجأة من شيء غير متوقع.",
     exampleEn:
         "She was taken aback when he proposed in the middle of the restaurant.",
@@ -194,6 +217,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "At a loss",
     meaningAr: "في حيرة / لا أعرف ماذا أفعل",
+    literalMeaningAr: "في خسارة",
     explanationAr: "الشعور بعدم القدرة على التصرف بسبب الارتباك.",
     exampleEn: "I was at a loss when my phone suddenly stopped working.",
     exampleTranslationAr: "كنت في حيرة عندما توقف هاتفي فجأة.",
@@ -201,6 +225,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Worried sick",
     meaningAr: "قلق جدًا لدرجة المرض",
+    literalMeaningAr: "قلق حتى المرض",
     explanationAr: "القلق الشديد الذي يؤثر على الصحة أو الراحة.",
     exampleEn: "She was worried sick about her son’s health.",
     exampleTranslationAr: "كانت قلقة جدًا بشأن صحة ابنها.",
@@ -208,6 +233,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "On pins and needles",
     meaningAr: "في حالة ترقب مُرهق",
+    literalMeaningAr: "على دبابيس وإبر",
     explanationAr: "الشعور بالقلق أو الترقب الشديد لشيء قادم.",
     exampleEn: "I’ve been on pins and needles waiting for the results.",
     exampleTranslationAr: "أنا في حالة ترقب مُرهق في انتظار النتائج.",
@@ -215,6 +241,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Ghosted",
     meaningAr: "تم تجاهلي فجأة",
+    literalMeaningAr: "أصبحت شبحًا",
     explanationAr: "أن يتوقف شخص عن التواصل معك فجأة دون تفسير.",
     exampleEn: "I texted him for days — then he ghosted me.",
     exampleTranslationAr: "أرسلت له رسائل لعدة أيام — ثم تجاهلي فجأة.",
@@ -222,6 +249,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Bottled up",
     meaningAr: "كتم مشاعري",
+    literalMeaningAr: "مُغلّف داخل زجاجة",
     explanationAr: "الاحتفاظ بالمشاعر داخل النفس دون التعبير عنها.",
     exampleEn: "He’s been bottling up his anger for years.",
     exampleTranslationAr: "هو يكتم غضبه منذ سنوات.",
@@ -231,6 +259,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Green with envy",
     meaningAr: "غاضب من الغيرة",
+    literalMeaningAr: "أخضر من الغيرة",
     explanationAr: "الشعور بالحسد الشديد تجاه نجاح أو ممتلكات شخص آخر.",
     exampleEn: "She was green with envy when she saw her friend’s new car.",
     exampleTranslationAr:
@@ -239,6 +268,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Missing someone like crazy",
     meaningAr: "أشتاق لشخص بجنون",
+    literalMeaningAr: "أشتاق بشدة",
     explanationAr: "الشعور بالحنين الشديد لشخص غائب.",
     exampleEn: "I’m missing my mom like crazy since she moved abroad.",
     exampleTranslationAr: "أشتاق لأمي بجنون منذ أن انتقلت للخارج.",
@@ -246,6 +276,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Grateful to the core",
     meaningAr: "ممتنة من أعماق القلب",
+    literalMeaningAr: "ممتنة من الجذور",
     explanationAr: "الشعور بالامتنان العميق والصادق.",
     exampleEn: "I’m grateful to the core for everything you’ve done for me.",
     exampleTranslationAr: "أنا ممتنة من أعماق قلبي لكل ما فعلته لي.",
@@ -253,6 +284,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Fed up",
     meaningAr: "مُتعب من الوضع",
+    literalMeaningAr: "شبِعَ من",
     explanationAr: "الشعور بالإحباط أو الملل من شيء يتكرر باستمرار.",
     exampleEn: "I’m fed up with the constant delays in this project.",
     exampleTranslationAr: "أنا متعب من التأخيرات المستمرة في هذا المشروع.",
@@ -260,6 +292,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Burned out",
     meaningAr: "مستنزف عاطفيًا",
+    literalMeaningAr: "احتراق كامل",
     explanationAr: "الشعور بالإرهاق العاطفي أو النفسي من الضغط المستمر.",
     exampleEn: "After working 80 hours a week, she was completely burned out.",
     exampleTranslationAr: "بعد العمل 80 ساعة أسبوعيًا، كانت مستنزفة تمامًا.",
@@ -267,6 +300,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Stressed to the max",
     meaningAr: "مُجهد إلى أقصى حد",
+    literalMeaningAr: "متوتر إلى الحد الأقصى",
     explanationAr: "الشعور بالضغط النفسي أو العصبي في أقصى درجاته.",
     exampleEn: "He’s stressed to the max with finals and work.",
     exampleTranslationAr: "هو مُجهد إلى أقصى حد بسبب الامتحانات والعمل.",
@@ -274,6 +308,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Under the weather",
     meaningAr: "غير مرتاح / مريض قليلاً",
+    literalMeaningAr: "تحت الطقس",
     explanationAr: "الشعور بوعكة صحية أو مزاجية خفيفة.",
     exampleEn:
         "I’m feeling a bit under the weather today — maybe it’s the flu.",
@@ -282,6 +317,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "In a bad mood",
     meaningAr: "في مزاج سيء",
+    literalMeaningAr: "في حال مزاج سيء",
     explanationAr: "الشعور بالتوتر أو الغضب أو عدم الارتياح.",
     exampleEn: "Don’t talk to him now — he’s in a bad mood.",
     exampleTranslationAr: "لا تتحدث معه الآن — هو في مزاج سيء.",
@@ -289,6 +325,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Messed up",
     meaningAr: "مزجور / مُحبط",
+    literalMeaningAr: "مُختلط",
     explanationAr: "الشعور بالفشل أو التخبط العاطفي.",
     exampleEn: "I feel so messed up after that breakup.",
     exampleTranslationAr: "أشعر أنني مزجور بعد ذلك الانفصال.",
@@ -296,6 +333,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Crazy in love",
     meaningAr: "مجنون في الحب",
+    literalMeaningAr: "مجنون في الحب",
     explanationAr: "الشعور بالحب الشديد والغامر لدرجة لا تُعقل.",
     exampleEn: "They’ve been crazy in love since they met at university.",
     exampleTranslationAr: "هما مجنونان في الحب منذ أن التقيا في الجامعة.",
@@ -305,6 +343,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Content",
     meaningAr: "راضٍ / مُرتاح",
+    literalMeaningAr: "مقتنع بالحال",
     explanationAr: "الشعور بالرضا دون رغبة في المزيد.",
     exampleEn: "After a long day, I’m just content to sit quietly.",
     exampleTranslationAr: "بعد يوم طويل، أنا راضٍ فقط بالجلوس بهدوء.",
@@ -312,6 +351,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Hopeful",
     meaningAr: "متفائل",
+    literalMeaningAr: "满怀 أمل",
     explanationAr: "الشعور بالأمل رغم الظروف الصعبة.",
     exampleEn: "Even in the darkest times, she remained hopeful.",
     exampleTranslationAr: "حتى في أسوأ الأوقات، بقيت متفائلة.",
@@ -319,6 +359,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Patient as a saint",
     meaningAr: "صبور كقديس",
+    literalMeaningAr: "صبور مثل القديس",
     explanationAr: "القدرة على التحمل والصبر بشكل استثنائي.",
     exampleEn: "My grandmother is patient as a saint with all the kids.",
     exampleTranslationAr: "جدتي صبورة كقديس مع كل الأطفال.",
@@ -326,6 +367,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Feeling weak",
     meaningAr: "ضعيف عاطفيًا",
+    literalMeaningAr: "أشعر بالضعف",
     explanationAr: "الشعور بالضعف أو الهشاشة العاطفية.",
     exampleEn: "After the loss, I felt weak — like I couldn’t even cry.",
     exampleTranslationAr:
@@ -334,6 +376,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Soul tired",
     meaningAr: "مُنهك من الداخل",
+    literalMeaningAr: "روحي متعب",
     explanationAr: "الإرهاق العاطفي العميق، ليس فقط جسديًا.",
     exampleEn: "I’m not just tired — I’m soul tired.",
     exampleTranslationAr: "لست متعبًا فقط — أنا مُنهك من الداخل.",
@@ -341,6 +384,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Heartfelt",
     meaningAr: "صادق من القلب",
+    literalMeaningAr: "من القلب",
     explanationAr: "تعبير أو مشاعر صادقة وعميقة.",
     exampleEn: "She gave a heartfelt apology for her mistake.",
     exampleTranslationAr: "قدمت اعتذارًا صادقًا من القلب عن خطئها.",
@@ -348,6 +392,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Full of joy",
     meaningAr: "مليء بالفرح",
+    literalMeaningAr: "مليء بالفرح",
     explanationAr: "الشعور بالفرح كأنه يملأ كل جزء منك.",
     exampleEn: "The room was full of joy during the wedding celebration.",
     exampleTranslationAr: "كانت الغرفة مليئة بالفرح أثناء حفل الزفاف.",
@@ -355,6 +400,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Touched",
     meaningAr: "مُتأثر عاطفيًا",
+    literalMeaningAr: "تمسّك بي",
     explanationAr: "الشعور بالتأثير العميق من فعل لطيف أو كلمة صادقة.",
     exampleEn: "I was deeply touched by his kindness.",
     exampleTranslationAr: "كنت متأثرًا عميقًا بطيبته.",
@@ -362,6 +408,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "In awe",
     meaningAr: "في حالة إعجاب شديد",
+    literalMeaningAr: "في ذهول",
     explanationAr: "الشعور بالدهشة أو الإعجاب من شيء عظيم أو مذهل.",
     exampleEn: "We were in awe of the Northern Lights.",
     exampleTranslationAr: "كنا في حالة إعجاب شديد من الشفق القطبي.",
@@ -369,6 +416,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Bittersweet",
     meaningAr: "مرّ وحلو معًا",
+    literalMeaningAr: "مرّ وحلو",
     explanationAr: "شعور مختلط من السعادة والحزن في آنٍ واحد.",
     exampleEn: "Graduation was a bittersweet moment — happy, but sad to leave.",
     exampleTranslationAr:
@@ -379,6 +427,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Mildly annoyed",
     meaningAr: "مزعج قليلاً",
+    literalMeaningAr: "منزعج بخفّة",
     explanationAr: "الشعور بالإزعاج الخفيف دون غضب حقيقي.",
     exampleEn: "I’m mildly annoyed by people who chew loudly.",
     exampleTranslationAr: "أنا مزعج قليلاً من الناس الذين يمضغون بصوت عالٍ.",
@@ -386,6 +435,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Pleased as punch",
     meaningAr: "سعيد جدًا / مُبتهج بجنون",
+    literalMeaningAr: "راضٍ مثل بانش", // Punch = شخصية كرتونية سعيدة دائمًا
     explanationAr: "تعبير قديم يُستخدم للتعبير عن السعادة المفرطة.",
     exampleEn: "She was pleased as punch when she saw her name on the list.",
     exampleTranslationAr: "كانت سعيدة بجنون عندما رأت اسمها على القائمة.",
@@ -393,6 +443,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Worth a thousand tears",
     meaningAr: "يستحق ألف دمعة",
+    literalMeaningAr: "يستحق ألف دمعة",
     explanationAr: "شيء قيمته عاطفية لا تُقدّر بثمن.",
     exampleEn: "That letter from my father was worth a thousand tears.",
     exampleTranslationAr: "تلك الرسالة من والدي كانت تستحق ألف دمعة.",
@@ -400,6 +451,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "A lump in my throat",
     meaningAr: "عقدة في الحلق",
+    literalMeaningAr: "كتلة في حلقي",
     explanationAr: "الشعور بالبكاء الكامن دون أن تتمكن من البكاء.",
     exampleEn: "I had a lump in my throat when she said goodbye.",
     exampleTranslationAr: "كانت لديّ عقدة في حلقها عندما ودّعت.",
@@ -407,6 +459,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Crying my eyes out",
     meaningAr: "أبكي حتى تخرج عيناي",
+    literalMeaningAr: "أبكي عينيّ",
     explanationAr: "البكاء بقوة وطويل.",
     exampleEn: "She was crying her eyes out after the movie ended.",
     exampleTranslationAr: "كانت تبكي حتى تخرج عينيها بعد انتهاء الفيلم.",
@@ -414,6 +467,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Dreading it",
     meaningAr: "أخشى منه",
+    literalMeaningAr: "أرهب منه",
     explanationAr: "الشعور بالخوف أو التردد من شيء سيحدث.",
     exampleEn: "I’m dreading the meeting tomorrow — it’s going to be awful.",
     exampleTranslationAr: "أنا أخشى الاجتماع غدًا — سيكون فظيعًا.",
@@ -421,6 +475,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "A knot in my stomach",
     meaningAr: "عقدة في معدتي",
+    literalMeaningAr: "عُقدة في معدتي",
     explanationAr: "الشعور بالقلق أو الخوف في المعدة.",
     exampleEn: "I had a knot in my stomach before the interview.",
     exampleTranslationAr: "كانت لديّ عقدة في معدتي قبل المقابلة.",
@@ -428,6 +483,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Chills down my spine",
     meaningAr: "برودة تمر في ظهري",
+    literalMeaningAr: "رعشات على طول ظهري",
     explanationAr: "الشعور بالخوف أو الإثارة العاطفية الشديدة.",
     exampleEn: "Hearing that song gave me chills down my spine.",
     exampleTranslationAr: "سماع تلك الأغنية أعطاني برودة في ظهري.",
@@ -435,6 +491,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "Heart pounding",
     meaningAr: "قلبي يخفق بقوة",
+    literalMeaningAr: "خفقان القلب",
     explanationAr: "الشعور بالقلق أو الإثارة من خوف أو فرح.",
     exampleEn: "My heart was pounding when I saw him walk in.",
     exampleTranslationAr: "كان قلبي يخفق بقوة عندما رأيته يدخل.",
@@ -442,6 +499,7 @@ final List<Idiom> emotionsIdioms = [
   Idiom(
     phrase: "A warm feeling in my chest",
     meaningAr: "شعور دافئ في صدري",
+    literalMeaningAr: "دفء في صدري",
     explanationAr: "الشعور بالحب أو الامتنان الدافئ من الداخل.",
     exampleEn: "When she hugged me, I felt a warm feeling in my chest.",
     exampleTranslationAr: "عندما عانقني، شعرت بشعور دافئ في صدري.",

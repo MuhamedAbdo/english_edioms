@@ -5,6 +5,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "In a nutshell",
     meaningAr: "بكلمات مختصرة",
+    literalMeaningAr: "في جوزة صغيرة", // ✅ صورة: تلخيص شيء كبير في شيء صغير
     explanationAr: "يُستخدم عند تلخيص معلومة أو فكرة.",
     exampleEn:
         "The plan is, in a nutshell, to reduce costs and improve quality.",
@@ -14,6 +15,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Feel under the weather",
     meaningAr: "أشعر بوعكة صحية",
+    literalMeaningAr: "أشعر أنني تحت الطقس", // ✅ كأنه يضغط عليه
     explanationAr: "الشعور بمرض خفيف أو عدم ارتياح جسدي.",
     exampleEn:
         "I’m feeling a bit under the weather today — maybe a cold coming on.",
@@ -22,6 +24,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "A clean bill of health",
     meaningAr: "تقرير طبي سليم",
+    literalMeaningAr: "فاتورة صحية نظيفة",
     explanationAr: "إثبات أن الشخص بصحة جيدة بعد فحص طبي.",
     exampleEn: "The doctor gave him a clean bill of health after the checkup.",
     exampleTranslationAr: "أعطاه الطبيب تقريرًا طبيًا سليمًا بعد الفحص.",
@@ -29,6 +32,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Back on your feet",
     meaningAr: "تعافيت / عدت لطبيعتك",
+    literalMeaningAr: "عدت على قدميك",
     explanationAr: "التعافي من مرض أو إصابة والعودة للنشاط الطبيعي.",
     exampleEn:
         "She was in the hospital for a week, but she’s back on her feet now.",
@@ -37,6 +41,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Hale and hearty",
     meaningAr: "قوي وسليم",
+    literalMeaningAr: "سليم ونبيل",
     explanationAr: "وصف شخص مسن أو صحي يعاني من طاقة ونشاط لا يُصدق.",
     exampleEn: "My grandfather is 85, but he’s still hale and hearty.",
     exampleTranslationAr: "جدّي بعمر 85، لكنه لا يزال قويًا وسليمًا.",
@@ -44,6 +49,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Run down",
     meaningAr: "مستنزف / مرهق",
+    literalMeaningAr: "مُنهك",
     explanationAr: "الشعور بالإرهاق الشديد بسبب قلة النوم أو التوتر.",
     exampleEn: "I’ve been working nonstop — I’m completely run down.",
     exampleTranslationAr: "كنت أعمل دون توقف — أنا مستنزف تمامًا.",
@@ -51,6 +57,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "On the mend",
     meaningAr: "في طريق الشفاء",
+    literalMeaningAr: "في الطريق إلى الإصلاح",
     explanationAr: "الشخص يتحسن تدريجيًا من مرض أو إصابة.",
     exampleEn: "He broke his leg last month, but he’s on the mend now.",
     exampleTranslationAr: "كسر رجله الشهر الماضي، لكنه الآن في طريق الشفاء.",
@@ -58,6 +65,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Feel under the weather",
     meaningAr: "أشعر بوعكة صحية",
+    literalMeaningAr: "أشعر أنني تحت الطقس",
     explanationAr: "الشعور بمرض خفيف أو عدم ارتياح جسدي.",
     exampleEn:
         "I’m feeling a bit under the weather today — maybe a cold coming on.",
@@ -66,6 +74,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Worn out",
     meaningAr: "مُنهك / متعب جدًا",
+    literalMeaningAr: "مستهلك",
     explanationAr: "الشعور بالإرهاق الجسدي أو العقلي الشديد.",
     exampleEn: "After the marathon, I was completely worn out.",
     exampleTranslationAr: "بعد الماراثون، كنت مُنهكًا تمامًا.",
@@ -73,6 +82,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "A touch of the flu",
     meaningAr: "نزلة برد خفيفة",
+    literalMeaningAr: "لمحة من الإنفلونزا",
     explanationAr: "مرض فيروسي خفيف، غالبًا ما يُستخدم كتعبير مهذب.",
     exampleEn: "She stayed home because she had a touch of the flu.",
     exampleTranslationAr: "بقيت في المنزل لأنها أصيبت بنزلة برد خفيفة.",
@@ -82,6 +92,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Hit the sack",
     meaningAr: "ذهب للنوم",
+    literalMeaningAr: "أصاب الكيس",
     explanationAr: "تعبير غير رسمي عن الذهاب إلى الفراش للنوم.",
     exampleEn: "I’m exhausted — time to hit the sack.",
     exampleTranslationAr: "أنا منهك — حان وقت الذهاب للنوم.",
@@ -89,6 +100,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Catch some Zs",
     meaningAr: "أخذ قيلولة / النوم قليلاً",
+    literalMeaningAr: "ألقط بعض الحروف Z",
     explanationAr: "تعبير غير رسمي عن النوم أو القيلولة.",
     exampleEn: "I need to catch some Zs before the meeting.",
     exampleTranslationAr: "أحتاج إلى قيلولة قبل الاجتماع.",
@@ -96,6 +108,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Sleep like a log",
     meaningAr: "أنام بعمق لا أتحرك",
+    literalMeaningAr: "أنام كجذع شجرة",
     explanationAr: "النوم العميق والمستمر دون أي توتر أو استيقاظ.",
     exampleEn: "After the trip, I slept like a log for 10 hours.",
     exampleTranslationAr: "بعد الرحلة، نمت بعمق لمدة 10 ساعات.",
@@ -103,6 +116,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Sleep like a baby",
     meaningAr: "أنام بسلام وعمق",
+    literalMeaningAr: "أنام كطفل",
     explanationAr: "النوم الهادئ والمستقر، غالبًا دون أي تذمر.",
     exampleEn: "The baby slept like a baby all night — no crying.",
     exampleTranslationAr: "نام الطفل بسلام طوال الليل — دون بكاء.",
@@ -110,6 +124,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Toss and turn",
     meaningAr: "تقلب في السرير",
+    literalMeaningAr: "أرمي وأدور",
     explanationAr: "الحركة المستمرة في السرير بسبب صعوبة النوم.",
     exampleEn: "I tossed and turned all night — couldn’t fall asleep.",
     exampleTranslationAr: "تقلبت في السرير طوال الليل — لم أستطع النوم.",
@@ -117,6 +132,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Sleep on it",
     meaningAr: "أفكر في القرار أثناء النوم",
+    literalMeaningAr: "أنام عليه",
     explanationAr: "تأجيل اتخاذ قرار حتى الصباح لرؤية الأمور بوضوح.",
     exampleEn: "I can’t decide now — let me sleep on it.",
     exampleTranslationAr:
@@ -125,6 +141,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Sleep like a rock",
     meaningAr: "أنام بعمق لا يُوقظك شيء",
+    literalMeaningAr: "أنام كحجر",
     explanationAr: "النوم العميق جدًا، وكأنك حجر لا يتحرك.",
     exampleEn: "He slept like a rock through the whole thunderstorm.",
     exampleTranslationAr: "نام بعمق لا يُوقظه شيء أثناء العاصفة الرعدية.",
@@ -132,6 +149,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Kiss the pillow",
     meaningAr: "الذهاب للنوم",
+    literalMeaningAr: "أقبّل الوسادة",
     explanationAr: "تعبير أدبي أو قديم للإشارة إلى الذهاب للنوم.",
     exampleEn: "It’s past midnight — time to kiss the pillow.",
     exampleTranslationAr: "لقد تجاوزنا منتصف الليل — حان وقت الذهاب للنوم.",
@@ -139,6 +157,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Sleepwalk",
     meaningAr: "تسير أثناء النوم",
+    literalMeaningAr: "تمشي أثناء النوم",
     explanationAr: "الحركة أو المشي أثناء النوم دون وعي.",
     exampleEn: "My little brother sleepwalks every night — it’s scary!",
     exampleTranslationAr: "أخي الصغير يمشي أثناء النوم كل ليلة — إنه مخيف!",
@@ -146,6 +165,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Dead to the world",
     meaningAr: "نائم بعمق لا يُستيقظ",
+    literalMeaningAr: "ميت للعالم",
     explanationAr: "النوم العميق جدًا بحيث لا يُسمع أو يُستجاب لأي صوت.",
     exampleEn:
         "She was dead to the world during the movie — didn’t even notice the popcorn spilled.",
@@ -157,6 +177,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Eat like a horse",
     meaningAr: "يأكل بكمية كبيرة",
+    literalMeaningAr: "يأكل كحصان",
     explanationAr: "تناول كميات كبيرة من الطعام، غالبًا بسبب الجوع أو النشاط.",
     exampleEn: "He’s always eating — he eats like a horse!",
     exampleTranslationAr: "هو دائمًا يأكل — يأكل كأنه حصان!",
@@ -164,6 +185,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Eat like a bird",
     meaningAr: "يأكل بكمية قليلة",
+    literalMeaningAr: "يأكل كطائر",
     explanationAr: "تناول كميات ضئيلة جدًا من الطعام.",
     exampleEn: "She eats like a bird — just a salad and a cup of tea.",
     exampleTranslationAr: "هي تأكل كأنها طائر — مجرد سلطة وكوب شاي.",
@@ -171,6 +193,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Full to the brim",
     meaningAr: "مشبع تمامًا",
+    literalMeaningAr: "مملوء إلى الأعلى",
     explanationAr: "الشعور بالشبع الكامل بعد تناول الطعام.",
     exampleEn: "I ate so much at dinner, I’m full to the brim.",
     exampleTranslationAr: "أكلت كثيرًا في العشاء، وأنا مشبع تمامًا.",
@@ -178,6 +201,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Starving",
     meaningAr: "جائع جدًا",
+    literalMeaningAr: "أموت جوعًا",
     explanationAr: "الشعور بالجوع الشديد، غالبًا مبالغ فيه للتعبير.",
     exampleEn: "I haven’t eaten since breakfast — I’m starving!",
     exampleTranslationAr: "لم آكل منذ الإفطار — أنا جائع جدًا!",
@@ -185,6 +209,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Hungry as a wolf",
     meaningAr: "جائع كالذئب",
+    literalMeaningAr: "جائع مثل ذئب",
     explanationAr: "الشعور بالجوع الشديد أو الملح.",
     exampleEn: "After the hike, I was hungry as a wolf.",
     exampleTranslationAr: "بعد المشي، كنت جائعًا كالذئب.",
@@ -192,6 +217,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Light eater",
     meaningAr: "شخص يأكل كميات قليلة",
+    literalMeaningAr: "آكل خفيف",
     explanationAr: "شخص لا يحب تناول كميات كبيرة من الطعام.",
     exampleEn: "She’s a light eater — she can’t finish a whole plate.",
     exampleTranslationAr: "هي شخص يأكل كميات قليلة — لا تستطيع إنهاء طبق كامل.",
@@ -199,6 +225,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Heavy eater",
     meaningAr: "شخص يأكل كثيرًا",
+    literalMeaningAr: "آكل ثقيل",
     explanationAr: "شخص يحب تناول كميات كبيرة من الطعام.",
     exampleEn: "He’s a heavy eater — he orders two main courses every time.",
     exampleTranslationAr: "هو شخص يأكل كثيرًا — يطلب وجبتين رئيسيتين كل مرة.",
@@ -206,6 +233,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Food coma",
     meaningAr: "غيبوبة طعام",
+    literalMeaningAr: "غيبوبة بسبب الطعام",
     explanationAr: "الشعور بالنعاس الشديد بعد تناول وجبة دسمة.",
     exampleEn: "After Thanksgiving dinner, I had a food coma for three hours.",
     exampleTranslationAr:
@@ -214,6 +242,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Empty stomach",
     meaningAr: "معدة فارغة",
+    literalMeaningAr: "مَعدة فارغة",
     explanationAr: "الشعور بالجوع أو عدم تناول الطعام لفترة طويلة.",
     exampleEn: "Don’t take medicine on an empty stomach — it hurts.",
     exampleTranslationAr: "لا تأخذ الدواء على معدة فارغة — إنه يؤلم.",
@@ -221,6 +250,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Binge eating",
     meaningAr: "الأكل المفرط",
+    literalMeaningAr: "أكل متسرع وغير متحكم فيه",
     explanationAr: "تناول كميات كبيرة من الطعام بشكل غير منتظم أو عاطفي.",
     exampleEn: "She’s been binge eating since her breakup.",
     exampleTranslationAr: "هي تأكل بكميات مفرطة منذ انفصالها.",
@@ -230,6 +260,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Run out of steam",
     meaningAr: "انطفأت طاقتي",
+    literalMeaningAr: "نفذ البخار مني",
     explanationAr: "الشعور بالتعب أو فقدان الطاقة المفاجئ.",
     exampleEn: "I was working hard, but I ran out of steam by noon.",
     exampleTranslationAr: "كنت أعمل بجد، لكنني فقدت طاقتي بحلول الظهر.",
@@ -237,6 +268,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Drag your feet",
     meaningAr: "تمشي ببطء / تتأخر في التحرك",
+    literalMeaningAr: "تسحب قدميك",
     explanationAr: "القيام بشيء ببطء أو بدون حماس، غالبًا بسبب التعب.",
     exampleEn: "He dragged his feet all morning — didn’t want to get up.",
     exampleTranslationAr: "تمشي ببطء طوال الصباح — لم يرغب في النهوض.",
@@ -244,6 +276,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "On your last legs",
     meaningAr: "على آخر قوتك",
+    literalMeaningAr: "على قدميك الأخيرة",
     explanationAr: "الشعور بالإرهاق الشديد، وكأنك على وشك السقوط.",
     exampleEn: "After the marathon, I was on my last legs.",
     exampleTranslationAr: "بعد الماراثون، كنت على آخر قوتي.",
@@ -251,6 +284,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Feeling under the weather",
     meaningAr: "أشعر بوعكة صحية",
+    literalMeaningAr: "أشعر أنني تحت الطقس",
     explanationAr: "الشعور بمرض خفيف أو عدم ارتياح جسدي.",
     exampleEn:
         "I’m feeling a bit under the weather today — maybe a cold coming on.",
@@ -259,6 +293,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Worn out",
     meaningAr: "مُنهك / متعب جدًا",
+    literalMeaningAr: "مستهلك",
     explanationAr: "الشعور بالإرهاق الجسدي أو العقلي الشديد.",
     exampleEn: "After the marathon, I was completely worn out.",
     exampleTranslationAr: "بعد الماراثون، كنت مُنهكًا تمامًا.",
@@ -266,6 +301,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Dead tired",
     meaningAr: "مُنهك تمامًا",
+    literalMeaningAr: "متعب حتى الموت",
     explanationAr: "الشعور بالإرهاق الشديد، حتى لا تقدر على التحدث.",
     exampleEn: "I’m dead tired — I can’t even watch TV.",
     exampleTranslationAr: "أنا مُنهك تمامًا — لا أستطيع حتى مشاهدة التلفاز.",
@@ -273,6 +309,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Dragged out",
     meaningAr: "مُستنزف / مُتعب جدًا",
+    literalMeaningAr: "مُسحب للخارج",
     explanationAr: "الشعور بالإرهاق نتيجة نشاط طويل أو مرهق.",
     exampleEn: "I feel dragged out after that long meeting.",
     exampleTranslationAr: "أشعر بالإرهاق بعد هذا الاجتماع الطويل.",
@@ -280,6 +317,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Sweating bullets",
     meaningAr: "أعرق بشدة",
+    literalMeaningAr: "أعرق كرصاصات",
     explanationAr: "الشعور بالقلق أو التوتر لدرجة أنك تعرق كثيرًا.",
     exampleEn: "I was sweating bullets waiting for the test results.",
     exampleTranslationAr: "كنت أعرق بشدة في انتظار نتائج الاختبار.",
@@ -287,6 +325,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Break a sweat",
     meaningAr: "تعرق قليلاً",
+    literalMeaningAr: "تُسبب تعرقًا",
     explanationAr: "ممارسة نشاط بدني خفيف يُسبب التعرق.",
     exampleEn: "I didn’t break a sweat during the walk — it was too easy.",
     exampleTranslationAr: "لم أعرق أثناء المشي — كان سهلًا جدًا.",
@@ -294,6 +333,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Panting like a dog",
     meaningAr: "أتنفس بصعوبة ككلب",
+    literalMeaningAr: "ألهث ككلب",
     explanationAr: "التنفس السريع والثقيل بعد مجهود بدني.",
     exampleEn: "After climbing the hill, I was panting like a dog.",
     exampleTranslationAr: "بعد تسلق التل، كنت أتنفس بصعوبة ككلب.",
@@ -303,6 +343,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Go pale",
     meaningAr: "اصبح شاحبًا",
+    literalMeaningAr: "يصبح أبيض",
     explanationAr: "تغير لون الوجه إلى الأبيض بسبب الخوف أو الصدمة.",
     exampleEn: "She went pale when she saw the accident.",
     exampleTranslationAr: "أصبحت شاحبة عندما رأت الحادث.",
@@ -310,6 +351,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Turn red",
     meaningAr: "احمرّ وجهي",
+    literalMeaningAr: "تحول إلى أحمر",
     explanationAr: "الشعور بالخجل أو الغضب لدرجة أن الوجه يحمر.",
     exampleEn: "He turned red when the teacher called on him.",
     exampleTranslationAr: "احمرّ وجهه عندما ناداه المعلم.",
@@ -317,6 +359,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Bite your tongue",
     meaningAr: "كتم نفسك",
+    literalMeaningAr: "عض لسانك",
     explanationAr: "التحكم في الكلام رغم الرغبة في التحدث بغضب أو سخرية.",
     exampleEn: "I wanted to yell, but I bit my tongue and stayed quiet.",
     exampleTranslationAr: "أردت أن أصرخ، لكنني كتمت نفسي وصمت.",
@@ -324,6 +367,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Have butterflies in your stomach",
     meaningAr: "أحس بفرشاة في معدتي",
+    literalMeaningAr: "لدي فراشات في معدتي",
     explanationAr:
         "الشعور بالتوتر أو الإثارة قبل موقف مهم (مثل مقابلة أو عرض).",
     exampleEn: "I had butterflies in my stomach before the presentation.",
@@ -332,6 +376,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Cold feet",
     meaningAr: "خجلت / ترددت في اللحظة الأخيرة",
+    literalMeaningAr: "قدمان باردتان",
     explanationAr: "الشعور بالخوف أو التردد قبل اتخاذ قرار مهم.",
     exampleEn: "He got cold feet and canceled the wedding.",
     exampleTranslationAr: "أصابه الخوف في اللحظة الأخيرة وألغى الزواج.",
@@ -339,6 +384,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "A lump in your throat",
     meaningAr: "عقدة في الحلق",
+    literalMeaningAr: "كتلة في حلقك",
     explanationAr: "الشعور بالبكاء الكامن دون أن تتمكن من البكاء.",
     exampleEn: "I had a lump in my throat when she said goodbye.",
     exampleTranslationAr: "كانت لديّ عقدة في حلقها عندما ودّعت.",
@@ -346,13 +392,15 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Shiver down your spine",
     meaningAr: "ارتعاش في ظهري",
+    literalMeaningAr: "رعشة على طول ظهرك",
     explanationAr: "الشعور بالخوف أو الإثارة العاطفية الشديدة.",
-    exampleEn: "That horror movie gave me a shiver down my spine.",
+    exampleEn: "That horror movie gave me shivers down my spine.",
     exampleTranslationAr: "ذلك فيلم الرعب أعطاني ارتعاشًا في ظهري.",
   ),
   Idiom(
     phrase: "Heart pounding",
     meaningAr: "قلبي يخفق بقوة",
+    literalMeaningAr: "خفقان القلب",
     explanationAr: "الشعور بالقلق أو الإثارة من خوف أو فرح.",
     exampleEn: "My heart was pounding when I saw him walk in.",
     exampleTranslationAr: "كان قلبي يخفق بقوة عندما رأيته يدخل.",
@@ -360,6 +408,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Break out in a cold sweat",
     meaningAr: "تعرق بارد فجأة",
+    literalMeaningAr: "تظهر بعرق بارد",
     explanationAr: "التعرق المفاجئ بسبب الخوف أو التوتر.",
     exampleEn: "When I saw the snake, I broke out in a cold sweat.",
     exampleTranslationAr: "عندما رأيت الثعبان، تعرقت بردًا فجأة.",
@@ -367,6 +416,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Go weak at the knees",
     meaningAr: "تضعف ركبتيّ",
+    literalMeaningAr: "تصبح ضعيفًا عند الركبتين",
     explanationAr: "الشعور بالضعف الجسدي بسبب الإثارة أو الخوف أو الحب.",
     exampleEn: "I went weak at the knees when I saw my favorite singer.",
     exampleTranslationAr: "أصبحت ركبتيّ ضعيفتين عندما رأيت مغنيي المفضل.",
@@ -376,6 +426,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Sleep like a baby",
     meaningAr: "أنام بسلام وعمق",
+    literalMeaningAr: "أنام كطفل",
     explanationAr: "النوم الهادئ والمستقر، غالبًا دون أي تذمر.",
     exampleEn: "The baby slept like a baby all night — no crying.",
     exampleTranslationAr: "نام الطفل بسلام طوال الليل — دون بكاء.",
@@ -383,6 +434,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Rest your eyes",
     meaningAr: "استرح عينيك",
+    literalMeaningAr: "رتّب عينيك",
     explanationAr: "الراحة القصيرة للعينين، غالبًا بسبب التعب البصري.",
     exampleEn: "You’ve been staring at the screen too long — rest your eyes.",
     exampleTranslationAr: "لقد نظرت إلى الشاشة لفترة طويلة — استرح عينيك.",
@@ -390,6 +442,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Take it easy",
     meaningAr: "استرخِ / لا تجهد نفسك",
+    literalMeaningAr: "خذ الأمر بسهولة",
     explanationAr: "نصيحة لشخص مرهق أو متوتر للاسترخاء.",
     exampleEn: "You’ve been working too hard — just take it easy today.",
     exampleTranslationAr: "لقد عملت بجد جدًا — فقط استرخِ اليوم.",
@@ -397,6 +450,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Let your hair down",
     meaningAr: "استرخِ تمامًا / تصرف بحرية",
+    literalMeaningAr: "اترك شعرك منخفضًا",
     explanationAr: "الاستمتاع دون قيود أو توتر، غالبًا في جو اجتماعي.",
     exampleEn: "It’s Friday night — let your hair down and enjoy!",
     exampleTranslationAr: "إنه ليلة الجمعة — استرخِ واستمتع!",
@@ -404,6 +458,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Loosen up",
     meaningAr: "استرخِ / تخلص من التوتر",
+    literalMeaningAr: "افتح نفسك",
     explanationAr: "الانتقال من حالة توتر إلى حالة راحة وانفتاح.",
     exampleEn: "You’re too stiff — loosen up and have fun!",
     exampleTranslationAr: "أنت متشدّد جدًا — استرخِ واستمتع!",
@@ -411,6 +466,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Calm down",
     meaningAr: "هدّئ من روعك",
+    literalMeaningAr: "هدّئ نفسك",
     explanationAr: "طلب من شخص متوتر أو غاضب أن يهدأ.",
     exampleEn: "Calm down — it’s not that serious.",
     exampleTranslationAr: "هدّئ من روعك — ليس بهذه الخطورة.",
@@ -418,6 +474,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Relax your mind",
     meaningAr: "استرح عقلك",
+    literalMeaningAr: "رتّب عقلك",
     explanationAr: "التوقف عن التفكير المفرط أو القلق.",
     exampleEn: "Try meditation — it helps you relax your mind.",
     exampleTranslationAr: "جرب التأمل — إنه يساعدك على استراحة عقلك.",
@@ -425,6 +482,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Get your rest",
     meaningAr: "خذ قسطًا من الراحة",
+    literalMeaningAr: "احصل على راحتك",
     explanationAr: "الحاجة للنوم أو الراحة لاستعادة الطاقة.",
     exampleEn: "You need to get your rest — don’t stay up late.",
     exampleTranslationAr:
@@ -433,6 +491,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Lay off",
     meaningAr: "توقف عن الضغط",
+    literalMeaningAr: "ابتعد",
     explanationAr: "طلب من شخص أن يتوقف عن الضغط أو المطالبة.",
     exampleEn: "Lay off me — I’m already doing my best!",
     exampleTranslationAr: "توقف عن الضغط عليّ — أنا أبذل قصارى جهدي!",
@@ -440,6 +499,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Take a breather",
     meaningAr: "خذ نفسًا / راحة قصيرة",
+    literalMeaningAr: "خذ نفسًا",
     explanationAr: "أخذ فترة قصيرة للراحة من التوتر أو العمل.",
     exampleEn: "Let’s take a breather — we’ve been working for hours.",
     exampleTranslationAr: "دعونا نأخذ راحة — نحن نعمل منذ ساعات.",
@@ -449,6 +509,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Stiff as a board",
     meaningAr: "صلب كاللوح",
+    literalMeaningAr: "صلب كلوح",
     explanationAr:
         "الشعور بالصلابة أو التوتر الجسدي، غالبًا بسبب الخوف أو التوتر.",
     exampleEn: "He was stiff as a board during the interview.",
@@ -457,6 +518,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Tense as a violin string",
     meaningAr: "متوتر كوتر كمان",
+    literalMeaningAr: "متوتر كوتر كمان",
     explanationAr: "الشعور بالتوتر الشديد، كأنك على وشك الانفصال.",
     exampleEn: "She was tense as a violin string before her performance.",
     exampleTranslationAr: "كانت متوترة كوتر كمان قبل أدائها.",
@@ -464,6 +526,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Tight as a drum",
     meaningAr: "متشنج كطبلة",
+    literalMeaningAr: "متشنج كطبّالة",
     explanationAr: "الشعور بالتوتر أو التصلب الجسدي.",
     exampleEn: "My shoulders were tight as a drum after sitting all day.",
     exampleTranslationAr: "كانت كتفيّ متشنجتين كطبلة بعد الجلوس طوال اليوم.",
@@ -471,6 +534,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "On pins and needles",
     meaningAr: "في حالة ترقب مُرهق",
+    literalMeaningAr: "على دبابيس وإبر",
     explanationAr: "الشعور بالقلق أو الترقب الشديد لشيء قادم.",
     exampleEn: "I’ve been on pins and needles waiting for the results.",
     exampleTranslationAr: "أنا في حالة ترقب مُرهق في انتظار النتائج.",
@@ -478,6 +542,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Nervous wreck",
     meaningAr: "كارثة عصبية",
+    literalMeaningAr: "حطام عصبي",
     explanationAr: "شخص يعاني من توتر شديد أو قلق مفرط.",
     exampleEn: "She’s a nervous wreck before every exam.",
     exampleTranslationAr: "هي كارثة عصبية قبل كل امتحان.",
@@ -485,6 +550,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Jump out of your skin",
     meaningAr: "تندفع من جلدك",
+    literalMeaningAr: "تقفز من جلدك",
     explanationAr: "الانفعال المفاجئ من الخوف أو المفاجأة.",
     exampleEn: "The loud noise made me jump out of my skin.",
     exampleTranslationAr: "الضجيج العالي جعلني أندفع من جلدي.",
@@ -492,6 +558,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Have butterflies in your stomach",
     meaningAr: "أحس بفرشاة في معدتي",
+    literalMeaningAr: "لدي فراشات في معدتي",
     explanationAr:
         "الشعور بالتوتر أو الإثارة قبل موقف مهم (مثل مقابلة أو عرض).",
     exampleEn: "I had butterflies in my stomach before the presentation.",
@@ -500,6 +567,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Cold feet",
     meaningAr: "خجلت / ترددت في اللحظة الأخيرة",
+    literalMeaningAr: "قدمان باردتان",
     explanationAr: "الشعور بالخوف أو التردد قبل اتخاذ قرار مهم.",
     exampleEn: "He got cold feet and canceled the wedding.",
     exampleTranslationAr: "أصابه الخوف في اللحظة الأخيرة وألغى الزواج.",
@@ -507,6 +575,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Break out in a cold sweat",
     meaningAr: "تعرق بارد فجأة",
+    literalMeaningAr: "تخرج بعرق بارد",
     explanationAr: "التعرق المفاجئ بسبب الخوف أو التوتر.",
     exampleEn: "When I saw the snake, I broke out in a cold sweat.",
     exampleTranslationAr: "عندما رأيت الثعبان، تعرقت بردًا فجأة.",
@@ -514,6 +583,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Go weak at the knees",
     meaningAr: "تضعف ركبتيّ",
+    literalMeaningAr: "تصبح ضعيفًا عند الركبتين",
     explanationAr: "الشعور بالضعف الجسدي بسبب الإثارة أو الخوف أو الحب.",
     exampleEn: "I went weak at the knees when I saw my favorite singer.",
     exampleTranslationAr: "أصبحت ركبتيّ ضعيفتين عندما رأيت مغنيي المفضل.",
@@ -523,6 +593,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Feel under the weather",
     meaningAr: "أشعر بوعكة صحية",
+    literalMeaningAr: "أشعر أنني تحت الطقس",
     explanationAr: "الشعور بمرض خفيف أو عدم ارتياح جسدي.",
     exampleEn:
         "I’m feeling a bit under the weather today — maybe a cold coming on.",
@@ -531,6 +602,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Run down",
     meaningAr: "مستنزف / مرهق",
+    literalMeaningAr: "مُنهك",
     explanationAr: "الشعور بالإرهاق الشديد بسبب قلة النوم أو التوتر.",
     exampleEn: "I’ve been working nonstop — I’m completely run down.",
     exampleTranslationAr: "كنت أعمل دون توقف — أنا مستنزف تمامًا.",
@@ -538,6 +610,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Worn out",
     meaningAr: "مُنهك / متعب جدًا",
+    literalMeaningAr: "مستهلك",
     explanationAr: "الشعور بالإرهاق الجسدي أو العقلي الشديد.",
     exampleEn: "After the marathon, I was completely worn out.",
     exampleTranslationAr: "بعد الماراثون، كنت مُنهكًا تمامًا.",
@@ -545,6 +618,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Dead tired",
     meaningAr: "مُنهك تمامًا",
+    literalMeaningAr: "متعب حتى الموت",
     explanationAr: "الشعور بالإرهاق الشديد، حتى لا تقدر على التحدث.",
     exampleEn: "I’m dead tired — I can’t even watch TV.",
     exampleTranslationAr: "أنا مُنهك تمامًا — لا أستطيع حتى مشاهدة التلفاز.",
@@ -552,6 +626,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Dragged out",
     meaningAr: "مُستنزف / مُتعب جدًا",
+    literalMeaningAr: "مُسحب للخارج",
     explanationAr: "الشعور بالإرهاق نتيجة نشاط طويل أو مرهق.",
     exampleEn: "I feel dragged out after that long meeting.",
     exampleTranslationAr: "أشعر بالإرهاق بعد هذا الاجتماع الطويل.",
@@ -559,6 +634,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "On your last legs",
     meaningAr: "على آخر قوتك",
+    literalMeaningAr: "على قدميك الأخيرة",
     explanationAr: "الشعور بالإرهاق الشديد، وكأنك على وشك السقوط.",
     exampleEn: "After the marathon, I was on my last legs.",
     exampleTranslationAr: "بعد الماراثون، كنت على آخر قوتي.",
@@ -566,6 +642,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Out of commission",
     meaningAr: "خارج الخدمة",
+    literalMeaningAr: "خارج الخدمة",
     explanationAr: "الشخص أو الجسم غير قادر على العمل بسبب المرض أو الإصابة.",
     exampleEn: "My car is out of commission, and I’m out of commission too.",
     exampleTranslationAr: "سيارتي خارج الخدمة، وأنا أيضًا خارج الخدمة.",
@@ -573,6 +650,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Feeling under the weather",
     meaningAr: "أشعر بوعكة صحية",
+    literalMeaningAr: "أشعر أنني تحت الطقس",
     explanationAr: "الشعور بمرض خفيف أو عدم ارتياح جسدي.",
     exampleEn:
         "I’m feeling a bit under the weather today — maybe a cold coming on.",
@@ -581,6 +659,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "A touch of the flu",
     meaningAr: "نزلة برد خفيفة",
+    literalMeaningAr: "لمحة من الإنفلونزا",
     explanationAr: "مرض فيروسي خفيف، غالبًا ما يُستخدم كتعبير مهذب.",
     exampleEn: "She stayed home because she had a touch of the flu.",
     exampleTranslationAr: "بقيت في المنزل لأنها أصيبت بنزلة برد خفيفة.",
@@ -588,16 +667,18 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Sick as a dog",
     meaningAr: "مريض جدًا",
+    literalMeaningAr: "مريض ككلب",
     explanationAr: "الشعور بالمرض الشديد، غالبًا مع قيء أو حمى.",
     exampleEn: "I was sick as a dog after eating that bad seafood.",
     exampleTranslationAr:
         "كنت مريضًا جدًا بعد تناول هذا المأكولات البحرية الفاسدة.",
   ),
 
-  // ✅ 81-90: التعبيرات المتعلقة بالجسد والصحة النفسية
+  // ✅ 81-90: التعبيرات الجسدية والنفسية
   Idiom(
     phrase: "Body aches",
     meaningAr: "آلام في الجسم",
+    literalMeaningAr: "آلام في الجسد",
     explanationAr: "الشعور بآلام عامة في العضلات أو المفاصل.",
     exampleEn: "I’ve got body aches — I think I caught a cold.",
     exampleTranslationAr: "لدي آلام في الجسم — أعتقد أنني أصبت بنزلة برد.",
@@ -605,6 +686,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Headache",
     meaningAr: "صداع",
+    literalMeaningAr: "ألم في الرأس",
     explanationAr: "الشعور بألم في الرأس، غالبًا بسبب التوتر أو الإرهاق.",
     exampleEn: "I’ve had a headache all day — too much screen time.",
     exampleTranslationAr: "لدي صداع طوال اليوم — كثرة استخدام الشاشة.",
@@ -612,6 +694,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Stiff neck",
     meaningAr: "رقبة مشدودة",
+    literalMeaningAr: "رقبة صلبة",
     explanationAr: "الشعور بالألم أو التصلب في منطقة الرقبة.",
     exampleEn: "I woke up with a stiff neck — slept in the wrong position.",
     exampleTranslationAr: "استيقظت برقبة مشدودة — نمت في وضع خاطئ.",
@@ -619,6 +702,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Tired eyes",
     meaningAr: "عيون متعبة",
+    literalMeaningAr: "عيون مرهقة",
     explanationAr: "الشعور بالإرهاق في العينين بسبب النظر الطويل للشاشة.",
     exampleEn: "My eyes are tired from staring at the computer all day.",
     exampleTranslationAr: "عيوني متعبة من النظر إلى الكمبيوتر طوال اليوم.",
@@ -626,6 +710,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Back pain",
     meaningAr: "ألم في الظهر",
+    literalMeaningAr: "ألم في الظهر",
     explanationAr: "الشعور بألم في منطقة الظهر، غالبًا بسبب الجلوس الطويل.",
     exampleEn: "I’ve got chronic back pain from sitting too much.",
     exampleTranslationAr: "لدي ألم مزمن في الظهر بسبب الجلوس كثيرًا.",
@@ -633,6 +718,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Jittery",
     meaningAr: "متوتر / متوتر جسديًا",
+    literalMeaningAr: "مُرتجف",
     explanationAr:
         "الشعور بالاهتزاز أو التوتر الجسدي، غالبًا بسبب القهوة أو التوتر.",
     exampleEn: "I drank too much coffee — now I’m jittery.",
@@ -641,6 +727,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Pumped up",
     meaningAr: "مُحفّز / مُفعّل",
+    literalMeaningAr: "مُمتلئ بالمضخة",
     explanationAr: "الشعور بالطاقة أو الحماس قبل نشاط بدني أو عقلي.",
     exampleEn: "The crowd pumped me up before the game.",
     exampleTranslationAr: "الجمهور حفّزني قبل المباراة.",
@@ -648,6 +735,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "On the mend",
     meaningAr: "في طريق الشفاء",
+    literalMeaningAr: "في طريق الإصلاح",
     explanationAr: "الشخص يتحسن تدريجيًا من مرض أو إصابة.",
     exampleEn: "He broke his leg last month, but he’s on the mend now.",
     exampleTranslationAr: "كسر رجله الشهر الماضي، لكنه الآن في طريق الشفاء.",
@@ -655,6 +743,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Recover from",
     meaningAr: "تعافى من",
+    literalMeaningAr: "يستعيد نفسه من",
     explanationAr: "العودة للصحة بعد مرض أو إصابة.",
     exampleEn: "She’s recovering from surgery and needs rest.",
     exampleTranslationAr: "هي تتعافى من عملية جراحية وتحتاج للراحة.",
@@ -662,6 +751,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Take it easy on yourself",
     meaningAr: "كن لطيفًا مع نفسك",
+    literalMeaningAr: "خذ الأمر برفق مع نفسك",
     explanationAr: "نصيحة لعدم التحمّل الزائد أو التوبيخ الذاتي.",
     exampleEn: "You worked hard — take it easy on yourself.",
     exampleTranslationAr: "لقد عملت بجد — كن لطيفًا مع نفسك.",
@@ -671,6 +761,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "A weight off your shoulders",
     meaningAr: "راحة من همّ ثقيل",
+    literalMeaningAr: "حمل زال عن كتفيّ",
     explanationAr: "الشعور بالراحة بعد التخلص من ضغط أو قلق طويل.",
     exampleEn:
         "After paying off the debt, I felt like a weight had been lifted off my shoulders.",
@@ -680,6 +771,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Heartfelt",
     meaningAr: "صادق من القلب",
+    literalMeaningAr: "من القلب",
     explanationAr: "تعبير أو مشاعر صادقة وعميقة.",
     exampleEn: "She gave a heartfelt apology for her mistake.",
     exampleTranslationAr: "قدمت اعتذارًا صادقًا من القلب عن خطئها.",
@@ -687,6 +779,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Breathe easy",
     meaningAr: "تنفس براحة",
+    literalMeaningAr: "تنفس بسهولة",
     explanationAr: "الشعور بالراحة بعد تجاوز خطر أو قلق.",
     exampleEn: "Now that the exams are over, I can breathe easy.",
     exampleTranslationAr: "بما أن الامتحانات انتهت، يمكنني التنفس براحة.",
@@ -694,6 +787,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Lose your breath",
     meaningAr: "تُفقد أنفاسك",
+    literalMeaningAr: "تفقد تنفسك",
     explanationAr: "الشعور بعدم القدرة على التنفس بسبب الإثارة أو المجهود.",
     exampleEn: "I lost my breath when I saw the view from the mountain.",
     exampleTranslationAr: "فقدت أنفاسي عندما رأيت المنظر من الجبل.",
@@ -701,6 +795,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Get your breath back",
     meaningAr: "استعد أنفاسك",
+    literalMeaningAr: "استعد تنفسك",
     explanationAr: "العودة للتنفس الطبيعي بعد مجهود أو صدمة.",
     exampleEn: "I ran so fast I had to stop and get my breath back.",
     exampleTranslationAr: "ركضت بسرعة كبيرة فاضطررت للتوقف واستعادة أنفاسي.",
@@ -708,6 +803,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Feel it in your bones",
     meaningAr: "أشعر به في عظامي",
+    literalMeaningAr: "أشعر به في عظامي",
     explanationAr: "الشعور بشيء بعمق، كأنه مُثبت في جسدك.",
     exampleEn: "I feel it in my bones — something’s wrong.",
     exampleTranslationAr: "أشعر به في عظامي — هناك شيء خاطئ.",
@@ -715,6 +811,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Skin crawling",
     meaningAr: "جلدي يزحف",
+    literalMeaningAr: "بشرتي تزحف",
     explanationAr: "الشعور بالقلق أو الخوف الشديد، كأن شيئًا يزحف على جلدك.",
     exampleEn: "That creepy story made my skin crawl.",
     exampleTranslationAr: "تلك القصة المرعبة جعلت جلدي يزحف.",
@@ -722,6 +819,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Go numb",
     meaningAr: "أصبحت خدرًا",
+    literalMeaningAr: "أصبحت بلا إحساس",
     explanationAr: "الشعور بفقدان الإحساس الجسدي، غالبًا بسبب الصدمة أو الخوف.",
     exampleEn: "When I heard the news, I went numb.",
     exampleTranslationAr: "عندما سمعت الخبر، أصبحت خدرًا.",
@@ -729,6 +827,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Tingly",
     meaningAr: "أحس بخدر خفيف",
+    literalMeaningAr: "مُتنميل",
     explanationAr: "الشعور بخدر أو تنميل خفيف، غالبًا بسبب التوتر أو التحفيز.",
     exampleEn: "I felt tingly when I saw her walk into the room.",
     exampleTranslationAr: "شعرت بخدر خفيف عندما رأيتها تدخل الغرفة.",
@@ -736,6 +835,7 @@ final List<Idiom> healthIdioms = [
   Idiom(
     phrase: "Chills up my spine",
     meaningAr: "برودة تمر في ظهري",
+    literalMeaningAr: "رعشات على طول ظهري",
     explanationAr: "الشعور بالخوف أو الإثارة العاطفية الشديدة.",
     exampleEn: "Hearing that song gave me chills up my spine.",
     exampleTranslationAr: "سماع تلك الأغنية أعطاني برودة في ظهري.",

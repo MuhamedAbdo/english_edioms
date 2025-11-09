@@ -5,6 +5,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "Cry over spilled milk",
     meaningAr: "الندم على أمر لا يمكن إصلاحه",
+    literalMeaningAr: "تبكي على الحليب المسكوب",
     explanationAr: "لا فائدة من الندم على ما فات، لأنه لا يمكن تغييره.",
     exampleEn: "It’s a minor mistake; there's no use crying over spilled milk.",
     exampleTranslationAr:
@@ -14,6 +15,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To live to regret it",
     meaningAr: "يندَم على شيء ما لاحقاً",
+    literalMeaningAr: "يعيش ليأسف عليه",
     explanationAr: "القيام بشيء من المحتمل أن يسبب الندم في المستقبل.",
     exampleEn: "If you don't take this job, you might live to regret it.",
     exampleTranslationAr: "إذا لم تقبل هذه الوظيفة، فقد تندم على ذلك لاحقاً.",
@@ -22,6 +24,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To miss the boat",
     meaningAr: "تفوته الفرصة / يضيع الفرصة",
+    literalMeaningAr: "يفوّت القارب",
     explanationAr: "تضييع فرصة بسبب التردد أو التأخير.",
     exampleEn:
         "I was slow to apply, and now I’ve missed the boat on that scholarship.",
@@ -32,6 +35,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To kick yourself",
     meaningAr: "يلوم نفسه بشدة / يندم بشدة",
+    literalMeaningAr: "يركل نفسك",
     explanationAr: "الشعور بالغضب أو الإحباط من النفس بسبب خطأ أو إخفاق.",
     exampleEn:
         "He’s kicking himself for not buying the stocks when they were cheap.",
@@ -42,6 +46,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have second thoughts",
     meaningAr: "يعيد النظر / يتردد",
+    literalMeaningAr: "لديك أفكار ثانية",
     explanationAr: "البدء في التردد بشأن قرار تم اتخاذه مسبقاً.",
     exampleEn:
         "After buying the expensive car, she started having second thoughts.",
@@ -52,6 +57,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "If only...",
     meaningAr: "يا ليتني...",
+    literalMeaningAr: "لو فقط...",
     explanationAr: "تعبير عن الندم والتمني لو كان الماضي مختلفاً.",
     exampleEn: "If only I had studied harder for the exam!",
     exampleTranslationAr: "يا ليتني درست بجد أكبر من أجل الامتحان!",
@@ -60,6 +66,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To cut your losses",
     meaningAr: "يوقف الخسارة / يتوقف عن الندم",
+    literalMeaningAr: "تقطع خسائرك",
     explanationAr:
         "التوقف عن متابعة مشروع أو استثمار خاسر لتجنب المزيد من الضرر.",
     exampleEn:
@@ -70,6 +77,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have a change of heart",
     meaningAr: "يُغير رأيه / يتراجع عن موقفه",
+    literalMeaningAr: "تغير في القلب",
     explanationAr:
         "تغيير موقف شخص ما أو نيته بشأن شيء ما، غالباً بسبب الندم على القرار الأول.",
     exampleEn: "He was going to sell the house, but he had a change of heart.",
@@ -79,6 +87,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be water under the bridge",
     meaningAr: "أمر من الماضي لا يمكن إصلاحه",
+    literalMeaningAr: "ماء تحت الجسر",
     explanationAr: "وصف مشكلة حدثت في الماضي ولا يمكن تغييرها، ويجب نسيانها.",
     exampleEn: "Our old argument is water under the bridge now; let's move on.",
     exampleTranslationAr:
@@ -88,6 +97,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To drop the ball",
     meaningAr: "يُخفق / يُضيّع الفرصة بالخطأ",
+    literalMeaningAr: "يسقط الكرة",
     explanationAr: "القيام بخطأ أو الإخفاق في الالتزام بمسؤولية ما.",
     exampleEn:
         "The marketing team really dropped the ball on the new campaign launch.",
@@ -97,6 +107,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "There's no turning back",
     meaningAr: "لا مجال للتراجع / فات الأوان",
+    literalMeaningAr: "لا يوجد تراجع",
     explanationAr: "الإشارة إلى قرار أو فعل تم اتخاذه ولا يمكن التراجع عنه.",
     exampleEn: "Once you sign the contract, there's no turning back.",
     exampleTranslationAr: "بمجرد توقيع العقد، لا مجال للتراجع.",
@@ -105,6 +116,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To look back in anger",
     meaningAr: "ينظر إلى الماضي بغضب (ندم)",
+    literalMeaningAr: "ينظر إلى الوراء بغضب",
     explanationAr: "الندم والغضب على الأحداث والقرارات التي حدثت في الماضي.",
     exampleEn:
         "He spends too much time looking back in anger instead of focusing on the future.",
@@ -115,6 +127,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "A wasted opportunity",
     meaningAr: "فرصة ضائعة",
+    literalMeaningAr: "فرصة ضاعت",
     explanationAr: "فرصة لم يتم استغلالها أو الاستفادة منها.",
     exampleEn: "Not applying for the grant was a wasted opportunity.",
     exampleTranslationAr: "عدم التقدم بطلب للحصول على المنحة كان فرصة ضائعة.",
@@ -123,6 +136,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To repent at leisure",
     meaningAr: "يندم على مهل",
+    literalMeaningAr: "يتوب متأنياً",
     explanationAr: "القيام بخيار متهور يؤدي إلى الندم لاحقاً وبشكل مطول.",
     exampleEn: "He made a quick decision, and now he has to repent at leisure.",
     exampleTranslationAr: "لقد اتخذ قراراً سريعاً، والآن عليه أن يندم على مهل.",
@@ -131,6 +145,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To let a chance slip by",
     meaningAr: "يدع فرصة تفوته",
+    literalMeaningAr: "يدع فرصة تنزلق",
     explanationAr: "تضييع أو إهمال فرصة جيدة عن طريق الخطأ أو التردد.",
     exampleEn: "I regret letting that chance for promotion slip by.",
     exampleTranslationAr: "أندم على أنني تركت فرصة الترقية تلك تفوتني.",
@@ -139,6 +154,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To face the music",
     meaningAr: "يواجه العواقب (بسبب خطأ ندم عليه)",
+    literalMeaningAr: "يواجه الموسيقى",
     explanationAr: "مواجهة العواقب أو النقد المترتب على أفعالك السابقة.",
     exampleEn: "After lying, he finally had to face the music.",
     exampleTranslationAr: "بعد الكذب، كان عليه أخيراً مواجهة العواقب.",
@@ -147,6 +163,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To mend your ways",
     meaningAr: "يُصلح أسلوبه / يُغير سلوكه",
+    literalMeaningAr: "يصلح طرقك",
     explanationAr:
         "التوقف عن القيام بسلوك سيئ أو خطأ والبدء في التصرف بشكل أفضل.",
     exampleEn: "He promised his wife he would mend his ways.",
@@ -156,6 +173,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To eat your words",
     meaningAr: "يسحب كلامه / يندم على ما قاله",
+    literalMeaningAr: "تأكل كلماتك",
     explanationAr:
         "الاعتراف بأن ما قلته كان خاطئاً، غالباً مع الشعور بالإحراج.",
     exampleEn:
@@ -167,6 +185,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be full of remorse",
     meaningAr: "مليء بالندم",
+    literalMeaningAr: "ممتلئ بالنِدامة",
     explanationAr: "الشعور بندم عميق ومؤلم على خطأ ارتكبته.",
     exampleEn: "The thief was full of remorse for his crime.",
     exampleTranslationAr: "كان اللص مليئاً بالندم على جريمته.",
@@ -175,16 +194,19 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To get a taste of your own medicine",
     meaningAr: "يُعامل بنفس أسلوبه السيئ (سبب الندم)",
+    literalMeaningAr: "يحصل على مُعاملة مثل دوائك",
     explanationAr: "أن تُعامل بنفس الطريقة السلبية التي كنت تعامل بها الآخرين.",
     exampleEn:
         "He was rude to everyone and finally got a taste of his own medicine.",
     exampleTranslationAr:
         "كان وقحاً مع الجميع وحصل أخيراً على مُعاملة بأسلوبه السيئ.",
   ),
+
   // 21.
   Idiom(
     phrase: "A blessing in disguise",
     meaningAr: "رب ضارة نافعة (ما ظننته ندم كان خيراً)",
+    literalMeaningAr: "نعمة مختبئة",
     explanationAr:
         "شيء يبدو سيئاً أو كخطأ في البداية ولكنه يتحول لشيء جيد لاحقاً.",
     exampleEn:
@@ -196,6 +218,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To pay the piper",
     meaningAr: "يدفع الثمن / يتحمل التكلفة",
+    literalMeaningAr: "يدفع للعازف",
     explanationAr: "تحمل العواقب السلبية أو دفع ثمن الأفعال المتهورة.",
     exampleEn:
         "You can't keep avoiding taxes; eventually, you have to pay the piper.",
@@ -206,6 +229,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have only yourself to blame",
     meaningAr: "لا يلوم إلا نفسه",
+    literalMeaningAr: "لا أحد سوى نفسك لتلومه",
     explanationAr: "أن تكون مسؤولاً بالكامل عن وضع سيئ وقعت فيه.",
     exampleEn:
         "He failed the course because he didn't study; he has only himself to blame.",
@@ -215,6 +239,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To rue the day",
     meaningAr: "يوم الندم / يأسف كثيراً",
+    literalMeaningAr: "يندم على اليوم",
     explanationAr: "الشعور بندم مرير على فعل قمت به في يوم معين.",
     exampleEn:
         "The villain vowed that the hero would rue the day he challenged him.",
@@ -225,6 +250,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To bite the bullet",
     meaningAr: "يتحمل المصاعب / يتخذ قراراً صعباً",
+    literalMeaningAr: "يعض الرصاصة",
     explanationAr: "مواجهة موقف صعب أو مؤلم بشجاعة وقبول العواقب.",
     exampleEn:
         "I hate going to the dentist, but I'll have to bite the bullet and go.",
@@ -235,7 +261,8 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To change your tune",
     meaningAr: "يُغير نبرته / يعدل موقفه",
-    explanationAr: "تغيير موقفك أو رأيك بشكل مفاجئ، غالباً بعد اكتشاف خطأك.",
+    literalMeaningAr: "يُغيّر نغمتك",
+    explanationAr: "تغيير موقفك أو رأيك بشكل مفاجئ، غالبًا بعد اكتشاف خطأك.",
     exampleEn:
         "After he failed the exam, he quickly changed his tune about studying.",
     exampleTranslationAr:
@@ -245,8 +272,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "A flash in the pan",
     meaningAr: "نجاح عابر / مجرد فرصة سريعة",
+    literalMeaningAr: "وميض في المقلاة",
     explanationAr:
-        "نجاح أو حدث جيد حدث مرة واحدة فقط ومن غير المرجح أن يتكرر (ندم على عدم استغلاله).",
+        "نجاح أو حدث جيد حدث مرة واحدة فقط ومن غير المرجح أن يتكرر (ندم على عدم الاستغلال).",
     exampleEn:
         "His first album was great, but his second was just a flash in the pan.",
     exampleTranslationAr:
@@ -256,6 +284,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To lose heart",
     meaningAr: "يفقد الأمل / ييأس",
+    literalMeaningAr: "يفقد القلب",
     explanationAr: "فقدان الشجاعة أو الحماس بسبب الفشل المتكرر أو الندم.",
     exampleEn:
         "After the third rejection, she began to lose heart about her writing career.",
@@ -266,6 +295,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To backtrack",
     meaningAr: "يتراجع عن كلامه / يغير موقفه",
+    literalMeaningAr: "ترجع خطواتك",
     explanationAr: "التراجع عن تصريح أو وعد أو رأي سابق.",
     exampleEn:
         "When challenged, the politician quickly backtracked on his controversial statement.",
@@ -276,15 +306,18 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To put your mind at rest",
     meaningAr: "يُريح باله (تجنباً للندم)",
+    literalMeaningAr: "يضع عقلك في راحة",
     explanationAr: "القيام بشيء يزيل القلق أو الشكوك لدى شخص ما.",
     exampleEn:
         "I called the hospital to put my mind at rest about my friend's condition.",
     exampleTranslationAr: "اتصلت بالمستشفى لأُريح بالي بشأن حالة صديقي.",
   ),
+
   // 31.
   Idiom(
     phrase: "To seize the day (Carpe Diem)",
     meaningAr: "اغتنم الفرصة / استغل اللحظة",
+    literalMeaningAr: "يمسك اليوم",
     explanationAr:
         "استغلال الفرص الحالية بدلاً من الندم على عدم استغلالها لاحقاً.",
     exampleEn: "Stop hesitating and seize the day by applying for the job now.",
@@ -294,6 +327,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To take responsibility",
     meaningAr: "يتحمل المسؤولية (عن خطأ ندم عليه)",
+    literalMeaningAr: "يأخذ المسؤولية",
     explanationAr: "الاعتراف بخطئك أو مسؤوليتك عن فشل أو سوء تصرف.",
     exampleEn:
         "A good leader is always willing to take responsibility for the team’s failures.",
@@ -304,6 +338,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To learn the hard way",
     meaningAr: "يتعلم بالخبرة القاسية",
+    literalMeaningAr: "يتعلم بالطريقة الصعبة",
     explanationAr:
         "تعلم شيء من خلال التجربة المؤلمة أو الخطأ بدلاً من النصيحة.",
     exampleEn: "He lost all his savings by gambling; he learned the hard way.",
@@ -313,6 +348,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To get one’s just deserts",
     meaningAr: "ينال جزاءه العادل (نتيجة ندم)",
+    literalMeaningAr: "يحصل على جزائه العادل",
     explanationAr:
         "أن يحصل شخص ما على العقوبة التي يستحقها بسبب أفعاله السيئة.",
     exampleEn: "After cheating his partners, he finally got his just deserts.",
@@ -322,6 +358,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "A heavy price to pay",
     meaningAr: "ثمن باهظ يدفعه (نتيجة خطأ)",
+    literalMeaningAr: "سعر ثقيل يُدفع",
     explanationAr: "عواقب سلبية خطيرة ومكلفة لقرار أو خطأ سابق.",
     exampleEn: "Losing his family was a heavy price to pay for his ambition.",
     exampleTranslationAr: "فقدان عائلته كان ثمناً باهظاً يدفعه مقابل طموحه.",
@@ -330,6 +367,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To turn over a new leaf",
     meaningAr: "يفتح صفحة جديدة (بعد ندم)",
+    literalMeaningAr: "يقلب ورقة جديدة",
     explanationAr:
         "بدء مسار جديد في الحياة، غالباً بعد فترة من السلوك السيئ أو الندم.",
     exampleEn: "After his time in prison, he promised to turn over a new leaf.",
@@ -339,6 +377,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To make amends",
     meaningAr: "يُعوض عن خطأ / يُصلح الضرر",
+    literalMeaningAr: "يُصلح الأمر",
     explanationAr: "محاولة التعويض عن ضرر أو خطأ ارتكبته تجاه شخص ما.",
     exampleEn: "He tried to make amends for his mistake by buying her flowers.",
     exampleTranslationAr: "حاول التعويض عن خطئه بشراء الزهور لها.",
@@ -347,6 +386,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To let the past be the past",
     meaningAr: "يدع الماضي يمضي / يتجاوز الندم",
+    literalMeaningAr: "يترك الماضي كما هو",
     explanationAr:
         "قبول ما حدث وعدم السماح له بالتأثير على الحاضر أو المستقبل.",
     exampleEn: "We need to let the past be the past and focus on our future.",
@@ -357,6 +397,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To regret a single word",
     meaningAr: "يندم على كلمة واحدة",
+    literalMeaningAr: "يندم على كلمة واحدة",
     explanationAr: "الشعور بندم شديد على قول شيء تسبب في مشكلة.",
     exampleEn:
         "He regretted a single word he uttered that caused the whole argument.",
@@ -366,8 +407,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To wish you could take it back",
     meaningAr: "يتمنى لو كان بإمكانه التراجع",
+    literalMeaningAr: "يتمنى لو يستطيع سحبه",
     explanationAr:
-        "التعبير عن الندم الشديد والتمني لو لم يحدث شيء أو لو لم يُقال.",
+        "التعبير عن الندم الشديد والتمني لو لم يحدث شيء أو لم يُقال.",
     exampleEn:
         "After the hurtful comment, I wished I could take it back immediately.",
     exampleTranslationAr:
@@ -377,6 +419,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be beyond repair",
     meaningAr: "لا يمكن إصلاحه / فات الأوان",
+    literalMeaningAr: "خارج نطاق الإصلاح",
     explanationAr: "وصف علاقة أو وضع تضرر لدرجة لا يمكن معها استعادته.",
     exampleEn:
         "Their friendship was so damaged by the betrayal that it was beyond repair.",
@@ -386,6 +429,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To count your blessings",
     meaningAr: "يحمد الله على نعمه (لتجنب الندم)",
+    literalMeaningAr: "يعد نعمه",
     explanationAr:
         "تذكير النفس بالأشياء الجيدة التي لديك لتكون ممتناً بدلاً من التركيز على ما فات.",
     exampleEn:
@@ -396,6 +440,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To look on the bright side",
     meaningAr: "يرى الجانب المشرق (لتخفيف الندم)",
+    literalMeaningAr: "ينظر إلى الجانب المضيء",
     explanationAr: "التركيز على الجوانب الإيجابية لموقف سيئ بدلاً من السلبية.",
     exampleEn:
         "Losing the client is bad, but look on the bright side: we learned a lot.",
@@ -406,6 +451,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have a clear conscience",
     meaningAr: "ضميره مرتاح (لتجنب الندم)",
+    literalMeaningAr: "ضمير نظيف",
     explanationAr: "الشعور بأنه لم يرتكب أي خطأ أو لم يندم على شيء قام به.",
     exampleEn: "I spoke the truth, so I have a clear conscience.",
     exampleTranslationAr: "لقد قلت الحقيقة، لذا ضميري مرتاح.",
@@ -414,6 +460,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To sweep something under the rug",
     meaningAr: "يُخفي المشاكل (سبب الندم اللاحق)",
+    literalMeaningAr: "يكنس شيئًا تحت السجادة",
     explanationAr: "محاولة إخفاء المشاكل أو الأمور غير السارة بدلاً من حلها.",
     exampleEn: "They keep sweeping their financial problems under the rug.",
     exampleTranslationAr: "يستمرون في إخفاء مشاكلهم المالية.",
@@ -422,6 +469,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To put your foot in your mouth",
     meaningAr: "يتفوه بكلام يندم عليه",
+    literalMeaningAr: "يضع قدمك في فمك",
     explanationAr: "قول شيء محرج أو غير لائق أو يسبب إزعاجاً.",
     exampleEn:
         "I put my foot in my mouth when I asked her about her ex-husband.",
@@ -431,6 +479,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have the benefit of hindsight",
     meaningAr: "حكمة الإدراك المتأخر",
+    literalMeaningAr: "فائدة النظر إلى الوراء",
     explanationAr: "فهم كيف كان ينبغي التصرف في الماضي بعد فوات الأوان.",
     exampleEn:
         "With the benefit of hindsight, I would never have trusted that person.",
@@ -441,6 +490,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To get away with murder",
     meaningAr: "يُفلت من العقاب (لا يندم)",
+    literalMeaningAr: "يخرج من دون عقاب حتى لو قتل",
     explanationAr: "فعل شيء سيئ جداً وعدم التعرض للعقاب على الإطلاق.",
     exampleEn: "The spoiled child always seems to get away with murder.",
     exampleTranslationAr: "يبدو أن الطفل المدلل يفلت دائماً من العقاب.",
@@ -449,6 +499,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To miss the opportunity",
     meaningAr: "يضيع الفرصة",
+    literalMeaningAr: "يفوّت الفرصة",
     explanationAr: "عدم استغلال فرصة متاحة.",
     exampleEn:
         "If you don't send the application today, you'll miss the opportunity.",
@@ -458,16 +509,19 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To put things right",
     meaningAr: "يُصلح الأمور / يُصحح الأخطاء",
+    literalMeaningAr: "يضع الأمور في نصابها الصحيح",
     explanationAr: "القيام بخطوات لتصحيح خطأ سابق أو سوء فهم.",
     exampleEn:
         "He knew he had made a mistake and tried his best to put things right.",
     exampleTranslationAr:
         "كان يعلم أنه ارتكب خطأ وحاول قصارى جهده لتصحيح الأمور.",
   ),
+
   // 51.
   Idiom(
     phrase: "To have skeletons in the closet",
     meaningAr: "لديه أسرار محرجة (أفعال يندم عليها)",
+    literalMeaningAr: "لديه هياكل عظمية في الخزانة",
     explanationAr: "امتلاك أسرار محرجة أو غير مقبولة من الماضي.",
     exampleEn: "Every family has a few skeletons in the closet.",
     exampleTranslationAr: "كل عائلة لديها بعض الأسرار المحرجة.",
@@ -476,6 +530,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To learn from your mistakes",
     meaningAr: "يتعلم من أخطائه",
+    literalMeaningAr: "يتعلم من أخطائه",
     explanationAr: "استخدام الأخطاء السابقة كدروس لتجنب تكرارها (تجاوز الندم).",
     exampleEn:
         "The most successful people are those who learn from their mistakes.",
@@ -486,6 +541,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "A bad call",
     meaningAr: "قرار سيئ (سبب الندم)",
+    literalMeaningAr: "قرار خاطئ",
     explanationAr: "وصف قرار تم اتخاذه وتبين أنه خاطئ أو غير حكيم.",
     exampleEn: "Hiring him turned out to be a really bad call.",
     exampleTranslationAr: "تبين أن توظيفه كان قراراً سيئاً حقاً.",
@@ -494,6 +550,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have regrets",
     meaningAr: "لديه ندم / شعور بالأسف",
+    literalMeaningAr: "لديه ندامات",
     explanationAr: "الشعور بالحزن أو الأسف على شيء حدث أو لم يحدث.",
     exampleEn: "She said she has no regrets about her past decisions.",
     exampleTranslationAr: "قالت إنه ليس لديها ندم على قراراتها السابقة.",
@@ -502,6 +559,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "A turning point",
     meaningAr: "نقطة تحول (تغيير المسار بعد ندم)",
+    literalMeaningAr: "نقطة تحوّل",
     explanationAr: "الوقت الذي يتغير فيه وضع أو مسار حياة شخص ما بشكل كبير.",
     exampleEn: "Meeting her was a turning point in his career.",
     exampleTranslationAr: "لقاؤها كان نقطة تحول في مسيرته المهنية.",
@@ -510,6 +568,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To put the past behind you",
     meaningAr: "يترك الماضي وراءه",
+    literalMeaningAr: "يضع الماضي خلفك",
     explanationAr: "التوقف عن التفكير في المشاكل أو الندم على الأحداث الماضية.",
     exampleEn: "It’s time to put the past behind you and focus on recovery.",
     exampleTranslationAr:
@@ -519,6 +578,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To take the high road",
     meaningAr: "يتخذ المسار الأخلاقي (لتجنب الندم)",
+    literalMeaningAr: "يسلك الطريق العالي",
     explanationAr:
         "القيام بالشيء الصحيح أو الأخلاقي، حتى لو كان صعباً أو غير شعبي.",
     exampleEn:
@@ -530,8 +590,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be beyond help",
     meaningAr: "لا يمكن مساعدته / لا أمل منه",
+    literalMeaningAr: "خارج نطاق المساعدة",
     explanationAr:
-        "كون شخص أو وضع في حالة سيئة لا يمكن إصلاحها أو مساعدتها (قد يسبب الندم لمن حاول المساعدة).",
+        "كون شخص أو وضع في حالة سيئة لا يمكن إصلاحها أو مساعدتها (قد يسبب الندم).",
     exampleEn: "The old building is completely rotten and beyond help.",
     exampleTranslationAr: "المبنى القديم متعفن بالكامل ولا أمل منه.",
   ),
@@ -539,6 +600,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To get your wires crossed",
     meaningAr: "يحدث سوء تفاهم (مما يؤدي للندم)",
+    literalMeaningAr: "تتقاطع أسلاكك",
     explanationAr: "أن يكون هناك سوء فهم أو خطأ في الاتصال بين شخصين.",
     exampleEn: "I think we got our wires crossed about the meeting time.",
     exampleTranslationAr: "أعتقد أننا حدث بيننا سوء تفاهم بشأن موعد الاجتماع.",
@@ -547,6 +609,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be out of luck",
     meaningAr: "حظه سيئ / فاته الحظ",
+    literalMeaningAr: "خارج الحظ",
     explanationAr: "وصف شخص فاتته الفرصة أو لم يحصل على ما أراده.",
     exampleEn:
         "I arrived late, so I was out of luck and the concert tickets were sold out.",
@@ -557,6 +620,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be caught in the act",
     meaningAr: "يُضبط متلبساً (يندم على فعلته)",
+    literalMeaningAr: "يُقبض عليه أثناء الفعل",
     explanationAr: "القبض على شخص وهو يرتكب خطأ أو جريمة.",
     exampleEn: "The child was caught in the act of stealing a cookie.",
     exampleTranslationAr: "ضُبط الطفل متلبساً وهو يسرق قطعة بسكويت.",
@@ -565,6 +629,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To bury the hatchet",
     meaningAr: "يُنهي الخصام (تجنباً للندم على ضياع العلاقة)",
+    literalMeaningAr: "يدفن الفأس",
     explanationAr: "إنهاء خلاف أو عداء مع شخص ما والبدء في التصالح.",
     exampleEn:
         "It’s time we bury the hatchet and forget our old disagreements.",
@@ -574,6 +639,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To mend fences",
     meaningAr: "يُصلح العلاقات (بعد ندم)",
+    literalMeaningAr: "يصلح الأسوار",
     explanationAr: "محاولة إصلاح علاقة تضررت بسبب جدال أو خلاف.",
     exampleEn: "He needs to mend fences with his brother after their fight.",
     exampleTranslationAr: "إنه بحاجة إلى إصلاح العلاقات مع أخيه بعد شجارهما.",
@@ -582,6 +648,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have a shot at it",
     meaningAr: "لديه فرصة لتجربة الأمر",
+    literalMeaningAr: "لديه رصاصة لتجربة الأمر",
     explanationAr:
         "الحصول على فرصة للقيام بشيء أو المحاولة (وعدم الندم لاحقاً).",
     exampleEn: "If you want the job, you have to go and have a shot at it.",
@@ -592,6 +659,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To stand corrected",
     meaningAr: "يعترف بخطئه (تعبير عن ندم)",
+    literalMeaningAr: "أقف معترفًا بخطئي",
     explanationAr: "الاعتراف بأن ما قلته أو اعتقدته كان خاطئاً.",
     exampleEn:
         "I thought the meeting was Friday, but I stand corrected; it’s Thursday.",
@@ -602,6 +670,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To get a handle on it",
     meaningAr: "يُسيطر على الأمر (موقف سابق سبب الندم)",
+    literalMeaningAr: "يحصل على مقبض عليه",
     explanationAr: "السيطرة على موقف أو مشكلة أو فهمها بشكل كامل.",
     exampleEn:
         "After weeks of chaos, they finally got a handle on the project schedule.",
@@ -612,6 +681,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To miss the boat entirely",
     meaningAr: "تفوته الفرصة بالكامل (ندم شديد)",
+    literalMeaningAr: "يفوّت القارب بالكامل",
     explanationAr: "فقدان فرصة كبيرة بالكامل ولا يمكن تعويضها.",
     exampleEn:
         "He decided not to invest and missed the boat entirely on the tech boom.",
@@ -622,6 +692,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have a sense of loss",
     meaningAr: "لديه شعور بالخسارة (ندم)",
+    literalMeaningAr: "لديه إحساس بالفقد",
     explanationAr: "الشعور بالحزن أو الأسف على شيء فقدته أو تركته.",
     exampleEn: "When they sold the family home, I had a great sense of loss.",
     exampleTranslationAr: "عندما باعوا منزل العائلة، شعرت بخسارة كبيرة.",
@@ -630,8 +701,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be better off",
     meaningAr: "أفضل حالاً (تجاوزاً للندم)",
+    literalMeaningAr: "أفضل حالاً",
     explanationAr:
-        "أن تكون في وضع أفضل مما كنت عليه في السابق، غالباً بعد الانفصال أو ترك وظيفة.",
+        "أن تكون في وضع أفضل مما كنت عليه سابقاً، بعد الانفصال أو ترك وظيفة.",
     exampleEn: "She is much better off now that she quit her stressful job.",
     exampleTranslationAr:
         "هي أفضل حالاً بكثير الآن بعد أن تركت وظيفتها المجهدة.",
@@ -640,6 +712,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To put a stop to it",
     meaningAr: "يضع حداً للأمر (توقف عن شيء سبب الندم)",
+    literalMeaningAr: "يضع توقفاً له",
     explanationAr: "إنهاء أو إيقاف نشاط أو سلوك معين.",
     exampleEn: "The parents decided to put a stop to their constant arguing.",
     exampleTranslationAr: "قرر الوالدان وضع حد لجدالهما المستمر.",
@@ -648,6 +721,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To regret not doing something",
     meaningAr: "يندم على عدم القيام بشيء",
+    literalMeaningAr: "يندم على عدم القيام بشيء",
     explanationAr: "الشعور بالأسف لعدم اتخاذ إجراء أو فرصة في الماضي.",
     exampleEn: "I regret not traveling more when I was younger.",
     exampleTranslationAr: "أندم على عدم السفر أكثر عندما كنت أصغر سناً.",
@@ -656,6 +730,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To miss out on",
     meaningAr: "يفوته / يضيع عليه",
+    literalMeaningAr: "يفوّت شيء جيد",
     explanationAr: "عدم القدرة على الاستمتاع بفرصة أو تجربة جيدة.",
     exampleEn: "Because I was sick, I missed out on the entire party.",
     exampleTranslationAr: "بسبب مرضي، فاتني الحفل بأكمله.",
@@ -664,6 +739,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To face up to something",
     meaningAr: "يواجه الأمر (الندم أو الخطأ)",
+    literalMeaningAr: "يواجه شيئًا بصدق",
     explanationAr: "الاعتراف بموقف صعب أو مشكلة مزعجة ومواجهتها.",
     exampleEn: "You need to face up to the fact that you made a mistake.",
     exampleTranslationAr: "أنت بحاجة إلى مواجهة حقيقة أنك ارتكبت خطأ.",
@@ -672,6 +748,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To mend a broken relationship",
     meaningAr: "يُصلح علاقة مكسورة (بسبب ندم)",
+    literalMeaningAr: "يُصلح علاقة محطمة",
     explanationAr: "محاولة استعادة علاقة عاطفية أو صداقة تضررت بشدة.",
     exampleEn:
         "After their massive fight, they worked hard to mend their broken relationship.",
@@ -682,8 +759,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be worth its weight in gold",
     meaningAr: "يساوي وزنه ذهباً (قيمة شيء ضاع والندم عليه)",
+    literalMeaningAr: "يستحق وزنه ذهباً",
     explanationAr:
-        "وصف شيء ثمين للغاية أو مفيد (يُستخدم أحياناً للندم على فقدان شيء ثمين).",
+        "وصف شيء ثمين للغاية أو مفيد (يُستخدم أحياناً للندم على فقدان شيء مهم).",
     exampleEn: "That piece of advice was worth its weight in gold.",
     exampleTranslationAr: "تلك النصيحة كانت تساوي وزنها ذهباً.",
   ),
@@ -691,6 +769,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To undo a mistake",
     meaningAr: "يُلغي خطأ / يصلحه",
+    literalMeaningAr: "يُلغِ خطأ",
     explanationAr: "القيام بشيء لإبطال تأثير خطأ أو تصحيحه.",
     exampleEn: "The only way to undo your mistake is to apologize sincerely.",
     exampleTranslationAr: "الطريقة الوحيدة لإلغاء خطئك هي الاعتذار بصدق.",
@@ -699,6 +778,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "A second chance",
     meaningAr: "فرصة ثانية",
+    literalMeaningAr: "فرصة ثانية",
     explanationAr: "فرصة جديدة لتصحيح خطأ سابق أو البدء من جديد.",
     exampleEn:
         "After the failure, she begged for a second chance to prove herself.",
@@ -709,15 +789,16 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To swallow your pride",
     meaningAr: "يتنازل عن كبريائه (لتصحيح خطأ)",
+    literalMeaningAr: "يبتلع كبرياءه",
     explanationAr: "التخلي عن كبريائك أو عنادك للاعتذار أو التصالح.",
     exampleEn: "He had to swallow his pride and ask his rival for help.",
-    exampleTranslationAr:
-        "كان عليه أن يتنازل عن كبريائه ويطلب المساعدة من منافسه.",
+    exampleTranslationAr: "كان عليه أن يبتلع كبرياءه ويطلب المساعدة من منافسه.",
   ),
   // 79.
   Idiom(
     phrase: "A costly mistake",
     meaningAr: "خطأ مكلف (يسبب الندم)",
+    literalMeaningAr: "خطأ ذو تكلفة عالية",
     explanationAr: "خطأ نتج عنه خسارة كبيرة، سواء مالية أو شخصية.",
     exampleEn:
         "Not checking the contract details turned out to be a costly mistake.",
@@ -727,8 +808,8 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To let sleeping dogs lie",
     meaningAr: "لا يُثير المشاكل / لا يُذكر الماضي المؤلم",
-    explanationAr:
-        "تجنب إثارة مشكلة أو ذكر حدث قديم (سبب الندم) لتجنب المتاعب.",
+    literalMeaningAr: "اترك الكلاب النائمة تنام",
+    explanationAr: "تجنب إثارة مشكلة أو ذكر حدث قديم (سبب الندم) لمنع المتاعب.",
     exampleEn:
         "It’s best to let sleeping dogs lie and not mention the past argument.",
     exampleTranslationAr: "من الأفضل عدم إثارة المشاكل وعدم ذكر الخلاف الماضي.",
@@ -737,8 +818,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have no choice but to",
     meaningAr: "ليس لديه خيار سوى أن...",
+    literalMeaningAr: "ليس لديه خيار سوى ذلك",
     explanationAr:
-        "الإشارة إلى أن القرار لم يكن اختيارياً ولكنه ضرورة (تخفيف للندم).",
+        "الإشارة إلى أن القرار لم يكن اختيارياً، بل ضرورة (تقليل للندم).",
     exampleEn:
         "We had no choice but to sell the company after the market crash.",
     exampleTranslationAr: "لم يكن لدينا خيار سوى بيع الشركة بعد انهيار السوق.",
@@ -747,8 +829,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "A narrow escape",
     meaningAr: "نجاة بأعجوبة (شبه ندم)",
+    literalMeaningAr: "هروب ضيق",
     explanationAr:
-        "النجاة من موقف خطير بفارق ضئيل جداً (يُشعر بالندم على الكارثة التي كادت أن تقع).",
+        "النجاة من موقف خطير بفارق ضئيل (يُشعر بالندم على الكارثة التي كادت تقع).",
     exampleEn: "The car accident was a narrow escape for the pedestrians.",
     exampleTranslationAr: "كان حادث السيارة نجاة بأعجوبة للمشاة.",
   ),
@@ -756,6 +839,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To wash your hands of it",
     meaningAr: "يتنصل من المسؤولية (تجنباً للندم)",
+    literalMeaningAr: "يغسل يديه من الأمر",
     explanationAr: "التوقف عن تحمل المسؤولية أو الانخراط في مشكلة ما.",
     exampleEn: "After trying to help, I washed my hands of the entire mess.",
     exampleTranslationAr:
@@ -765,6 +849,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To take the plunge",
     meaningAr: "يتخذ خطوة جريئة (تجنباً للندم على عدم المحاولة)",
+    literalMeaningAr: "يأخذ الغطسة",
     explanationAr: "اتخاذ قرار حاسم وكبير، وغالباً ما يكون محفوفاً بالمخاطر.",
     exampleEn:
         "After years of hesitation, she finally took the plunge and started her own business.",
@@ -775,8 +860,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be given a clean slate",
     meaningAr: "يُمنح صفحة بيضاء جديدة",
+    literalMeaningAr: "يُعطى لوحة نظيفة",
     explanationAr:
-        "إعطاء شخص فرصة للبدء من جديد، دون عقاب على الأخطاء الماضية.",
+        "إعطاء شخص فرصة للبدء من جديد، بدون عقاب على الأخطاء الماضية.",
     exampleEn: "After the apology, he was given a clean slate by his family.",
     exampleTranslationAr: "بعد الاعتذار، مُنح صفحة بيضاء جديدة من قبل عائلته.",
   ),
@@ -784,6 +870,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To think twice",
     meaningAr: "يفكر ملياً / يتردد",
+    literalMeaningAr: "يفكر مرتين",
     explanationAr: "التفكير بعناية قبل اتخاذ قرار لتجنب الندم.",
     exampleEn: "You should think twice before quitting your steady job.",
     exampleTranslationAr: "يجب أن تفكر ملياً قبل ترك وظيفتك الثابتة.",
@@ -792,7 +879,8 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To hold a grudge",
     meaningAr: "يحمل ضغينة (عدم القدرة على تجاوز الندم)",
-    explanationAr: "الشعور بالغضب أو الاستياء تجاه شخص ما بسبب خطأ سابق.",
+    literalMeaningAr: "يحتفظ بغضب داخلي",
+    explanationAr: "الشعور بالغضب أو الاستياء تجاه شخص بسبب خطأ سابق.",
     exampleEn:
         "She still holds a grudge against her ex-partner for the breakup.",
     exampleTranslationAr: "ما زالت تحمل ضغينة ضد شريكها السابق بسبب الانفصال.",
@@ -801,6 +889,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To draw a line in the sand",
     meaningAr: "يضع حداً فاصلاً (بعد ندم)",
+    literalMeaningAr: "يرسم خطًا في الرمال",
     explanationAr: "تحديد نقطة لا يجب تجاوزها؛ وضع حد أقصى للسماح بسوء السلوك.",
     exampleEn: "The manager drew a line in the sand regarding project delays.",
     exampleTranslationAr: "وضع المدير حداً فاصلاً فيما يتعلق بتأخيرات المشروع.",
@@ -809,6 +898,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To throw good money after bad",
     meaningAr: "يُضيع المزيد من المال بعد خسارة",
+    literalMeaningAr: "ترمي مالاً جيداً وراء مالٍ سيئ",
     explanationAr:
         "إنفاق المزيد من المال في محاولة غير مجدية لإنقاذ مشروع فاشل أو استثمار خاسر.",
     exampleEn:
@@ -820,6 +910,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be too little, too late",
     meaningAr: "قليل جداً، ومتأخر جداً",
+    literalMeaningAr: "قليلاً ومتأخراً",
     explanationAr:
         "الإشارة إلى أن الإجراء المتخذ غير كافٍ وتم تنفيذه بعد فوات الأوان.",
     exampleEn: "His apology was too little, too late to save the friendship.",
@@ -830,6 +921,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To seize the moment",
     meaningAr: "يغتنم اللحظة",
+    literalMeaningAr: "يمسك اللحظة",
     explanationAr:
         "اتخاذ إجراء حاسم في اللحظة المناسبة لتجنب الندم على التردد.",
     exampleEn: "The speaker seized the moment to announce his candidacy.",
@@ -839,6 +931,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To get over something",
     meaningAr: "يتجاوز أمراً ما (يتجاوز الندم)",
+    literalMeaningAr: "يتجاوز شيئًا",
     explanationAr: "التعافي من تجربة عاطفية مؤلمة أو خسارة أو خيبة أمل.",
     exampleEn: "It took him years to get over the loss of his pet.",
     exampleTranslationAr: "استغرق سنوات لتجاوز فقدان حيوانه الأليف.",
@@ -847,6 +940,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To be worth the risk",
     meaningAr: "يستحق المخاطرة (تجنباً للندم)",
+    literalMeaningAr: "يستحق المغامرة",
     explanationAr: "الإشارة إلى أن المكافأة المحتملة تبرر المخاطرة المحتملة.",
     exampleEn:
         "Starting a new business is risky, but it might be worth the risk.",
@@ -857,6 +951,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "A heavy heart",
     meaningAr: "قلب مثقل بالهموم (ندم أو حزن)",
+    literalMeaningAr: "قلب ثقيل",
     explanationAr: "الشعور بالحزن أو الأسف الشديد.",
     exampleEn: "She left her hometown with a heavy heart.",
     exampleTranslationAr: "غادرت مسقط رأسها بقلب مثقل بالهموم.",
@@ -864,7 +959,8 @@ final List<Idiom> regretIdioms = [
   // 95.
   Idiom(
     phrase: "To make peace with something",
-    meaningAr: "يتصالح مع الأمر (تقبل الندم)",
+    meaningAr: "يتصالح مع الأمر (يقبل الندم)",
+    literalMeaningAr: "يصنع سلامًا مع شيء",
     explanationAr: "قبول وضع صعب أو مؤلم والتعايش معه.",
     exampleEn: "He finally made peace with the fact that his father was gone.",
     exampleTranslationAr: "لقد تصالح أخيراً مع حقيقة أن والده قد رحل.",
@@ -873,6 +969,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To learn your lesson",
     meaningAr: "يتعلم درسه (بعد ندم)",
+    literalMeaningAr: "يتعلم درسًا",
     explanationAr: "التعلم من خطأ سابق وتجنب تكراره.",
     exampleEn: "After that financial failure, he truly learned his lesson.",
     exampleTranslationAr: "بعد ذلك الفشل المالي، تعلم درسه حقاً.",
@@ -881,8 +978,9 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To get back on track",
     meaningAr: "يعود إلى المسار الصحيح (بعد خطأ)",
+    literalMeaningAr: "يعود إلى المسار",
     explanationAr:
-        "العودة إلى العمل أو التقدم أو المسار الصحيح بعد فترة من المشاكل أو الانحراف.",
+        "العودة إلى العمل أو التقدم بعد فترة من المشاكل أو الانحراف.",
     exampleEn:
         "The company is working hard to get back on track after the scandal.",
     exampleTranslationAr:
@@ -892,6 +990,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To regret a word spoken",
     meaningAr: "يندم على كلمة قالها",
+    literalMeaningAr: "يندم على كلمة نُطقت",
     explanationAr: "شعور عميق بالأسف على تصريح أو تعليق غير حكيم.",
     exampleEn: "Often, we regret a word spoken more than silence.",
     exampleTranslationAr: "غالباً، نندم على كلمة قلناها أكثر من صمتنا.",
@@ -899,7 +998,8 @@ final List<Idiom> regretIdioms = [
   // 99.
   Idiom(
     phrase: "To look on the past with nostalgia",
-    meaningAr: "ينظر إلى الماضي بحنين (تجنب الندم)",
+    meaningAr: "ينظر إلى الماضي بحنين (يتجنب الندم)",
+    literalMeaningAr: "ينظر إلى الماضي بحنين",
     explanationAr: "النظر إلى الماضي باشتياق وعاطفة إيجابية، وليس بندم.",
     exampleEn:
         "Despite the struggles, he looks on his childhood with nostalgia.",
@@ -909,6 +1009,7 @@ final List<Idiom> regretIdioms = [
   Idiom(
     phrase: "To have no regrets",
     meaningAr: "ليس لديه أي ندم",
+    literalMeaningAr: "ليس لديه ندامات",
     explanationAr: "الشعور بالرضا عن كل القرارات والأفعال السابقة.",
     exampleEn: "She claims that she lived her life fully and has no regrets.",
     exampleTranslationAr: "تزعم أنها عاشت حياتها بالكامل وليس لديها أي ندم.",

@@ -1,900 +1,992 @@
 import '../../models/idiom.dart';
 
 final List<Idiom> relationshipsIdioms = [
+  // 1.
   Idiom(
-    phrase: "Break the ice",
-    meaningAr: "كسر الحاجز الأولي",
-    explanationAr:
-        "يُستخدم عندما يبدأ شخص محادثة لجعل الآخرين يشعرون بالراحة في موقف جديد.",
-    exampleEn: "He started with a light joke to break the ice at the workshop.",
-    exampleTranslationAr: "بدأ بنكتة خفيفة لكسر الحاجز في ورشة العمل.",
+    phrase: "Tie the knot",
+    meaningAr: "الزواج",
+    literalMeaningAr: "يربط العقدة", // ✅ جديد
+    explanationAr: "تعبير مجازي عن عقد قران أو الزواج.",
+    exampleEn: "They’re going to tie the knot next summer.",
+    exampleTranslationAr: "سوف يتزوجان الصيف القادم.",
   ),
   // 2.
   Idiom(
-    phrase: "Spill the beans",
-    meaningAr: "يفشي سراً / يكشف الحقيقة",
-    explanationAr: "الكشف عن معلومات سرية أو خطط.",
-    exampleEn: "Don't spill the beans about the surprise party until Saturday.",
-    exampleTranslationAr: "لا تفشِ السر حول حفلة المفاجأة حتى يوم السبت.",
+    phrase: "To pop the question",
+    meaningAr: "يطلب الزواج / يتقدم للخطبة",
+    literalMeaningAr: "يطلق السؤال", // ✅ جديد
+    explanationAr: "السؤال بطلب الزواج من شخص ما.",
+    exampleEn: "He finally popped the question after five years of dating.",
+    exampleTranslationAr: "لقد طلب الزواج أخيراً بعد خمس سنوات من المواعدة.",
   ),
   // 3.
   Idiom(
-    phrase: "Get a word in edgewise",
-    meaningAr: "يجد فرصة للحديث / يقاطع المتحدث",
-    explanationAr:
-        "عدم القدرة على المشاركة في محادثة لأن شخصاً آخر يتحدث باستمرار.",
-    exampleEn: "She talked so much that I couldn't get a word in edgewise.",
+    phrase: "On the rocks",
+    meaningAr: "في خطر / على وشك الانهيار (علاقة)",
+    literalMeaningAr: "على الصخور", // ✅ جديد
+    explanationAr: "وصف علاقة تواجه مشاكل خطيرة وقد تنتهي قريباً.",
+    exampleEn: "Their marriage has been on the rocks for a few months now.",
     exampleTranslationAr:
-        "تحدثت كثيراً لدرجة أنني لم أتمكن من إيجاد فرصة للحديث.",
+        "كان زواجهما على وشك الانهيار منذ بضعة أشهر حتى الآن.",
   ),
   // 4.
   Idiom(
-    phrase: "Hear it through the grapevine",
-    meaningAr: "يسمع إشاعة / تصل إليه معلومة بطريق غير مباشر",
-    explanationAr: "الحصول على معلومات من خلال شائعات أو مصادر غير رسمية.",
-    exampleEn: "I heard through the grapevine that he’s resigning soon.",
-    exampleTranslationAr: "سمعت إشاعة بأنه سيستقيل قريباً.",
+    phrase: "The honeymoon phase",
+    meaningAr: "فترة شهر العسل (في بداية العلاقة)",
+    literalMeaningAr: "مرحلة شهر العسل", // ✅ جديد
+    explanationAr:
+        "الفترة المبكرة من العلاقة التي تتميز بالانسجام الشديد وقلة المشاكل.",
+    exampleEn:
+        "After a year, they are still definitely in the honeymoon phase.",
+    exampleTranslationAr: "بعد عام، ما زالوا بالتأكيد في فترة شهر العسل.",
   ),
   // 5.
   Idiom(
-    phrase: "Bite your tongue",
-    meaningAr: "يمسك لسانه / يكتم كلامه",
-    explanationAr: "أن تمنع نفسك من قول شيء ما (عادة شيء سلبي أو غير مناسب).",
-    exampleEn: "I disagreed completely, but I had to bite my tongue.",
-    exampleTranslationAr: "اختلفت معه تماماً، لكن كان علي أن أمسك لساني.",
+    phrase: "To clear the air",
+    meaningAr: "يُصفي الأجواء / يحل سوء التفاهم",
+    literalMeaningAr: "ينقي الهواء", // ✅ جديد
+    explanationAr: "مناقشة مشكلة أو سوء تفاهم بصراحة لحلها وإنهاء التوتر.",
+    exampleEn: "We need to talk to clear the air after our big argument.",
+    exampleTranslationAr:
+        "نحن بحاجة إلى التحدث لتصفية الأجواء بعد خلافنا الكبير.",
   ),
   // 6.
   Idiom(
-    phrase: "To be on the same page",
-    meaningAr: "يتفق / لديهما نفس الفهم",
-    explanationAr: "فهم الأمور بنفس الطريقة أو الاتفاق على شيء ما.",
+    phrase: "To be attached at the hip",
+    meaningAr: "شخصان لا ينفصلان",
+    literalMeaningAr: "مربوطان عند الورك", // ✅ جديد
+    explanationAr: "أن تكون قريباً جداً من شخص ما وتقضي معه كل وقتك تقريباً.",
     exampleEn:
-        "Let's make sure everyone is on the same page before we start the project.",
-    exampleTranslationAr:
-        "لنتأكد من أن الجميع لديه نفس الفهم قبل أن نبدأ المشروع.",
+        "The two best friends are attached at the hip; they go everywhere together.",
+    exampleTranslationAr: "الصديقان لا ينفصلان؛ يذهبان إلى كل مكان معاً.",
   ),
   // 7.
   Idiom(
-    phrase: "Get the message across",
-    meaningAr: "يوصل الفكرة بوضوح",
-    explanationAr: "التعبير عن فكرة أو معلومة بطريقة يفهمها الآخرون بوضوح.",
-    exampleEn:
-        "The speaker struggled to get his message across to the large audience.",
-    exampleTranslationAr: "كافح المتحدث ليوصل فكرته بوضوح للجمهور الكبير.",
+    phrase: "To go steady",
+    meaningAr: "يرتبط رسمياً / يواعد شخصاً واحداً",
+    literalMeaningAr: "يذهب بشكل مستقر", // ✅ جديد
+    explanationAr: "أن تكون في علاقة عاطفية ثابتة ومستمرة مع شخص واحد.",
+    exampleEn: "After months of casual dates, they decided to go steady.",
+    exampleTranslationAr:
+        "بعد أشهر من المواعيد العادية، قرروا الارتباط رسمياً.",
   ),
   // 8.
   Idiom(
-    phrase: "To keep someone in the loop",
-    meaningAr: "يبقي شخصاً على اطلاع / يشاركه آخر المستجدات",
-    explanationAr: "إبقاء شخص ما مُطلعاً على مجموعة من المعلومات أو الأنشطة.",
-    exampleEn: "Please keep me in the loop regarding the client negotiations.",
-    exampleTranslationAr: "من فضلك أبقني على اطلاع بخصوص مفاوضات العميل.",
+    phrase: "To bury the hatchet",
+    meaningAr: "يُنهي الخصام / يتصالح",
+    literalMeaningAr: "يدفن الفأس", // ✅ جديد
+    explanationAr: "إنهاء خلاف أو عداء مع شخص ما والبدء في التصالح.",
+    exampleEn:
+        "It’s time we bury the hatchet and forget our old disagreements.",
+    exampleTranslationAr: "حان الوقت لكي ننهي الخصام وننسى خلافاتنا القديمة.",
   ),
   // 9.
   Idiom(
-    phrase: "Straight from the horse's mouth",
-    meaningAr: "مصدر موثوق / من فم الشخص نفسه",
-    explanationAr:
-        "الحصول على المعلومات من المصدر الأكثر موثوقية أو من الشخص المعني مباشرة.",
-    exampleEn: "I know it’s true; I heard it straight from the horse's mouth.",
-    exampleTranslationAr:
-        "أعلم أن هذا صحيح؛ سمعته من مصدر موثوق (من فم الشخص نفسه).",
+    phrase: "To sweep someone off their feet",
+    meaningAr: "يفتن شخصاً / يسحر قلبه",
+    literalMeaningAr: "يجرف شخصًا بعيدًا عن قدميه", // ✅ جديد
+    explanationAr: "جعل شخص ما يقع في الحب بسرعة وبعمق.",
+    exampleEn: "His romantic gesture completely swept her off her feet.",
+    exampleTranslationAr: "لفتته الرومانسية سحرت قلبها بالكامل.",
   ),
   // 10.
   Idiom(
-    phrase: "To beat a dead horse",
-    meaningAr: "يُضيع الوقت في نقاش لا فائدة منه",
+    phrase: "To carry a torch for someone",
+    meaningAr: "يحب شخصاً دون أمل (من طرف واحد)",
+    literalMeaningAr: "يحمل شعلة لأجل شخص", // ✅ جديد
     explanationAr:
-        "مواصلة مناقشة موضوع لا فائدة من مناقشته لأنه تم حسمه أو تم إجهاده.",
-    exampleEn:
-        "We’ve discussed this for an hour; let's stop beating a dead horse.",
+        "أن تستمر في حب شخص ما حتى بعد انتهاء العلاقة أو عندما لا يبادلك المشاعر.",
+    exampleEn: "Even though she’s married, he still carries a torch for her.",
     exampleTranslationAr:
-        "ناقشنا هذا الأمر لساعة؛ لنتوقف عن إضاعة الوقت في نقاش لا فائدة منه.",
+        "على الرغم من أنها متزوجة، إلا أنه لا يزال يحبها دون أمل.",
   ),
   // 11.
   Idiom(
-    phrase: "To talk someone's ear off",
-    meaningAr: "يتحدث كثيراً ويُمل الآخرين",
-    explanationAr: "التحدث مع شخص ما لفترة طويلة جداً لدرجة إملاله.",
-    exampleEn: "I was late because my neighbour talked my ear off.",
-    exampleTranslationAr: "تأخرت لأن جاري تحدث معي كثيراً وأملني.",
+    phrase: "To see eye to eye",
+    meaningAr: "يتفق / يرى الأمور بنفس الطريقة",
+    literalMeaningAr: "أن ينظر عين إلى عين", // ✅ جديد
+    explanationAr: "الاتفاق مع شخص ما في الرأي أو وجهة النظر.",
+    exampleEn: "They rarely argue because they see eye to eye on most things.",
+    exampleTranslationAr:
+        "نادراً ما يتشاجران لأنهما يتفقان في الرأي على معظم الأشياء.",
   ),
   // 12.
   Idiom(
-    phrase: "To put your foot in your mouth",
-    meaningAr: "يتفوه بكلام سخيف / يتحدث بتهور",
-    explanationAr: "قول شيء مُحرج أو غير مناسب يؤذي أو يزعج شخصاً آخر.",
-    exampleEn:
-        "I really put my foot in my mouth when I asked her about her ex-husband.",
-    exampleTranslationAr: "لقد تفوهت بكلام سخيف حقاً عندما سألتها عن طليقها.",
+    phrase: "To be joined at the hip",
+    meaningAr: "شخصان قريبان جداً ولا ينفصلان",
+    literalMeaningAr: "مربوطان عند الورك", // ✅ جديد
+    explanationAr: "أن تكون قريباً جداً من شخص ما وتقضي معه كل وقتك تقريباً.",
+    exampleEn: "Since they started dating, they've been joined at the hip.",
+    exampleTranslationAr: "منذ أن بدأا المواعدة، أصبحا لا ينفصلان.",
   ),
   // 13.
   Idiom(
-    phrase: "To cut to the chase",
-    meaningAr: "يدخل في صلب الموضوع / يذهب مباشرة للنقطة",
-    explanationAr: "تجاوز المقدمات غير المهمة والبدء في النقطة الأكثر أهمية.",
-    exampleEn: "Stop the background story and just cut to the chase.",
-    exampleTranslationAr: "توقف عن سرد الخلفية وادخل مباشرة في صلب الموضوع.",
+    phrase: "To be high-maintenance",
+    meaningAr: "صعب الإرضاء / يحتاج اهتماماً وجهداً كبيراً",
+    literalMeaningAr: "صيانة عالية", // ✅ جديد
+    explanationAr:
+        "وصف شخص يتطلب الكثير من الاهتمام والجهد للحفاظ على سعادته في العلاقة.",
+    exampleEn: "He complained that his partner was too high-maintenance.",
+    exampleTranslationAr: "اشتكى من أن شريكته صعبة الإرضاء للغاية.",
   ),
   // 14.
   Idiom(
-    phrase: "To call a spade a spade",
-    meaningAr: "يسمي الأشياء بأسمائها / يتحدث بصراحة",
-    explanationAr: "قول الحقيقة بصراحة ومباشرة، حتى لو كانت غير لطيفة.",
-    exampleEn: "She's very blunt; she always calls a spade a spade.",
-    exampleTranslationAr: "إنها صريحة جداً؛ هي دائماً تسمي الأشياء بأسمائها.",
+    phrase: "To keep someone at arm's length",
+    meaningAr: "يبقي شخصاً بعيداً / يتجنب القرب",
+    literalMeaningAr: "يبقي شخصًا على بعد ذراع", // ✅ جديد
+    explanationAr: "تجنب بناء علاقة مقربة وحميمة مع شخص ما.",
+    exampleEn:
+        "After her breakup, she decided to keep new suitors at arm's length.",
+    exampleTranslationAr: "بعد انفصالها، قررت أن تبقي الخاطبين الجدد بعيدين.",
   ),
   // 15.
   Idiom(
-    phrase: "To chew the fat",
-    meaningAr: "يتبادل أطراف الحديث / يدردش",
-    explanationAr: "الدردشة أو إجراء محادثة غير رسمية وطويلة.",
-    exampleEn: "We spent the whole afternoon just chewing the fat.",
-    exampleTranslationAr: "قضينا بعد الظهر كله نتبادل أطراف الحديث.",
+    phrase: "To hit it off",
+    meaningAr: "يتوافقان / ينسجمان بسرعة",
+    literalMeaningAr: "يصطدمان ويتوافقان", // ✅ جديد
+    explanationAr: "الانسجام والتوافق بشكل جيد مع شخص ما من اللحظة الأولى.",
+    exampleEn: "They met at a party and immediately hit it off.",
+    exampleTranslationAr: "التقيا في حفلة وانسجما على الفور.",
   ),
   // 16.
   Idiom(
-    phrase: "To give someone the lowdown",
-    meaningAr: "يقدم الخلاصة / يخبر بالتفاصيل الأساسية",
-    explanationAr: "تزويد شخص بالمعلومات والحقائق الأساسية حول موقف ما.",
-    exampleEn: "Can you give me the lowdown on the new company policy?",
-    exampleTranslationAr:
-        "هل يمكنك أن تقدم لي الخلاصة عن سياسة الشركة الجديدة؟",
+    phrase: "To be thick as thieves",
+    meaningAr: "قريبان جداً ومتفاهمان",
+    literalMeaningAr: "سميك مثل اللصوص", // ✅ جديد
+    explanationAr: "أن يكون شخصان صديقين حميمين جداً ومتفاهمين.",
+    exampleEn:
+        "Those two brothers are thick as thieves, sharing all their secrets.",
+    exampleTranslationAr: "هذان الأخوان قريبان جداً، يتبادلان كل أسرارهما.",
   ),
   // 17.
   Idiom(
-    phrase: "To talk shop",
-    meaningAr: "يتحدث عن العمل",
-    explanationAr: "التحدث عن العمل في مناسبة اجتماعية غير مخصصة للعمل.",
-    exampleEn: "I know we're at a party, but please, don't talk shop.",
-    exampleTranslationAr: "أعلم أننا في حفلة، لكن من فضلك، لا تتحدث عن العمل.",
+    phrase: "To be in the doghouse",
+    meaningAr: "يقع في ورطة / غاضب منه شريكه",
+    literalMeaningAr: "في كشك الكلب", // ✅ جديد
+    explanationAr:
+        "أن تكون في مشكلة أو في وضع غير مرغوب فيه مع شخص ما، خاصة في العلاقة.",
+    exampleEn:
+        "He forgot their anniversary and is now seriously in the doghouse.",
+    exampleTranslationAr: "لقد نسي ذكرى زواجهما وهو الآن في ورطة خطيرة.",
   ),
   // 18.
   Idiom(
-    phrase: "To have the last word",
-    meaningAr: "له الكلمة الأخيرة / يفوز بالنقاش",
-    explanationAr: "الإصرار على قول الكلمة النهائية في النقاش أو الجدال.",
+    phrase: "To turn over a new leaf",
+    meaningAr: "يفتح صفحة جديدة",
+    literalMeaningAr: "يقلب ورقة جديدة", // ✅ جديد
+    explanationAr:
+        "بدء مسار جديد في الحياة أو العلاقة، غالباً بعد فترة من السلوك السيئ.",
     exampleEn:
-        "Even when he's clearly wrong, he always has to have the last word.",
-    exampleTranslationAr:
-        "حتى عندما يكون مخطئاً بوضوح، يجب أن تكون له الكلمة الأخيرة دائماً.",
+        "After their counseling session, they decided to turn over a new leaf.",
+    exampleTranslationAr: "بعد جلسة الاستشارة، قرروا فتح صفحة جديدة.",
   ),
   // 19.
   Idiom(
-    phrase: "To let the cat out of the bag",
-    meaningAr: "يكشف سراً / يبوح بالسر",
-    explanationAr: "الكشف عن سر لم يكن من المفترض أن يُعرف.",
-    exampleEn: "He let the cat out of the bag about their move to Paris.",
-    exampleTranslationAr: "لقد كشف السر حول انتقالهم إلى باريس.",
+    phrase: "To play hard to get",
+    meaningAr: "يتمنع / يتصنع اللامبالاة",
+    literalMeaningAr: "يلعب ليبدو من الصعب الحصول عليه", // ✅ جديد
+    explanationAr:
+        "التظاهر بعدم الاهتمام بشخص ما لجذب انتباهه أو لجعله يطلب المزيد.",
+    exampleEn: "She's not really uninterested; she's just playing hard to get.",
+    exampleTranslationAr: "إنها ليست غير مهتمة حقاً؛ إنها تتمنع فقط.",
   ),
   // 20.
   Idiom(
-    phrase: "To be all ears",
-    meaningAr: "يستمع باهتمام كامل / صاغٍ جداً",
-    explanationAr: "أن تكون مستعداً جداً للاستماع لما سيقوله شخص ما.",
-    exampleEn: "I'm interested in your idea, I'm all ears.",
-    exampleTranslationAr: "أنا مهتم بفكرتك، أنا أستمع باهتمام كامل.",
+    phrase: "To be a cold fish",
+    meaningAr: "شخص بارد المشاعر / غير عاطفي",
+    literalMeaningAr: "سمكة باردة", // ✅ جديد
+    explanationAr: "وصف شخص يبدو غير ودي أو غير عاطفي.",
+    exampleEn: "She broke up with him because he was such a cold fish.",
+    exampleTranslationAr: "انفصلت عنه لأنه كان شخصاً بارد المشاعر.",
   ),
-
   // 21.
   Idiom(
-    phrase: "To turn a deaf ear",
-    meaningAr: "يتجاهل / يتظاهر بعدم السماع",
-    explanationAr: "رفض الاستماع أو الاهتمام بما يقال لك.",
-    exampleEn: "The management turned a deaf ear to the workers' complaints.",
-    exampleTranslationAr: "تجاهلت الإدارة شكاوى العمال.",
+    phrase: "To have a falling out",
+    meaningAr: "يتشاجر / يختلف بشدة",
+    literalMeaningAr: "يسقط مع شخص", // ✅ جديد
+    explanationAr: "الدخول في خلاف أو جدال أدى إلى توتر العلاقة.",
+    exampleEn: "They had a major falling out over money issues.",
+    exampleTranslationAr: "لقد اختلفوا بشدة بسبب مشاكل المال.",
   ),
   // 22.
   Idiom(
-    phrase: "To hold your peace",
-    meaningAr: "يلتزم الصمت",
-    explanationAr:
-        "عدم الكلام أو عدم التعبير عن الرأي، وغالباً ما يُستخدم لتهدئة الموقف.",
-    exampleEn: "If you have nothing nice to say, please hold your peace.",
+    phrase: "To make up",
+    meaningAr: "يتصالح",
+    literalMeaningAr: "يُصلح", // ✅ جديد
+    explanationAr: "إنهاء الخلاف والعودة إلى علاقة ودية.",
+    exampleEn: "They fought last night but made up quickly this morning.",
     exampleTranslationAr:
-        "إذا لم يكن لديك شيء لطيف لتقوله، فالرجاء التزم الصمت.",
+        "تشاجروا الليلة الماضية لكن تصالحوا بسرعة هذا الصباح.",
   ),
   // 23.
   Idiom(
-    phrase: "To talk until you are blue in the face",
-    meaningAr: "يتحدث كثيراً دون جدوى",
-    explanationAr: "التحدث مطولاً جداً دون إقناع المستمع أو تحقيق أي نتيجة.",
+    phrase: "To walk all over someone",
+    meaningAr: "يستغل شخصاً / يتعدى على حقوقه",
+    literalMeaningAr: "يمشي فوق شخص", // ✅ جديد
+    explanationAr: "معاملة شخص ما بلا احترام أو استغلال طيبته.",
     exampleEn:
-        "You can talk until you are blue in the face, but he won't change his mind.",
-    exampleTranslationAr: "يمكنك أن تتحدث كثيراً دون جدوى، لكنه لن يغير رأيه.",
+        "You shouldn't let him walk all over you; stand up for yourself.",
+    exampleTranslationAr: "لا يجب أن تدعه يتعدى على حقوقك؛ دافع عن نفسك.",
   ),
   // 24.
   Idiom(
-    phrase: "To put in a good word for someone",
-    meaningAr: "يزكي شخصاً / يتحدث بالخير عنه",
-    explanationAr:
-        "قول شيء إيجابي عن شخص ما لمساعدته، خاصة في الحصول على وظيفة.",
-    exampleEn:
-        "I'm applying for that job, could you put in a good word for me?",
-    exampleTranslationAr: "أنا أتقدم لتلك الوظيفة، هل يمكنك أن تزكيني؟",
+    phrase: "To break up / To split up",
+    meaningAr: "ينفصل (عن شريك)",
+    literalMeaningAr: "يكسر أو يقسم العلاقة", // ✅ جديد
+    explanationAr: "إنهاء علاقة عاطفية.",
+    exampleEn: "It was sad when they decided to break up after college.",
+    exampleTranslationAr: "كان الأمر محزناً عندما قرروا الانفصال بعد الكلية.",
   ),
   // 25.
   Idiom(
-    phrase: "To get the picture",
-    meaningAr: "يفهم الوضع / يستوعب الفكرة",
-    explanationAr: "فهم الموقف أو الفكرة بشكل عام.",
-    exampleEn: "I didn't understand at first, but now I get the picture.",
-    exampleTranslationAr: "لم أفهم في البداية، لكنني الآن أستوعب الفكرة.",
+    phrase: "To meet halfway",
+    meaningAr: "يقدم تنازلات / يتفق على حل وسط",
+    literalMeaningAr: "يلتقي في منتصف الطريق", // ✅ جديد
+    explanationAr: "التنازل عن بعض المتطلبات للتوصل إلى اتفاق مع شخص آخر.",
+    exampleEn: "For the relationship to work, both sides must meet halfway.",
+    exampleTranslationAr:
+        "لكي تنجح العلاقة، يجب على كلا الطرفين تقديم تنازلات.",
   ),
   // 26.
   Idiom(
-    phrase: "To come clean",
-    meaningAr: "يعترف بالحقيقة / يصارح",
-    explanationAr: "الاعتراف بالحقيقة حول شيء تم إخفاؤه.",
-    exampleEn: "It’s time to come clean about where you were last night.",
+    phrase: "To have an open relationship",
+    meaningAr: "لديه علاقة مفتوحة",
+    literalMeaningAr: "علاقة مفتوحة", // ✅ جديد
+    explanationAr:
+        "علاقة حيث يُسمح للشريكين بمواعدة أشخاص آخرين بموافقة الطرفين.",
+    exampleEn:
+        "They agreed to have an open relationship since they lived in different countries.",
     exampleTranslationAr:
-        "حان الوقت لكي تعترف بالحقيقة بشأن مكانك الليلة الماضية.",
+        "اتفقا على أن تكون لديهما علاقة مفتوحة لأنهما يعيشان في بلدان مختلفة.",
   ),
   // 27.
   Idiom(
-    phrase: "To give someone the benefit of the doubt",
-    meaningAr: "يحسن الظن بشخص / يعطيه فرصة",
-    explanationAr:
-        "قبول قول شخص أو قصته دون تدقيق، حتى لو لم يكن هناك دليل قاطع.",
+    phrase: "To have a long-distance relationship",
+    meaningAr: "لديه علاقة عن بعد",
+    literalMeaningAr: "علاقة بمسافة طويلة", // ✅ جديد
+    explanationAr: "علاقة عاطفية بين شخصين يعيشان بعيداً عن بعضهما البعض.",
     exampleEn:
-        "I'll give him the benefit of the doubt and assume he was delayed.",
-    exampleTranslationAr: "سأحسن الظن به وأفترض أنه تأخر.",
+        "It is difficult to maintain a long-distance relationship but they are trying.",
+    exampleTranslationAr: "من الصعب الحفاظ على علاقة عن بعد لكنهما يحاولان.",
   ),
   // 28.
   Idiom(
-    phrase: "To let sleeping dogs lie",
-    meaningAr: "لا تفتح مواضيع قديمة / لا تُثير المشاكل",
-    explanationAr:
-        "تجنب إثارة مشكلة أو نزاع قديم يمكن أن يسبب المتاعب إذا تم ذكره.",
-    exampleEn: "Don't bring up the past argument, let sleeping dogs lie.",
-    exampleTranslationAr: "لا تثر الجدال الماضي، لا تفتح مواضيع قديمة.",
+    phrase: "To cheat on someone",
+    meaningAr: "يخون شخصاً",
+    literalMeaningAr: "يغش على شخص", // ✅ جديد
+    explanationAr: "أن تكون غير مخلص لشريكك العاطفي.",
+    exampleEn: "He found out his wife was cheating on him with a colleague.",
+    exampleTranslationAr: "اكتشف أن زوجته تخونه مع زميل.",
   ),
   // 29.
   Idiom(
-    phrase: "To get something off your chest",
-    meaningAr: "يرتاح بالاعتراف / يفضفض",
-    explanationAr: "الاعتراف بشيء يسبب لك القلق أو الشعور بالذنب.",
-    exampleEn: "I need to get this secret off my chest; it's been worrying me.",
-    exampleTranslationAr: "أحتاج أن أفضفض بهذا السر؛ لقد كان يقلقني.",
+    phrase: "To be glued to someone",
+    meaningAr: "ملتصق بشخص / لا يفارقه",
+    literalMeaningAr: "مُلصق بشخص", // ✅ جديد
+    explanationAr: "أن تكون قريباً جداً من شخص ما ولا تغادره أو تنفصل عنه.",
+    exampleEn: "During the party, the little boy was glued to his grandmother.",
+    exampleTranslationAr: "خلال الحفلة، كان الصبي الصغير ملتصقاً بجدته.",
   ),
   // 30.
   Idiom(
-    phrase: "To cross the line",
-    meaningAr: "يتجاوز الحدود / يتعدى",
+    phrase: "To wear the trousers (or pants)",
+    meaningAr: "صاحب القرار / المتحكم في العلاقة",
+    literalMeaningAr: "يرتدي البنطلون", // ✅ جديد
     explanationAr:
-        "تجاوز الحدود المقبولة للسلوك أو اللياقة في الكلام أو الفعل.",
-    exampleEn: "His jokes started to cross the line and became offensive.",
-    exampleTranslationAr: "بدأت نكاته تتجاوز الحدود وأصبحت مسيئة.",
+        "الشخص الذي يتمتع بالسلطة ويتخذ القرارات في علاقة ما (عادة زوجة).",
+    exampleEn: "In that household, it's clear the wife wears the trousers.",
+    exampleTranslationAr: "في ذلك المنزل، من الواضح أن الزوجة هي صاحبة القرار.",
   ),
   // 31.
   Idiom(
-    phrase: "To mince words",
-    meaningAr: "يُلطف الكلام / يتجنب الصراحة",
-    explanationAr: "الحديث بأدب أو بطريقة غير مباشرة لتجنب إيذاء مشاعر شخص ما.",
-    exampleEn: "Don't mince words, just tell me exactly what happened.",
-    exampleTranslationAr: "لا تلطف الكلام، فقط أخبرني بما حدث بالضبط.",
+    phrase: "To sweep something under the rug",
+    meaningAr: "يُخفي المشاكل / يتجاهل الأمور الصعبة",
+    literalMeaningAr: "يُكنس شيئًا تحت السجادة", // ✅ جديد
+    explanationAr: "محاولة إخفاء المشاكل أو الأمور غير السارة وتجنب مناقشتها.",
+    exampleEn:
+        "They keep sweeping their financial problems under the rug instead of solving them.",
+    exampleTranslationAr: "يستمرون في إخفاء مشاكلهم المالية بدلاً من حلها.",
   ),
   // 32.
   Idiom(
-    phrase: "To be quick on the uptake",
-    meaningAr: "سريع الفهم / ذكي",
-    explanationAr: "القدرة على فهم وشرح المعلومات الجديدة بسرعة.",
-    exampleEn:
-        "She’s quick on the uptake, you only have to explain things once.",
-    exampleTranslationAr: "إنها سريعة الفهم، عليك فقط شرح الأمور مرة واحدة.",
+    phrase: "To give someone the cold shoulder",
+    meaningAr: "يتجاهل شخصاً / يتعامل ببرود",
+    literalMeaningAr: "يعطي كتفًا باردًا", // ✅ جديد
+    explanationAr: "التجاهل المتعمد لشخص ما أو التعامل معه بطريقة غير ودية.",
+    exampleEn: "After the disagreement, she gave him the cold shoulder.",
+    exampleTranslationAr: "بعد الخلاف، تعاملت معه ببرود (تجاهلته).",
   ),
   // 33.
   Idiom(
-    phrase: "To give someone the straight scoop",
-    meaningAr: "يخبر شخصاً بالحقيقة الكاملة",
-    explanationAr: "إخبار شخص ما بكل الحقائق والمعلومات المباشرة.",
-    exampleEn: "I want the straight scoop on why the meeting was cancelled.",
-    exampleTranslationAr: "أريد الحقيقة الكاملة حول سبب إلغاء الاجتماع.",
+    phrase: "To lead someone on",
+    meaningAr: "يُوهم شخصاً / يعطيه آمالاً زائفة",
+    literalMeaningAr: "يقود شخصًا أمامه", // ✅ جديد
+    explanationAr: "إعطاء شخص ما انطباعاً كاذباً بأنك مهتم به عاطفياً.",
+    exampleEn:
+        "I felt like she was leading me on, but she never intended to commit.",
+    exampleTranslationAr:
+        "شعرت أنها كانت توهمني، لكنها لم تكن تنوي الالتزام أبداً.",
   ),
   // 34.
   Idiom(
-    phrase: "To put a damper on",
-    meaningAr: "يُفسد متعة / يقلل من الحماس",
-    explanationAr: "جعل حدثاً أو موقفاً أقل متعة أو حماساً.",
-    exampleEn: "The bad weather really put a damper on our picnic plans.",
-    exampleTranslationAr: "أفسد الطقس السيئ خطط نزهتنا حقاً.",
+    phrase: "To patch things up",
+    meaningAr: "يُصلح الأمور / يتصالح بعد خلاف",
+    literalMeaningAr: "يُصلح الأشياء", // ✅ جديد
+    explanationAr: "إصلاح علاقة تضررت بسبب جدال أو خلاف.",
+    exampleEn: "I hope they can patch things up and get back together soon.",
+    exampleTranslationAr:
+        "آمل أن يتمكنوا من إصلاح الأمور والعودة لبعضهما قريباً.",
   ),
   // 35.
   Idiom(
-    phrase: "To hold your tongue",
-    meaningAr: "يكتم الكلام / يمتنع عن التعليق",
-    explanationAr: "البقاء صامتاً عندما يكون لديك شيء تود قوله.",
-    exampleEn: "It was rude, but I decided to hold my tongue.",
-    exampleTranslationAr: "كان الأمر وقحاً، لكنني قررت أن أكتم الكلام.",
+    phrase: "To walk on eggshells",
+    meaningAr: "يتوخى الحذر الشديد (في الكلام)",
+    literalMeaningAr: "يمشي على بيض", // ✅ جديد
+    explanationAr: "التصرف بحذر شديد لتجنب إزعاج شخص حساس أو سريع الغضب.",
+    exampleEn:
+        "Since the big fight, I feel like I'm walking on eggshells around him.",
+    exampleTranslationAr:
+        "منذ الشجار الكبير، أشعر وكأنني أتوخى الحذر الشديد في التعامل معه.",
   ),
   // 36.
   Idiom(
-    phrase: "To be lost for words",
-    meaningAr: "لا يجد الكلمات المناسبة / مصدوم",
-    explanationAr:
-        "عدم القدرة على الكلام بسبب الصدمة، المفاجأة، أو التأثر الشديد.",
-    exampleEn: "When I won the award, I was completely lost for words.",
-    exampleTranslationAr: "عندما فزت بالجائزة، لم أجد الكلمات المناسبة.",
+    phrase: "To be joined in holy matrimony",
+    meaningAr: "متزوجان بعقد شرعي / زواج مقدس",
+    literalMeaningAr: "مربوطان في زواج مقدس", // ✅ جديد
+    explanationAr: "صيغة رسمية أو دينية لوصف الزواج.",
+    exampleEn:
+        "They were joined in holy matrimony at the cathedral last weekend.",
+    exampleTranslationAr:
+        "تزوجا بعقد شرعي في الكاتدرائية في نهاية الأسبوع الماضي.",
   ),
   // 37.
   Idiom(
-    phrase: "To talk through your hat",
-    meaningAr: "يتحدث كلاماً فارغاً / يتفوه بغير وعي",
-    explanationAr: "التحدث عن شيء تجهله أو قول شيء سخيف وغير منطقي.",
+    phrase: "To take the plunge",
+    meaningAr: "يتخذ خطوة جريئة (غالباً الزواج)",
+    literalMeaningAr: "يأخذ الغطسة", // ✅ جديد
+    explanationAr:
+        "اتخاذ قرار حاسم وكبير، وغالباً ما يُستخدم للإشارة إلى الزواج.",
     exampleEn:
-        "He's talking through his hat; he knows nothing about the economy.",
+        "After ten years of dating, they finally decided to take the plunge.",
     exampleTranslationAr:
-        "إنه يتحدث كلاماً فارغاً؛ هو لا يعرف شيئاً عن الاقتصاد.",
+        "بعد عشر سنوات من المواعدة، قرروا أخيراً اتخاذ خطوة الزواج.",
   ),
   // 38.
   Idiom(
-    phrase: "To drop a hint",
-    meaningAr: "يلمح / يُعطي تلميحاً",
-    explanationAr: "إعطاء إشارة غير مباشرة حول شيء تريد أن يفهمه شخص آخر.",
-    exampleEn: "I dropped a hint that I wanted a new phone for my birthday.",
-    exampleTranslationAr:
-        "أعطيت تلميحاً بأنني أريد هاتفاً جديداً بمناسبة عيد ميلادي.",
+    phrase: "To be smitten with someone",
+    meaningAr: "مفتون بشخص / مغرم جداً",
+    literalMeaningAr: "مُصاب بشيء من الحب", // ✅ جديد
+    explanationAr: "أن تكون مُغْرَماً بشخص ما بشدة ومُتأثراً به.",
+    exampleEn: "He was completely smitten with her from the moment they met.",
+    exampleTranslationAr: "كان مفتوناً بها تماماً منذ اللحظة التي التقيا فيها.",
   ),
   // 39.
   Idiom(
-    phrase: "To take something with a grain of salt",
-    meaningAr: "لا يصدق تماماً / يأخذ الكلام بتحفظ",
-    explanationAr: "عدم تصديق كل ما يقال لك، والتعامل مع المعلومات ببعض الشك.",
-    exampleEn: "You should take his promises with a grain of salt.",
-    exampleTranslationAr: "يجب أن تأخذ وعوده بتحفظ (لا تصدقها تماماً).",
+    phrase: "To kiss and make up",
+    meaningAr: "يتبادلان الاعتذار ويتصالحان",
+    literalMeaningAr: "يقبّلان ويتصالحان", // ✅ جديد
+    explanationAr:
+        "التصالح بعد جدال بسيط، عادة عن طريق التقبيل أو المصالحة السريعة.",
+    exampleEn:
+        "All couples fight, but the important thing is to kiss and make up.",
+    exampleTranslationAr: "كل الأزواج يتشاجرون، لكن المهم هو المصالحة.",
   ),
   // 40.
   Idiom(
-    phrase: "To hang up the phone",
-    meaningAr: "يُغلق الخط",
-    explanationAr: "إنهاء مكالمة هاتفية.",
-    exampleEn: "She got angry and hung up the phone on me.",
-    exampleTranslationAr: "غضبت وأغلقت الخط في وجهي.",
+    phrase: "To have a crush on someone",
+    meaningAr: "معجب بشخص / لديه إعجاب عابر",
+    literalMeaningAr: "لديه سحق على شخص", // ✅ جديد
+    explanationAr:
+        "أن تكون مُعجباً بشخص ما أو لديك مشاعر رومانسية عابرة تجاهه.",
+    exampleEn: "She had a huge crush on her history teacher in high school.",
+    exampleTranslationAr:
+        "كان لديها إعجاب كبير بأستاذها للتاريخ في المدرسة الثانوية.",
   ),
 
   // 41.
   Idiom(
-    phrase: "To pass the buck",
-    meaningAr: "يتنصل من المسؤولية / يرمي اللوم على الآخرين",
-    explanationAr: "إلقاء اللوم أو المسؤولية على شخص آخر.",
-    exampleEn:
-        "The manager is always trying to pass the buck instead of making a decision.",
-    exampleTranslationAr:
-        "يحاول المدير دائماً التنصل من المسؤولية بدلاً من اتخاذ قرار.",
+    phrase: "To burn your bridges",
+    meaningAr: "يقطع جميع الجسور (ينهي العلاقة بلا رجعة)",
+    literalMeaningAr: "يحرق جسورك", // ✅ جديد
+    explanationAr: "القيام بأمر يجعل العودة إلى علاقة سابقة أمراً مستحيلاً.",
+    exampleEn: "When he lied, he burned all his bridges with her family.",
+    exampleTranslationAr: "عندما كذب، قطع جميع الجسور مع عائلتها.",
   ),
   // 42.
   Idiom(
-    phrase: "To have a heart-to-heart",
-    meaningAr: "يتبادلان حديثاً من القلب للقلب / يتصارحان",
-    explanationAr: "إجراء محادثة صادقة وصريحة حول المشاعر أو المشاكل الشخصية.",
-    exampleEn:
-        "We decided to have a heart-to-heart about our relationship issues.",
+    phrase: "To be a third wheel",
+    meaningAr: "الطرف الثالث غير المرغوب فيه",
+    literalMeaningAr: "عجلة ثالثة", // ✅ جديد
+    explanationAr:
+        "أن تكون الشخص الزائد أو غير المرغوب فيه عند مجموعة من شخصين (عشيقين عادة).",
+    exampleEn: "I felt like a third wheel hanging out with the engaged couple.",
     exampleTranslationAr:
-        "قررنا أن نتبادل حديثاً من القلب للقلب حول مشاكل علاقتنا.",
+        "شعرت أنني الطرف الثالث غير المرغوب فيه عندما كنت أتسكع مع الزوجين المخطوبين.",
   ),
   // 43.
   Idiom(
-    phrase: "To speak volumes",
-    meaningAr: "يُعبر بوضوح / يتحدث عن نفسه",
-    explanationAr:
-        "إيصال معلومة قوية أو تعبير عن شيء ما دون الحاجة إلى الكلمات.",
-    exampleEn: "Her silence spoke volumes about her disappointment.",
-    exampleTranslationAr: "صمتها عبر بوضوح عن خيبة أملها.",
+    phrase: "To be head over heels in love",
+    meaningAr: "مغرم حتى النخاع / واقع في الحب بجنون",
+    literalMeaningAr: "رأس فوق كعبين في الحب", // ✅ جديد
+    explanationAr: "أن تكون مغرماً بشخص ما لدرجة الجنون.",
+    exampleEn:
+        "They've only known each other for a month, but they are head over heels in love.",
+    exampleTranslationAr:
+        "لقد عرفا بعضهما البعض لمدة شهر واحد فقط، لكنهما مغرمان حتى النخاع.",
   ),
   // 44.
   Idiom(
-    phrase: "To talk someone out of something",
-    meaningAr: "يُقنع شخصاً بالتراجع عن شيء",
-    explanationAr: "إقناع شخص ما بعدم فعل شيء كان يخطط للقيام به.",
-    exampleEn:
-        "I tried to talk him out of quitting his job, but he wouldn't listen.",
-    exampleTranslationAr: "حاولت إقناعه بالتراجع عن ترك وظيفته، لكنه لم يستمع.",
+    phrase: "To tie someone down",
+    meaningAr: "يُقيد شخصاً / يفرض عليه الالتزام",
+    literalMeaningAr: "يربط شخصًا", // ✅ جديد
+    explanationAr:
+        "إجبار شخص ما على الالتزام بعلاقة لا يريدها، أو تقييده في وضع ما.",
+    exampleEn: "He doesn't want to get married; he feels it will tie him down.",
+    exampleTranslationAr: "لا يريد الزواج؛ يشعر أنه سيقيده.",
   ),
   // 45.
   Idiom(
-    phrase: "To be the talk of the town",
-    meaningAr: "حديث البلدة / الكل يتحدث عنه",
-    explanationAr: "أن تكون موضوع الحديث الشائع بين عدد كبير من الناس.",
-    exampleEn: "The sudden wedding was the talk of the town.",
-    exampleTranslationAr: "الزفاف المفاجئ كان حديث البلدة.",
+    phrase: "To be in cahoots with someone",
+    meaningAr: "متواطئ مع شخص / شريك في السر",
+    literalMeaningAr: "في خيمة واحدة مع شخص", // ✅ جديد
+    explanationAr: "أن تكون على علاقة سرية أو شراكة غير نزيهة مع شخص ما.",
+    exampleEn: "The neighbours were in cahoots to organize the surprise party.",
+    exampleTranslationAr:
+        "كان الجيران متواطئين (متفقين سراً) لتنظيم حفلة المفاجأة.",
   ),
   // 46.
   Idiom(
-    phrase: "To lend an ear",
-    meaningAr: "يستمع بعطف / يصغي باهتمام",
-    explanationAr: "الاستماع إلى شخص بعطف واهتمام.",
-    exampleEn: "Thank you for lending an ear when I needed to vent.",
-    exampleTranslationAr: "شكراً لك على إصغائك لي عندما احتجت إلى التنفيس.",
+    phrase: "To be two peas in a pod",
+    meaningAr: "متشابهان جداً / توأمان روحي",
+    literalMeaningAr: "بازلاء في قشرة واحدة", // ✅ جديد
+    explanationAr: "أن يكون شخصان متشابهين جداً في الشكل أو الشخصية.",
+    exampleEn: "My sister and I think alike; we are two peas in a pod.",
+    exampleTranslationAr: "أختي وأنا نفكر بنفس الطريقة؛ نحن متشابهتان جداً.",
   ),
   // 47.
   Idiom(
-    phrase: "To be at a loss for words",
-    meaningAr: "عاجز عن الكلام",
-    explanationAr:
-        "أن تكون غير قادر على التفكير في أي شيء لتقوله، خاصة بسبب الصدمة أو الإعجاب.",
-    exampleEn: "I was at a loss for words when I saw the beautiful view.",
-    exampleTranslationAr: "كنت عاجزاً عن الكلام عندما رأيت المنظر الجميل.",
+    phrase: "To take someone for granted",
+    meaningAr: "يُهمل شخصاً / لا يقدر وجوده",
+    literalMeaningAr: "يأخذه من المسلمات", // ✅ جديد
+    explanationAr: "الفشل في تقدير شخص ما أو اعتبار وجوده أمراً مفروغاً منه.",
+    exampleEn: "Never take your family or true friends for granted.",
+    exampleTranslationAr: "لا تُهمل أبداً عائلتك أو أصدقائك الحقيقيين.",
   ),
   // 48.
   Idiom(
-    phrase: "To put it mildly",
-    meaningAr: "بلطف / بعبارة أخرى مخففة",
-    explanationAr:
-        "يُستخدم عندما يكون الوصف الذي استخدمته غير كافٍ أو مبالغاً فيه بشكل طفيف.",
-    exampleEn: "The food was terrible, to put it mildly.",
-    exampleTranslationAr: "كان الطعام فظيعاً، بعبارة أخرى مخففة.",
+    phrase: "To fall out of love",
+    meaningAr: "يزول الحب / يضعف الإعجاب",
+    literalMeaningAr: "يسقط من الحب", // ✅ جديد
+    explanationAr: "التوقف عن الشعور بالحب تجاه شخص ما.",
+    exampleEn: "It was sad when they admitted they had fallen out of love.",
+    exampleTranslationAr:
+        "كان الأمر محزناً عندما اعترفا بأن الحب قد زال بينهما.",
   ),
   // 49.
   Idiom(
-    phrase: "To read between the lines",
-    meaningAr: "يفهم ما بين السطور / يستنتج",
-    explanationAr:
-        "فهم المعنى الحقيقي لشخص ما حتى لو لم يتم التعبير عنه صراحة.",
-    exampleEn:
-        "You need to read between the lines to understand his real intentions.",
-    exampleTranslationAr: "عليك أن تفهم ما بين السطور لتفهم نواياه الحقيقية.",
+    phrase: "To break someone's heart",
+    meaningAr: "يكسر قلب شخص / يؤذيه عاطفياً",
+    literalMeaningAr: "يكسر قلب شخص", // ✅ جديد
+    explanationAr: "جعل شخص ما يشعر بالحزن الشديد بسبب انتهاء العلاقة.",
+    exampleEn: "He was devastated when she broke his heart.",
+    exampleTranslationAr: "لقد تحطم عندما كسرت قلبه.",
   ),
   // 50.
   Idiom(
-    phrase: "To take a hint",
-    meaningAr: "يفهم التلميح",
-    explanationAr: "فهم ما يريده أو يعنيه شخص ما من خلال تلميح غير مباشر.",
-    exampleEn:
-        "He didn't take a hint that I was trying to end the conversation.",
-    exampleTranslationAr: "لم يفهم التلميح بأنني كنت أحاول إنهاء المحادثة.",
+    phrase: "To be the apple of someone's eye",
+    meaningAr: "قرّة عين شخص / محبوبه الأثير",
+    literalMeaningAr: "تفاحة عين شخص", // ✅ جديد
+    explanationAr: "الشخص الذي يعشقه شخص آخر ويحبه أكثر من أي شيء آخر.",
+    exampleEn: "The granddaughter is the apple of her grandfather's eye.",
+    exampleTranslationAr: "الحفيدة هي قرة عين جدها (محبوبته الأثيرة).",
   ),
   // 51.
   Idiom(
-    phrase: "To keep a lid on it",
-    meaningAr: "يحتفظ بالسر / لا يفصح",
-    explanationAr: "الحفاظ على سرية شيء ما وعدم الإفصاح عنه.",
-    exampleEn: "This information is sensitive, please keep a lid on it.",
-    exampleTranslationAr: "هذه المعلومات حساسة، من فضلك احتفظ بالسر.",
+    phrase: "To get hitched",
+    meaningAr: "يتزوج (عامية)",
+    literalMeaningAr: "يُربط", // ✅ جديد
+    explanationAr: "التعبير عن الزواج بطريقة غير رسمية.",
+    exampleEn: "I heard Tom and Sarah finally got hitched last month.",
+    exampleTranslationAr: "سمعت أن توم وسارة تزوجا أخيراً الشهر الماضي.",
   ),
   // 52.
   Idiom(
-    phrase: "To parrot something",
-    meaningAr: "يُردد الكلام ببلاهة / يُكرر دون فهم",
-    explanationAr: "تكرار ما قاله شخص آخر دون فهم المعنى أو التفكير فيه.",
-    exampleEn: "He just parrots everything his older brother says.",
-    exampleTranslationAr: "إنه يردد ببلاهة كل ما يقوله أخوه الأكبر.",
+    phrase: "To have a checkered past",
+    meaningAr: "لديه ماضٍ مضطرب / علاقات سابقة مشبوهة",
+    literalMeaningAr: "ماضٍ مكوّن من مربعات", // ✅ جديد
+    explanationAr: "أن يكون لديك تاريخ من العلاقات أو الأحداث المشكوك فيها.",
+    exampleEn:
+        "He worries his fiancé might leave him because he has a checkered past.",
+    exampleTranslationAr: "إنه قلق من أن تخطره قد تتركه لأن لديه ماضٍ مضطرب.",
   ),
   // 53.
   Idiom(
-    phrase: "To speak one's mind",
-    meaningAr: "يُعبر عن رأيه بصراحة / يقول ما يفكر فيه",
-    explanationAr: "التعبير عن رأيك بصدق وصراحة.",
-    exampleEn: "She's known for speaking her mind, even if it's unpopular.",
-    exampleTranslationAr:
-        "تشتهر بأنها تعبر عن رأيها بصراحة، حتى لو لم يكن شائعاً.",
+    phrase: "To keep someone waiting",
+    meaningAr: "يجعل شخصاً ينتظر طويلاً",
+    literalMeaningAr: "يُبقي شخصًا ينتظر", // ✅ جديد
+    explanationAr: "تأخير موعد أو مقابلة شخص ما لفترة طويلة عمداً أو بغير قصد.",
+    exampleEn: "I hate being kept waiting when I have an appointment.",
+    exampleTranslationAr: "أكره أن يُجعلني أُنتظر عندما يكون لدي موعد.",
   ),
   // 54.
   Idiom(
-    phrase: "To talk the hind legs off a donkey",
-    meaningAr: "ثرثار جداً / لا يتوقف عن الحديث",
-    explanationAr: "وصف شخص يتحدث لفترة طويلة جداً وبإسهاب.",
-    exampleEn:
-        "The host could talk the hind legs off a donkey; the dinner was exhausting.",
-    exampleTranslationAr: "كان المضيف ثرثاراً جداً؛ كان العشاء مرهقاً.",
+    phrase: "To be inseparable",
+    meaningAr: "لا يمكن فصلهما / قريبان جداً",
+    literalMeaningAr: "لا يمكن فصلهما", // ✅ جديد
+    explanationAr: "أن يكون شخصان قريبان جداً لدرجة أنهما لا ينفصلان أبداً.",
+    exampleEn: "Since their childhood, the two girls have been inseparable.",
+    exampleTranslationAr: "منذ طفولتهما، الفتاتان لا يمكن فصلهما.",
   ),
   // 55.
   Idiom(
-    phrase: "To get the lowdown",
-    meaningAr: "يحصل على المعلومات السرية / يعرف الخبايا",
-    explanationAr: "الحصول على المعلومات الهامة والسرية حول موضوع ما.",
-    exampleEn: "We met up to get the lowdown on the internal office drama.",
+    phrase: "To leave someone standing at the altar",
+    meaningAr: "يتخلى عن شخص قبل الزواج مباشرة",
+    literalMeaningAr: "يترك شخصًا واقفًا عند المذبح", // ✅ جديد
+    explanationAr: "التخلي عن العروس أو العريس قبل إتمام مراسم الزواج بلحظات.",
+    exampleEn:
+        "The groom had a panic attack and left his bride standing at the altar.",
     exampleTranslationAr:
-        "التقينا للحصول على الخبايا حول دراما المكتب الداخلية.",
+        "أصيب العريس بنوبة هلع وتخلى عن عروسه قبل الزواج مباشرة.",
   ),
   // 56.
   Idiom(
-    phrase: "To put words in someone's mouth",
-    meaningAr: "يُحرف كلام شخص / ينسب إليه كلاماً لم يقله",
-    explanationAr:
-        "الادعاء بأن شخصاً قال شيئاً لم يقله أو التعبير عن رأيه بدلاً عنه.",
-    exampleEn: "I never said that! Don't put words in my mouth.",
-    exampleTranslationAr:
-        "لم أقل ذلك أبداً! لا تحرف كلامي (لا تنسب لي كلاماً لم أقله).",
+    phrase: "To give someone the cold shoulder",
+    meaningAr: "يتجاهل شخصاً / يتعامل ببرود",
+    literalMeaningAr: "يعطي كتفًا باردًا", // ✅ جديد
+    explanationAr: "التجاهل المتعمد لشخص ما أو التعامل معه بطريقة غير ودية.",
+    exampleEn: "After the disagreement, she gave him the cold shoulder.",
+    exampleTranslationAr: "بعد الخلاف، تعاملت معه ببرود (تجاهلته).",
   ),
   // 57.
   Idiom(
-    phrase: "To make a clean breast of it",
-    meaningAr: "يعترف بكل شيء / يُصارح بجميع الأخطاء",
-    explanationAr: "الاعتراف بكل ما فعلته من أخطاء أو سرائر.",
+    phrase: "To have a chip on your shoulder",
+    meaningAr: "حاقد / يحمل ضغينة",
+    literalMeaningAr: "لديه قطعة على كتفه", // ✅ جديد
+    explanationAr:
+        "أن يكون لديك حقد أو غضب بسبب مظلمة سابقة، مما يؤثر على تعاملك.",
     exampleEn:
-        "He decided to make a clean breast of it and tell the police everything.",
-    exampleTranslationAr: "قرر أن يعترف بكل شيء ويخبر الشرطة بكل شيء.",
+        "He has a chip on his shoulder about his ex-girlfriend's success.",
+    exampleTranslationAr: "إنه يحمل ضغينة بسبب نجاح حبيبته السابقة.",
   ),
   // 58.
   Idiom(
-    phrase: "To spread the word",
-    meaningAr: "ينشر الخبر / يذيع المعلومة",
-    explanationAr: "نشر المعلومات أو الأخبار على نطاق واسع.",
-    exampleEn: "Please spread the word about the upcoming charity event.",
-    exampleTranslationAr: "من فضلك انشر الخبر عن الحدث الخيري القادم.",
+    phrase: "To be an item",
+    meaningAr: "مرتبطان عاطفياً / يتواعدان",
+    literalMeaningAr: "أن يكونا عنصرًا واحدًا", // ✅ جديد
+    explanationAr: "أن يكون شخصان في علاقة عاطفية معترف بها علناً.",
+    exampleEn: "The rumors are true; Sarah and Tom are officially an item now.",
+    exampleTranslationAr: "الشائعات صحيحة؛ سارة وتوم مرتبطان رسمياً الآن.",
   ),
   // 59.
   Idiom(
-    phrase: "To catch someone's drift",
-    meaningAr: "يفهم قصد شخص / يدرك مغزى الكلام",
-    explanationAr: "فهم المعنى أو الهدف الرئيسي من كلام شخص ما.",
-    exampleEn: "I'm not saying it directly, but do you catch my drift?",
-    exampleTranslationAr: "أنا لا أقولها مباشرة، لكن هل تدرك مغزى الكلام؟",
+    phrase: "To make amends",
+    meaningAr: "يُعوّض عن خطأ / يُصلح الضرر",
+    literalMeaningAr: "يُصلح الأمور", // ✅ جديد
+    explanationAr: "محاولة التعويض عن ضرر أو خطأ ارتكبته تجاه شخص ما.",
+    exampleEn: "He tried to make amends for his mistake by buying her flowers.",
+    exampleTranslationAr: "حاول التعويض عن خطئه بشراء الزهور لها.",
   ),
   // 60.
   Idiom(
-    phrase: "To give someone the cold shoulder",
-    meaningAr: "يتجاهل شخصاً / يتعامل ببرود",
-    explanationAr: "التجاهل المتعمد لشخص ما أو التعامل معه بطريقة غير ودية.",
-    exampleEn: "After the argument, she gave him the cold shoulder.",
-    exampleTranslationAr: "بعد الجدال، تعاملت معه ببرود (تجاهلته).",
+    phrase: "To break the news (gently)",
+    meaningAr: "يُعلن خبراً (بما يخص الانفصال) بلطف",
+    literalMeaningAr: "يكسر الخبر", // ✅ جديد
+    explanationAr: "إخبار شخص ما ببعض الأخبار السيئة أو الصادمة بطريقة لطيفة.",
+    exampleEn:
+        "She didn't know how to break the news of their separation gently.",
+    exampleTranslationAr: "لم تعرف كيف تعلن خبر انفصالهما بلطف.",
   ),
   // 61.
   Idiom(
-    phrase: "To hold the floor",
-    meaningAr: "يحتفظ بحق الكلام / يستمر في الحديث",
-    explanationAr: "الاحتفاظ بحق التحدث في مناقشة، ومنع الآخرين من مقاطعتك.",
+    phrase: "To be joined by a common interest",
+    meaningAr: "يجمعهم اهتمام مشترك",
+    literalMeaningAr: "مربوطين باهتمام مشترك", // ✅ جديد
+    explanationAr: "أن تكون علاقة مبنية على هواية أو شغف مشترك.",
     exampleEn:
-        "The chairman held the floor for over thirty minutes, explaining the new plan.",
-    exampleTranslationAr:
-        "احتفظ الرئيس بحق الكلام لأكثر من ثلاثين دقيقة، شارحاً الخطة الجديدة.",
+        "Their friendship is strong because they are joined by a common interest in sailing.",
+    exampleTranslationAr: "صداقتهما قوية لأنهما يجمعهما اهتمام مشترك بالإبحار.",
   ),
   // 62.
   Idiom(
-    phrase: "To be lost in translation",
-    meaningAr: "يُفقد معناه الأصلي في الترجمة",
+    phrase: "To be tied to someone's apron strings",
+    meaningAr: "تابع لأحد الوالدين (أو الشريك) / لا يستطيع الاستقلال",
+    literalMeaningAr: "مربوط بحبل مئزر شخص", // ✅ جديد
     explanationAr:
-        "وصف فكرة أو معنى تم فقدانه أو تشويهه عند نقله إلى لغة أخرى أو سياق آخر.",
-    exampleEn: "The subtlety of the joke was lost in translation.",
-    exampleTranslationAr: "فُقد المعنى الدقيق للنكتة في الترجمة.",
+        "الاعتماد المفرط على شخص آخر (عادة الأم أو الشريك) وعدم القدرة على التصرف باستقلالية.",
+    exampleEn:
+        "He still lives at home and is completely tied to his mother's apron strings.",
+    exampleTranslationAr: "لا يزال يعيش في المنزل وتابع تماماً لوالدته.",
   ),
   // 63.
   Idiom(
-    phrase: "To bite your lip",
-    meaningAr: "يكتم انزعاجه / يمتنع عن الرد",
-    explanationAr: "منع نفسك من قول شيء، عادة كدليل على كبت الإحباط أو الغضب.",
-    exampleEn:
-        "He had to bite his lip to keep from shouting during the argument.",
-    exampleTranslationAr: "كان عليه أن يمتنع عن الرد ليكتم صراخه أثناء الجدال.",
+    phrase: "To get along like a house on fire",
+    meaningAr: "ينسجمان بسرعة وبشدة / علاقة قوية جداً",
+    literalMeaningAr: "ينسجمان كمنزل يحترق", // ✅ جديد
+    explanationAr: "الانسجام بسرعة وبقوة شديدة مع شخص ما.",
+    exampleEn: "The new neighbours got along like a house on fire.",
+    exampleTranslationAr: "الجاران الجديدان انسجما بسرعة وبشدة.",
   ),
   // 64.
   Idiom(
-    phrase: "To clear the air",
-    meaningAr: "يُصفي الأجواء / يحل سوء التفاهم",
-    explanationAr: "مناقشة مشكلة أو سوء تفاهم بصراحة لحله وإنهاء التوتر.",
-    exampleEn: "We need to talk to clear the air after our disagreement.",
-    exampleTranslationAr: "نحتاج إلى التحدث لتصفية الأجواء بعد خلافنا.",
+    phrase: "To have a bond",
+    meaningAr: "لديهما رابط قوي / علاقة متينة",
+    literalMeaningAr: "لديهما رابط", // ✅ جديد
+    explanationAr: "وجود اتصال قوي وعميق بين شخصين.",
+    exampleEn: "After traveling together, they developed an unbreakable bond.",
+    exampleTranslationAr: "بعد السفر معاً، طوروا رابطاً غير قابل للكسر.",
   ),
   // 65.
   Idiom(
-    phrase: "To get the wrong end of the stick",
-    meaningAr: "يُسيء الفهم تماماً / يفهم خطأ",
-    explanationAr: "فهم موقف أو محادثة بشكل خاطئ تماماً.",
-    exampleEn:
-        "I think you got the wrong end of the stick; that's not what I meant.",
-    exampleTranslationAr: "أعتقد أنك أسأت الفهم تماماً؛ هذا ليس ما قصدته.",
+    phrase: "To put a ring on it",
+    meaningAr: "يتزوج / يتقدم للزواج (بتقديم خاتم)",
+    literalMeaningAr: "يضع خاتمًا عليه", // ✅ جديد
+    explanationAr: "اقتراح الزواج أو الزواج الفعلي من شخص ما.",
+    exampleEn: "If you love her so much, why don't you put a ring on it?",
+    exampleTranslationAr: "إذا كنت تحبها إلى هذا الحد، فلماذا لا تتزوجها؟",
   ),
   // 66.
   Idiom(
-    phrase: "To make waves",
-    meaningAr: "يثير ضجة / يسبب اضطراباً",
-    explanationAr: "التعبير عن آراء أو أفكار تسبب المشاكل أو الانزعاج للآخرين.",
-    exampleEn: "He likes to make waves by challenging established protocols.",
-    exampleTranslationAr:
-        "يحب أن يثير ضجة عن طريق تحدي البروتوكولات المعمول بها.",
+    phrase: "To be in a committed relationship",
+    meaningAr: "في علاقة ملتزمة",
+    literalMeaningAr: "في علاقة ملتزمة", // ✅ جديد
+    explanationAr: "أن تكون في علاقة عاطفية جادة وثابتة.",
+    exampleEn:
+        "They are not just dating; they are in a committed relationship.",
+    exampleTranslationAr: "إنهما لا يتواعدان فقط؛ إنهما في علاقة ملتزمة.",
   ),
   // 67.
   Idiom(
-    phrase: "To be on the tip of my tongue",
-    meaningAr: "على طرف لساني (كاد أن يتذكر الكلمة)",
-    explanationAr:
-        "الشعور بأنك على وشك تذكر كلمة أو اسم ولكن لا يمكنك فعل ذلك.",
-    exampleEn: "His name is on the tip of my tongue, but I can't recall it.",
-    exampleTranslationAr: "اسمه على طرف لساني، لكن لا أستطيع تذكره.",
+    phrase: "To mend fences",
+    meaningAr: "يُصلح العلاقات / يتصالح",
+    literalMeaningAr: "يُصلح الأسوار", // ✅ جديد
+    explanationAr: "محاولة إصلاح علاقة تضررت بسبب جدال أو خلاف.",
+    exampleEn: "He needs to mend fences with his brother after their fight.",
+    exampleTranslationAr: "إنه بحاجة إلى إصلاح العلاقات مع أخيه بعد شجارهما.",
   ),
   // 68.
   Idiom(
-    phrase: "To clam up",
-    meaningAr: "يصمت فجأة / يرفض الكلام",
-    explanationAr:
-        "أن يصبح صامتاً فجأة ويرفض التحدث، عادة بسبب الخوف أو الغضب.",
-    exampleEn: "When the police arrived, the suspect clammed up.",
-    exampleTranslationAr: "عندما وصلت الشرطة، صمت المشتبه به فجأة.",
+    phrase: "To have a mutual friend",
+    meaningAr: "لديهما صديق مشترك",
+    literalMeaningAr: "صديق مشترك", // ✅ جديد
+    explanationAr: "أن يكون لديكما نفس الشخص كصديق لكليكما.",
+    exampleEn: "We met because we have a mutual friend named John.",
+    exampleTranslationAr: "التقينا لأن لدينا صديقاً مشتركاً يدعى جون.",
   ),
   // 69.
   Idiom(
-    phrase: "To get it out of your system",
-    meaningAr: "يتخلص من التوتر بالكلام / يُفرغ ما في جعبته",
-    explanationAr: "التعبير عن عواطف أو غضب مكبوت لفترة طويلة للشعور بالراحة.",
-    exampleEn: "Go ahead and complain; you need to get it out of your system.",
-    exampleTranslationAr: "تفضل واشتكِ؛ أنت بحاجة إلى أن تُفرغ ما في جعبتك.",
+    phrase: "To hit rock bottom (in a relationship)",
+    meaningAr: "يصل إلى الحضيض (في العلاقة)",
+    literalMeaningAr: "يسقط إلى أسفل الصخرة", // ✅ جديد
+    explanationAr: "الوصول إلى أدنى نقطة أو أسوأ حالة ممكنة في العلاقة.",
+    exampleEn: "Their trust issues caused their marriage to hit rock bottom.",
+    exampleTranslationAr: "تسببت مشاكل الثقة في وصول زواجهما إلى الحضيض.",
   ),
   // 70.
   Idiom(
-    phrase: "To have a way with words",
-    meaningAr: "لديه أسلوب جيد في التعبير / خطيب بارع",
-    explanationAr: "أن تكون لديك القدرة على التعبير عن الأفكار بمهارة وإقناع.",
-    exampleEn: "As a lawyer, he definitely has a way with words.",
-    exampleTranslationAr: "كمحامٍ، من المؤكد أن لديه أسلوباً جيداً في التعبير.",
+    phrase: "To call it quits",
+    meaningAr: "يُنهي الأمر / ينفصل",
+    literalMeaningAr: "يُنهي الأمر", // ✅ جديد
+    explanationAr: "القرار بإنهاء العلاقة أو إنهاء النشاط.",
+    exampleEn: "After years of fighting, they decided to call it quits.",
+    exampleTranslationAr: "بعد سنوات من الشجار، قرروا إنهاء الأمر (الانفصال).",
   ),
   // 71.
   Idiom(
-    phrase: "To give someone an earful",
-    meaningAr: "يوبخ شخصاً / يُلقي عليه محاضرة غاضبة",
-    explanationAr: "التحدث إلى شخص ما بغضب لفترة طويلة حول أخطائه.",
-    exampleEn: "My mother gave me an earful when I came home late.",
-    exampleTranslationAr: "وبختني أمي عندما عدت إلى المنزل متأخراً.",
+    phrase: "To put the relationship on hold",
+    meaningAr: "يُجمد العلاقة",
+    literalMeaningAr: "يضع العلاقة على الانتظار", // ✅ جديد
+    explanationAr: "توقيف أو تأجيل العلاقة لفترة زمنية.",
+    exampleEn:
+        "They put the relationship on hold while he finished his studies abroad.",
+    exampleTranslationAr: "لقد جمدوا العلاقة بينما كان ينهي دراسته في الخارج.",
   ),
   // 72.
   Idiom(
-    phrase: "To talk someone into something",
-    meaningAr: "يُقنع شخصاً بفعل شيء",
-    explanationAr: "إقناع شخص ما بفعل شيء كان متردداً فيه.",
-    exampleEn: "She talked me into joining the new gym.",
-    exampleTranslationAr: "أقنعتني بالانضمام إلى الصالة الرياضية الجديدة.",
+    phrase: "To have chemistry",
+    meaningAr: "لديهما كيمياء / انجذاب قوي",
+    literalMeaningAr: "لديهما تفاعل كيميائي", // ✅ جديد
+    explanationAr: "وجود انجذاب قوي وطبيعي بين شخصين.",
+    exampleEn: "The two main actors had incredible chemistry on screen.",
+    exampleTranslationAr:
+        "كان الممثلان الرئيسيان لديهما انجذاب قوي لا يصدق على الشاشة.",
   ),
   // 73.
   Idiom(
-    phrase: "To play devil's advocate",
-    meaningAr: "يلعب دور المحامي المعارض",
-    explanationAr:
-        "تولي وجهة نظر معارضة في النقاش لمجرد الجدل أو استكشاف نقاط الضعف في الحجة.",
-    exampleEn:
-        "I'll play devil's advocate for a moment just to test your plan's weaknesses.",
-    exampleTranslationAr:
-        "سألعب دور المحامي المعارض للحظة فقط لاختبار نقاط ضعف خطتك.",
+    phrase: "To be someone's better half",
+    meaningAr: "النصف الأفضل (الشريك الأقرب)",
+    literalMeaningAr: "نصف شخص أفضل", // ✅ جديد
+    explanationAr: "وصف الزوج أو الزوجة أو الشريك العاطفي.",
+    exampleEn: "I'm planning a trip with my better half next month.",
+    exampleTranslationAr: "أنا أخطط لرحلة مع زوجتي (نصفي الأفضل) الشهر المقبل.",
   ),
   // 74.
   Idiom(
-    phrase: "To beat around the bush",
-    meaningAr: "يدور حول الموضوع / يتجنب النقطة الرئيسية",
-    explanationAr:
-        "تجنب قول الشيء بشكل مباشر، وغالباً ما يكون ذلك لتجنب الإحراج.",
-    exampleEn: "Stop beating around the bush and give me a clear answer.",
-    exampleTranslationAr: "توقف عن الدوران حول الموضوع وأعطني إجابة واضحة.",
+    phrase: "To be in someone's good graces",
+    meaningAr: "يحظى برضا شخص / محبوب لديه",
+    literalMeaningAr: "في نِعَم شخص", // ✅ جديد
+    explanationAr: "أن تكون في وضع يسمح لك بالحصول على لطف أو مساعدة شخص ما.",
+    exampleEn: "He tried to be in his boss's good graces by working overtime.",
+    exampleTranslationAr: "حاول أن يحظى برضا رئيسه بالعمل لساعات إضافية.",
   ),
   // 75.
   Idiom(
-    phrase: "To be on the fence (about saying something)",
-    meaningAr: "متردد بشأن قول شيء ما",
-    explanationAr:
-        "عدم القدرة على اتخاذ قرار بشأن ما إذا كنت ستقول شيئاً أم لا.",
+    phrase: "To leave well enough alone",
+    meaningAr: "لا تُثير المشاكل / اترك الأمور كما هي",
+    literalMeaningAr: "اترك الكفاية وحدها", // ✅ جديد
+    explanationAr: "تجنب محاولة إصلاح شيء قد يؤدي إلى تفاقم الموقف.",
     exampleEn:
-        "I'm on the fence about telling him the truth; it might hurt his feelings.",
-    exampleTranslationAr: "أنا متردد بشأن إخباره بالحقيقة؛ قد يؤذي مشاعره.",
+        "The situation is stable now, it’s best to leave well enough alone.",
+    exampleTranslationAr:
+        "الوضع مستقر الآن، من الأفضل أن نترك الأمور كما هي (ولا نُثير المشاكل).",
   ),
   // 76.
   Idiom(
-    phrase: "To hear someone out",
-    meaningAr: "يستمع لشخص حتى النهاية",
-    explanationAr: "الاستماع إلى كل ما يريد شخص ما قوله قبل الرد أو المقاطعة.",
-    exampleEn: "Please hear me out before you make a final judgment.",
-    exampleTranslationAr:
-        "من فضلك استمع لي حتى النهاية قبل أن تُصدر حكماً نهائياً.",
+    phrase: "To have a falling out with someone",
+    meaningAr: "يختلف مع شخص / يخاصمه",
+    literalMeaningAr: "يسقط مع شخص", // ✅ جديد
+    explanationAr: "الدخول في خلاف أدى إلى توتر العلاقة.",
+    exampleEn:
+        "She had a falling out with her sister over a family inheritance.",
+    exampleTranslationAr: "اختلفت مع أختها بسبب ميراث عائلي.",
   ),
   // 77.
   Idiom(
-    phrase: "To have a big mouth",
-    meaningAr: "لا يجيد حفظ الأسرار / ثرثار",
-    explanationAr: "أن تكون شخصاً لا يجيد حفظ الأسرار أو يتحدث كثيراً.",
-    exampleEn: "Don't tell him any secrets, he has a big mouth.",
-    exampleTranslationAr: "لا تخبره بأي أسرار، فهو لا يجيد حفظ الأسرار.",
+    phrase: "To put up with someone",
+    meaningAr: "يتحمل شخصاً",
+    literalMeaningAr: "يضع شخصًا فوقه", // ✅ جديد
+    explanationAr: "تحمل سلوك شخص ما أو وجوده رغم الإزعاج.",
+    exampleEn:
+        "I don't know how she manages to put up with his terrible mood swings.",
+    exampleTranslationAr: "لا أعرف كيف تتمكن من تحمل تقلبات مزاجه الفظيعة.",
   ),
   // 78.
   Idiom(
-    phrase: "To hold your breath",
-    meaningAr: "يحبس أنفاسه (بمعنى ينتظر بترقب)",
-    explanationAr:
-        "الانتظار بترقب شديد أو قلق لنتيجة ما (غالباً ما يُستخدم بشكل سلبي).",
+    phrase: "To be on shaky ground",
+    meaningAr: "في وضع غير مستقر / العلاقة متزعزعة",
+    literalMeaningAr: "على أرضية غير مستقرة", // ✅ جديد
+    explanationAr: "وصف علاقة غير مستقرة ومعرضة للانهيار.",
     exampleEn:
-        "The results won't be announced until next week, so don't hold your breath.",
+        "The business partnership has been on shaky ground since the loss of the main client.",
     exampleTranslationAr:
-        "لن تُعلن النتائج حتى الأسبوع المقبل، لذا لا تنتظر بترقب شديد.",
+        "كانت الشراكة التجارية في وضع غير مستقر منذ خسارة العميل الرئيسي.",
   ),
   // 79.
   Idiom(
-    phrase: "To be tongue-tied",
-    meaningAr: "يعجز عن الكلام / يتلعثم",
-    explanationAr:
-        "عدم القدرة على الكلام بوضوح أو بطلاقة، خاصة بسبب العصبية أو الإحراج.",
-    exampleEn: "I was so nervous when I met the CEO that I was tongue-tied.",
+    phrase: "To be the odd one out",
+    meaningAr: "الشخص المختلف / الغريب في المجموعة",
+    literalMeaningAr: "الغريب الوحيد", // ✅ جديد
+    explanationAr: "الشخص الذي لا يندمج مع الآخرين أو يختلف عنهم.",
+    exampleEn: "She felt like the odd one out at the family reunion.",
     exampleTranslationAr:
-        "كنت متوتراً جداً عندما التقيت بالمدير التنفيذي لدرجة أنني عجزت عن الكلام.",
+        "شعرت بأنها الشخص الغريب (المختلف) في لم شمل العائلة.",
   ),
   // 80.
   Idiom(
-    phrase: "To get the word out",
-    meaningAr: "ينشر الخبر / يعلن",
-    explanationAr: "نشر المعلومات أو الإعلانات على نطاق واسع.",
-    exampleEn:
-        "We need a strong marketing plan to get the word out about our new service.",
-    exampleTranslationAr:
-        "نحتاج إلى خطة تسويق قوية لنشر الخبر عن خدمتنا الجديدة.",
+    phrase: "To be someone's shoulder to cry on",
+    meaningAr: "كتف يستند إليه / يدعمه عاطفياً",
+    literalMeaningAr: "كتف يبكي عليه شخص", // ✅ جديد
+    explanationAr:
+        "أن تكون الشخص الذي يستمع إلى مشاكل شخص آخر ويقدم له الدعم العاطفي.",
+    exampleEn: "She was my shoulder to cry on after the messy divorce.",
+    exampleTranslationAr: "لقد كانت كتفي الذي أستند إليه بعد الطلاق الفوضوي.",
   ),
   // 81.
   Idiom(
-    phrase: "To be a broken record",
-    meaningAr: "يكرر نفس الكلام مراراً وتكراراً",
-    explanationAr: "تكرار نفس الشيء بشكل متواصل ومزعج.",
-    exampleEn:
-        "Stop telling me to clean my room; you sound like a broken record!",
-    exampleTranslationAr:
-        "توقف عن إخباري بتنظيف غرفتي؛ أنت تكرر نفس الكلام مراراً وتكراراً!",
+    phrase: "To get the boot",
+    meaningAr: "يُطرد / يُفصل عنه (بقرار من الشريك)",
+    literalMeaningAr: "يحصل على الحذاء", // ✅ جديد
+    explanationAr: "أن يتم فصلك من العمل أو إنهاء علاقتك بشخص ما.",
+    exampleEn: "She found out he was lying and gave him the boot.",
+    exampleTranslationAr: "اكتشفت أنه يكذب وأنفصلت عنه (طردته).",
   ),
   // 82.
   Idiom(
-    phrase: "To talk a good game",
-    meaningAr: "يتحدث ببراعة ولكن لا يفعل شيئاً",
-    explanationAr:
-        "القدرة على التحدث بطريقة تجعلهم يبدون مؤهلين أو لديهم خطط، لكنهم لا ينفذون.",
-    exampleEn:
-        "He talks a good game, but he never follows through on his promises.",
-    exampleTranslationAr: "إنه يتحدث ببراعة، لكنه لا يفي أبداً بوعوده.",
+    phrase: "To pop in / pop over",
+    meaningAr: "يزور فجأة / يمر على شخص مرور الكرام",
+    literalMeaningAr: "يقفز داخل/عبر", // ✅ جديد
+    explanationAr: "القيام بزيارة قصيرة وغير رسمية لشخص ما.",
+    exampleEn: "I'll pop in and say hello to my grandmother on my way home.",
+    exampleTranslationAr: "سأمر على جدتي وأُسلم عليها في طريقي إلى المنزل.",
   ),
   // 83.
   Idiom(
-    phrase: "To keep a straight face",
-    meaningAr: "يكتم ضحكته / يحافظ على وجه جاد",
-    explanationAr: "القدرة على البقاء جاداً وعدم الضحك في موقف مضحك.",
-    exampleEn: "The comedian was so funny I struggled to keep a straight face.",
-    exampleTranslationAr:
-        "كان الممثل الكوميدي مضحكاً جداً لدرجة أنني كافحت للحفاظ على وجه جاد.",
+    phrase: "To have a soft spot for someone",
+    meaningAr: "لديه نقطة ضعف تجاه شخص / يحبه بعمق",
+    literalMeaningAr: "له بقعة لينة لشخص", // ✅ جديد
+    explanationAr: "أن يكون لديك عاطفة خاصة أو محبة عميقة تجاه شخص ما.",
+    exampleEn:
+        "He has a soft spot for his younger sister; he always defends her.",
+    exampleTranslationAr: "لديه نقطة ضعف تجاه أخته الصغرى؛ يدافع عنها دائماً.",
   ),
   // 84.
   Idiom(
-    phrase: "To have a poker face",
-    meaningAr: "لا تظهر على وجهه أي تعابير / يُخفي مشاعره",
-    explanationAr: "التعبير عن عدم إظهار أي مشاعر على الوجه.",
+    phrase: "To turn a blind eye to something",
+    meaningAr: "يغض الطرف عن شيء / يتجاهله متعمداً",
+    literalMeaningAr: "يُدير عينًا عمياء لشيء", // ✅ جديد
+    explanationAr: "التظاهر بعدم رؤية شيء خاطئ أو غير قانوني.",
     exampleEn:
-        "The CEO had a poker face during the negotiations; we couldn't tell what he was thinking.",
-    exampleTranslationAr:
-        "لم تظهر على وجه المدير التنفيذي أي تعابير خلال المفاوضات؛ لم نتمكن من معرفة ما كان يفكر فيه.",
+        "For the sake of peace, she decided to turn a blind eye to his small mistake.",
+    exampleTranslationAr: "من أجل السلام، قررت أن تغض الطرف عن خطئه الصغير.",
   ),
   // 85.
   Idiom(
-    phrase: "To be beside yourself (with worry/joy)",
-    meaningAr: "شديد التأثر (بالقلق أو الفرح)",
-    explanationAr:
-        "أن تكون غارقاً في شعور معين لدرجة أنك لا تستطيع التحكم في نفسك.",
+    phrase: "To be on good terms",
+    meaningAr: "على علاقة جيدة",
+    literalMeaningAr: "على علاقات جيدة", // ✅ جديد
+    explanationAr: "أن تكون في علاقة ودية أو مهذبة مع شخص ما.",
     exampleEn:
-        "She was beside herself with joy when she got the acceptance letter.",
-    exampleTranslationAr:
-        "كانت شديدة التأثر بالفرح عندما حصلت على رسالة القبول.",
+        "Even after the divorce, they remained on good terms for the children.",
+    exampleTranslationAr: "حتى بعد الطلاق، ظلوا على علاقة جيدة من أجل الأطفال.",
   ),
   // 86.
   Idiom(
-    phrase: "To get to the bottom of",
-    meaningAr: "يكتشف حقيقة الأمر / يتوصل إلى جذر المشكلة",
-    explanationAr:
-        "التحقيق في شيء ما من أجل اكتشاف الحقيقة أو السبب الحقيقي له.",
-    exampleEn: "The team is working to get to the bottom of the data error.",
-    exampleTranslationAr: "يعمل الفريق لاكتشاف حقيقة خطأ البيانات.",
+    phrase: "To leave someone in the lurch",
+    meaningAr: "يتخلى عن شخص في مأزق",
+    literalMeaningAr: "يترك شخصًا في المأزق", // ✅ جديد
+    explanationAr: "ترك شخص ما في موقف صعب دون مساعدة.",
+    exampleEn:
+        "My business partner left me in the lurch when I needed support most.",
+    exampleTranslationAr:
+        "تخلى عني شريكي التجاري في مأزق عندما كنت في أمس الحاجة للدعم.",
   ),
   // 87.
   Idiom(
-    phrase: "To talk turkey",
-    meaningAr: "يتحدث بجدية وبصراحة / يدخل في صلب الموضوع",
-    explanationAr:
-        "التحدث بجدية وصدق حول مسألة مهمة، وغالباً ما تكون مالية أو تجارية.",
-    exampleEn: "Let's stop the small talk and talk turkey about the budget.",
-    exampleTranslationAr:
-        "دعنا نتوقف عن الأحاديث الجانبية ونتحدث بجدية حول الميزانية.",
+    phrase: "To clear things up",
+    meaningAr: "يوضح الأمور / يزيل سوء التفاهم",
+    literalMeaningAr: "يُنقّي الأمور", // ✅ جديد
+    explanationAr: "مناقشة مشكلة لتوضيح سوء التفاهم وحلها.",
+    exampleEn: "We had a misunderstanding, but we quickly cleared things up.",
+    exampleTranslationAr: "كان لدينا سوء تفاهم، لكننا أوضحنا الأمور بسرعة.",
   ),
   // 88.
   Idiom(
-    phrase: "To be unable to make head nor tail of",
-    meaningAr: "لا يفهم شيئاً على الإطلاق",
-    explanationAr: "أن تكون غير قادر على فهم شيء ما على الإطلاق، حتى أساسياته.",
-    exampleEn: "I can't make head nor tail of these complex instructions.",
-    exampleTranslationAr: "لا يمكنني فهم هذه التعليمات المعقدة على الإطلاق.",
+    phrase: "To be someone's rock",
+    meaningAr: "دعامة شخص / سنده",
+    literalMeaningAr: "صخرة شخص", // ✅ جديد
+    explanationAr: "أن تكون مصدر قوة وثبات ودعم عاطفي لشخص ما.",
+    exampleEn: "During my illness, my wife was my rock.",
+    exampleTranslationAr: "خلال مرضي، كانت زوجتي سندي.",
   ),
   // 89.
   Idiom(
-    phrase: "To whisper sweet nothings",
-    meaningAr: "يهمس بكلمات الحب",
-    explanationAr: "قول أشياء لطيفة ورومانسية لشخص ما بهدوء.",
-    exampleEn: "He was whispering sweet nothings to her all evening.",
-    exampleTranslationAr: "كان يهمس لها بكلمات الحب طوال المساء.",
+    phrase: "To cut the cord",
+    meaningAr: "يستقل / ينفصل (عن الأسرة عادة)",
+    literalMeaningAr: "يقطع الحبل", // ✅ جديد
+    explanationAr:
+        "الانفصال عن أسرتك أو شخص يعتمد عليك والبدء في العيش باستقلالية.",
+    exampleEn:
+        "It was difficult for him to cut the cord and move far away from home.",
+    exampleTranslationAr: "كان من الصعب عليه أن يستقل وينتقل بعيداً عن المنزل.",
   ),
   // 90.
   Idiom(
-    phrase: "To give someone the word",
-    meaningAr: "يُعطي الإشارة / يخبر شخصاً بالوقت المناسب",
-    explanationAr: "إخبار شخص ما عندما يكون الوقت مناسباً للبدء أو التصرف.",
-    exampleEn:
-        "Wait for me to give you the word before you submit the final report.",
-    exampleTranslationAr: "انتظر حتى أعطيك الإشارة قبل تقديم التقرير النهائي.",
+    phrase: "To talk things over",
+    meaningAr: "يتناقش حول الأمور / يتشاور",
+    literalMeaningAr: "يتحدث في الأمور",
+    explanationAr: "مناقشة وضع ما أو مشكلة ما بالتفصيل.",
+    exampleEn: "Don't make any rash decisions; let's talk things over first.",
+    exampleTranslationAr:
+        "لا تتخذ أي قرارات متهورة؛ دعنا نتشاور في الأمور أولاً.",
   ),
   // 91.
   Idiom(
-    phrase: "To have your say",
-    meaningAr: "يُعبر عن رأيه / يقول ما لديه",
-    explanationAr: "الفرصة للتعبير عن رأيك في مناقشة أو قرار.",
-    exampleEn: "Make sure everyone has their say before we vote.",
-    exampleTranslationAr: "تأكد من أن الجميع يعبر عن رأيه قبل أن نصوت.",
+    phrase: "To fall out with someone",
+    meaningAr: "يُخاصم شخصاً / يقطع علاقته به",
+    literalMeaningAr: "يسقط مع شخص", // ✅ جديد
+    explanationAr: "إنهاء علاقة أو صداقة بعد جدال أو خلاف.",
+    exampleEn:
+        "They fell out with their neighbours over a property line dispute.",
+    exampleTranslationAr: "خاصموا جيرانهم بسبب نزاع على خط الملكية.",
   ),
   // 92.
   Idiom(
-    phrase: "To be lost in the shuffle",
-    meaningAr: "يُتجاهل / يُنسى وسط الزحام",
+    phrase: "To be an integral part of",
+    meaningAr: "جزء لا يتجزأ من",
+    literalMeaningAr: "جزء جوهري من", // ✅ جديد
     explanationAr:
-        "أن يتم التغاضي عنك أو نسيانك وسط العديد من الأشياء أو الأشخاص الآخرين.",
+        "أن يكون شخص أو شيء جزءاً أساسياً وضرورياً من كيان أكبر (الأسرة، المجموعة، إلخ).",
     exampleEn:
-        "My suggestion was good, but it got lost in the shuffle of the meeting.",
-    exampleTranslationAr: "كان اقتراحي جيداً، لكنه نُسي وسط زحام الاجتماع.",
+        "The oldest daughter is an integral part of running the family business.",
+    exampleTranslationAr:
+        "الابنة الكبرى هي جزء لا يتجزأ من إدارة الأعمال العائلية.",
   ),
   // 93.
   Idiom(
-    phrase: "To preach to the choir",
-    meaningAr: "يُخاطب المؤمنين سلفاً / يتحدث لمن يتفق معه",
-    explanationAr:
-        "محاولة إقناع مجموعة من الأشخاص لديهم بالفعل نفس وجهة نظرك، مما يجعل الجهد ضائعاً.",
-    exampleEn:
-        "You are preaching to the choir; we all agree with you on climate change.",
-    exampleTranslationAr:
-        "أنت تخاطب المؤمنين سلفاً؛ كلنا نتفق معك بشأن تغير المناخ.",
+    phrase: "To get off on the wrong foot",
+    meaningAr: "يبدأ بعلاقة سيئة",
+    literalMeaningAr: "ينطلق بقدم خاطئة", // ✅ جديد
+    explanationAr: "بناء انطباع سيئ أو بداية سيئة لعلاقة ما.",
+    exampleEn: "I think I got off on the wrong foot with my new in-laws.",
+    exampleTranslationAr: "أعتقد أنني بدأت بعلاقة سيئة مع عائلة زوجي الجديدة.",
   ),
   // 94.
   Idiom(
-    phrase: "To be brief",
-    meaningAr: "موجز / مختصر",
-    explanationAr: "اختصار الحديث أو الكتابة إلى حد كبير.",
-    exampleEn: "To be brief, the project was a success.",
-    exampleTranslationAr: "باختصار، كان المشروع ناجحاً.",
+    phrase: "To have an affair",
+    meaningAr: "يُقيم علاقة غرامية (خيانة)",
+    literalMeaningAr: "يملك علاقة غرامية", // ✅ جديد
+    explanationAr:
+        "أن تكون لديك علاقة جنسية خارج نطاق الزواج أو العلاقة الرسمية.",
+    exampleEn:
+        "The scandal erupted when it was revealed he was having an affair.",
+    exampleTranslationAr:
+        "اندلعت الفضيحة عندما تم الكشف عن إقامته علاقة غرامية.",
   ),
   // 95.
   Idiom(
-    phrase: "To put your mind at ease",
-    meaningAr: "يُريح بال شخص / يطمئنه",
-    explanationAr: "قول شيء لتهدئة قلق شخص ما أو طمأنته.",
-    exampleEn: "The doctor’s reassurances put my mind at ease.",
-    exampleTranslationAr: "تطمينات الطبيب أراحت بالي.",
+    phrase: "To break trust",
+    meaningAr: "يخون الثقة",
+    literalMeaningAr: "يكسر الثقة", // ✅ جديد
+    explanationAr: "القيام بشيء يدمر ثقة شخص ما بك.",
+    exampleEn: "Lying is the fastest way to break trust in a relationship.",
+    exampleTranslationAr: "الكذب هو أسرع طري إلى خيانة الثقة في العلاقة.",
   ),
   // 96.
   Idiom(
-    phrase: "To talk someone's language",
-    meaningAr: "يتحدث بلغة يفهمها الآخر / يفهم منظوره",
-    explanationAr: "التعبير عن الأفكار بطريقة تناسب فهم واهتمامات شخص آخر.",
-    exampleEn:
-        "The marketer used sports analogies, which definitely talked the client's language.",
-    exampleTranslationAr:
-        "استخدم المسوق تشبيهات رياضية، والتي تحدثت بالتأكيد بلغة العميل.",
+    phrase: "To be two sides of the same coin",
+    meaningAr: "وجهان لعملة واحدة / متكاملان رغم الاختلاف",
+    literalMeaningAr: "وجهان لنفس العملة", // ✅ جديد
+    explanationAr:
+        "أن يكون شيئان مختلفين ظاهرياً ولكنهما مرتبطان ارتباطاً وثيقاً.",
+    exampleEn: "Their arguments and their love are two sides of the same coin.",
+    exampleTranslationAr: "خلافاتهما وحبهما وجهان لنفس العملة.",
   ),
   // 97.
   Idiom(
-    phrase: "To shoot the breeze",
-    meaningAr: "يتسامر / يدردش بعفوية",
-    explanationAr: "إجراء محادثة غير رسمية وسهلة حول موضوعات غير مهمة.",
-    exampleEn: "We met at the café just to shoot the breeze for a while.",
-    exampleTranslationAr: "التقينا في المقهى للتسامر فقط لبعض الوقت.",
+    phrase: "To be attached to someone",
+    meaningAr: "مرتبط عاطفياً / متعلق بشخص",
+    literalMeaningAr: "مربوط بشخص", // ✅ جديد
+    explanationAr: "أن تكون لديك ارتباط عاطفي قوي بشخص ما.",
+    exampleEn: "The children are very attached to their former nanny.",
+    exampleTranslationAr: "الأطفال متعلقون جداً بمربية أطفالهم السابقة.",
   ),
   // 98.
   Idiom(
-    phrase: "To have a slip of the tongue",
-    meaningAr: "زلّة لسان",
-    explanationAr: "قول شيء بالخطأ بدلاً من ما كنت تقصده.",
+    phrase: "To sweep someone under the bus",
+    meaningAr: "يضحي بشخص لحماية نفسه",
+    literalMeaningAr: "يكنس شخصًا تحت الحافلة", // ✅ جديد
+    explanationAr:
+        "إلقاء اللوم على شخص ما أو التضحية به لإنقاذ نفسك من المشاكل.",
     exampleEn:
-        "It was just a slip of the tongue when I called him by the wrong name.",
-    exampleTranslationAr: "كانت مجرد زلة لسان عندما ناديته بالاسم الخطأ.",
+        "The manager threw his assistant under the bus to avoid taking the blame.",
+    exampleTranslationAr: "ضحى المدير بمساعده لتجنب تحمل اللوم.",
   ),
   // 99.
   Idiom(
-    phrase: "To be frank",
-    meaningAr: "لأكون صريحاً",
-    explanationAr:
-        "مقدمة تُستخدم للتأكيد على أن الكلام التالي سيكون صادقاً ومباشراً.",
-    exampleEn: "To be frank, I think the design needs a lot of work.",
-    exampleTranslationAr:
-        "لأكون صريحاً، أعتقد أن التصميم يحتاج إلى الكثير من العمل.",
+    phrase: "To run in the family",
+    meaningAr: "متوارث في العائلة",
+    literalMeaningAr: "يُجرى في العائلة", // ✅ جديد
+    explanationAr: "وصف سمة أو صفة أو تقليد ينتقل عبر الأجيال في الأسرة.",
+    exampleEn: "The tendency to be stubborn seems to run in their family.",
+    exampleTranslationAr: "يبدو أن الميل إلى العناد متوارث في عائلتهم.",
   ),
   // 100.
   Idiom(
-    phrase: "To shout from the rooftops",
-    meaningAr: "يُعلن بصوت عالٍ / ينشر الخبر علانية",
-    explanationAr: "إعلان خبر أو معلومة بحماس للجميع.",
+    phrase: "To stick with someone through thick and thin",
+    meaningAr: "يتمسك بشخص في السراء والضراء",
+    literalMeaningAr: "يلتصق بشخص في الكثيف والنحيف", // ✅ جديد
+    explanationAr: "دعم شخص ما بغض النظر عن مدى صعوبة أو سهولة الظروف.",
     exampleEn:
-        "She was so proud of her success she wanted to shout it from the rooftops.",
-    exampleTranslationAr:
-        "كانت فخورة بنجاحها لدرجة أنها أرادت أن تنشر الخبر علانية.",
+        "A true friend is someone who sticks with you through thick and thin.",
+    exampleTranslationAr: "الصديق الحقيقي هو الذي يتمسك بك في السراء والضراء.",
   ),
 ];

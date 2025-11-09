@@ -5,6 +5,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Hit the jackpot",
     meaningAr: "تحقيق نجاح كبير",
+    literalMeaningAr: "يُصيب الجوائز الكبرى", // ✅ كأنه في ماكينة القمار
     explanationAr: "تحقيق فوز أو نجاح غير متوقع وضخم.",
     exampleEn:
         "He hit the jackpot when his startup was bought by a major company.",
@@ -14,6 +15,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Make it big",
     meaningAr: "ينجح نجاحًا كبيرًا",
+    literalMeaningAr: "يصبح كبيرًا",
     explanationAr: "تحقيق نجاح كبير، خاصة في المجال المهني أو الفني.",
     exampleEn: "She always dreamed of making it big in Hollywood.",
     exampleTranslationAr: "كانت تطمح دائمًا أن تحقق نجاحًا كبيرًا في هوليوود.",
@@ -21,6 +23,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Strike it rich",
     meaningAr: "يصبح غنيًا فجأة",
+    literalMeaningAr: "يضرب ويجد ثروة",
     explanationAr: "تحقيق ثروة كبيرة بسرعة ودون توقع.",
     exampleEn: "He struck it rich when he invested in cryptocurrency.",
     exampleTranslationAr: "أصبح غنيًا فجأة عندما استثمر في العملات الرقمية.",
@@ -28,6 +31,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Come out on top",
     meaningAr: "ينجح في النهاية",
+    literalMeaningAr: "يخرج في الأعلى",
     explanationAr: "الوصول إلى النجاح بعد التغلب على التحديات.",
     exampleEn: "Despite the competition, she came out on top.",
     exampleTranslationAr: "بالرغم من التنافس، نجحت في النهاية.",
@@ -35,6 +39,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Rise to the occasion",
     meaningAr: "يتفوق في الموقف الصعب",
+    literalMeaningAr: "ينهض للمناسبة",
     explanationAr: "إظهار قدرات استثنائية في لحظة صعبة أو مهمة.",
     exampleEn:
         "When the CEO was absent, she rose to the occasion and led the meeting.",
@@ -44,6 +49,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Turn the corner",
     meaningAr: "يتغلب على الصعوبات",
+    literalMeaningAr: "يُدار الزاوية",
     explanationAr: "تحقيق تحسن بعد فترة صعبة أو فشل.",
     exampleEn: "After months of losses, the company finally turned the corner.",
     exampleTranslationAr:
@@ -52,6 +58,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Seize the moment",
     meaningAr: "يُمسك الفرصة",
+    literalMeaningAr: "يمسك اللحظة",
     explanationAr: "الاستفادة من فرصة نادرة أو مهمة في الوقت المناسب.",
     exampleEn: "He seized the moment and proposed to his girlfriend.",
     exampleTranslationAr: "أمسك الفرصة وطلب يد خطيبته.",
@@ -59,6 +66,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Take the bull by the horns",
     meaningAr: "يواجه الموقف بجرأة",
+    literalMeaningAr: "يمسك الثور من قرنيه",
     explanationAr: "اتخاذ قرار حاسم في موقف صعب أو مخاطرة.",
     exampleEn: "She took the bull by the horns and confronted the manager.",
     exampleTranslationAr: "واجهت الموقف بجرأة وواجهت المدير.",
@@ -66,6 +74,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Win the race",
     meaningAr: "يفوز بالمنافسة",
+    literalMeaningAr: "يفوز في السباق",
     explanationAr: "تحقيق النجاح أو الفوز في منافسة أو مشروع.",
     exampleEn: "His team worked hard to win the race.",
     exampleTranslationAr: "عمل فريقه بجد ليفوز بالمنافسة.",
@@ -73,6 +82,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Come out on top",
     meaningAr: "ينجح في النهاية",
+    literalMeaningAr: "يخرج في الأعلى",
     explanationAr: "الوصول إلى النجاح بعد التغلب على التحديات.",
     exampleEn: "Despite the competition, she came out on top.",
     exampleTranslationAr: "بالرغم من التنافس، نجحت في النهاية.",
@@ -82,6 +92,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Excel at",
     meaningAr: "يتفوق في",
+    literalMeaningAr: "يتميز في",
     explanationAr: "التميز أو القدرة العالية في مجال معين.",
     exampleEn: "He excels at solving complex problems.",
     exampleTranslationAr: "يتفوق في حل المشكلات المعقدة.",
@@ -89,6 +100,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Achieve a milestone",
     meaningAr: "يحقق إنجازًا مهمًا",
+    literalMeaningAr: "يصل إلى نقطة ميل",
     explanationAr: "بلوغ نقطة مهمة في مسار العمل أو الحياة.",
     exampleEn: "Graduating from university was a major milestone for him.",
     exampleTranslationAr: "كان التخرج من الجامعة إنجازًا مهمًا له.",
@@ -96,6 +108,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Set the bar high",
     meaningAr: "يضبط المعايير عالية",
+    literalMeaningAr: "يضع العارضة مرتفعة",
     explanationAr: "وضع معايير عالية للنجاح أو الأداء.",
     exampleEn: "The company set the bar high for the new product launch.",
     exampleTranslationAr: "وضعت الشركة معايير عالية لإطلاق المنتج الجديد.",
@@ -103,6 +116,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Make a breakthrough",
     meaningAr: "يحقق اختراقًا",
+    literalMeaningAr: "يُحدث اختراقًا",
     explanationAr: "تحقيق تقدم كبير في مجال علمي أو تجاري.",
     exampleEn: "Scientists made a breakthrough in cancer research.",
     exampleTranslationAr: "حقق العلماء اختراقًا في أبحاث السرطان.",
@@ -110,6 +124,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Pave the way",
     meaningAr: "يُمهّد الطريق",
+    literalMeaningAr: "يُمهد الطريق",
     explanationAr: "القيام بشيء يُسهل حدوث شيء آخر في المستقبل.",
     exampleEn: "Her research paved the way for new treatments.",
     exampleTranslationAr: "أبحاثها مهدت الطريق لعلاجات جديدة.",
@@ -117,6 +132,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Go the extra mile",
     meaningAr: "يبذل جهدًا إضافيًا",
+    literalMeaningAr: "يمشي ميلًا إضافيًا",
     explanationAr: "بذل مجهود أكبر من المتوقع للوصول إلى النجاح.",
     exampleEn: "She always goes the extra mile to help her students.",
     exampleTranslationAr: "هي دائمًا تبذل جهدًا إضافيًا لمساعدة طلابها.",
@@ -124,6 +140,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Stand out",
     meaningAr: "يبرز بين الآخرين",
+    literalMeaningAr: "يقف خارج الصف",
     explanationAr: "التميز بشكل لافت عن الآخرين.",
     exampleEn: "His creative ideas help him stand out in the office.",
     exampleTranslationAr: "أفكاره الإبداعية تجعله يبرز في المكتب.",
@@ -131,6 +148,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Make a name for yourself",
     meaningAr: "يُعرف باسمك",
+    literalMeaningAr: "يصنع اسمًا لنفسه",
     explanationAr: "الحصول على سمعة جيدة في مجال معين.",
     exampleEn: "He made a name for himself as a talented artist.",
     exampleTranslationAr: "أصبح معروفًا باسمه كفنان موهوب.",
@@ -138,6 +156,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Earn your stripes",
     meaningAr: "تكسب احترامك",
+    literalMeaningAr: "تكسب شرائطك",
     explanationAr: "إثبات قيمتك من خلال العمل الجاد أو التحديات.",
     exampleEn: "She earned her stripes by leading the project successfully.",
     exampleTranslationAr: "كانت تستحق احترامها بقيادة المشروع بنجاح.",
@@ -145,6 +164,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Take the lead",
     meaningAr: "يُصبح القائد",
+    literalMeaningAr: "يأخذ الريادة",
     explanationAr: "البدء في توجيه أو إدارة مشروع أو فريق.",
     exampleEn: "He took the lead in the new marketing campaign.",
     exampleTranslationAr: "أصبح القائد في حملة التسويق الجديدة.",
@@ -154,6 +174,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Face the music",
     meaningAr: "يواجه العواقب",
+    literalMeaningAr: "يواجه الموسيقى",
     explanationAr: "التعامل مع النتائج السلبية لعمل قمت به.",
     exampleEn: "He had to face the music after missing the deadline.",
     exampleTranslationAr: "اضطر لمواجهة العواقب بعد تفويت الموعد النهائي.",
@@ -161,6 +182,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Turn things around",
     meaningAr: "يُغيّر الوضع",
+    literalMeaningAr: "يُحوّل الأمور",
     explanationAr: "تحقيق تحسن بعد فترة صعبة أو فشل.",
     exampleEn: "The new manager turned things around in just a few months.",
     exampleTranslationAr: "غَيّر المدير الجديد الوضع خلال بضعة أشهر فقط.",
@@ -168,6 +190,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Climb the ladder",
     meaningAr: "يتدرج في الترقيات",
+    literalMeaningAr: "يصعد السلم",
     explanationAr: "الصعود في السلم الوظيفي أو المهني.",
     exampleEn: "He’s been climbing the ladder at his company for years.",
     exampleTranslationAr: "كان يتدرج في الترقيات في شركته لسنوات.",
@@ -175,6 +198,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Get ahead",
     meaningAr: "يتقدم على الآخرين",
+    literalMeaningAr: "يسبق الآخرين",
     explanationAr: "تحقيق نجاح أو مكانة أعلى من الآخرين.",
     exampleEn: "She studied hard to get ahead in her career.",
     exampleTranslationAr: "درست بجد لتحقق تقدمًا في مسيرتها المهنية.",
@@ -182,6 +206,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Push the boundaries",
     meaningAr: "يتجاوز الحدود",
+    literalMeaningAr: "يدفع الحدود",
     explanationAr: "الابتعاد عن الأفكار التقليدية والابتكار.",
     exampleEn: "This artist pushes the boundaries of modern art.",
     exampleTranslationAr: "هذا الفنان يتجاوز حدود الفن الحديث.",
@@ -189,6 +214,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Set a record",
     meaningAr: "يُسجّل رقمًا قياسيًا",
+    literalMeaningAr: "يُسجّل رقماً",
     explanationAr: "تحقيق نتيجة لم تُسجل من قبل.",
     exampleEn: "She set a record in the swimming competition.",
     exampleTranslationAr: "سجّلت رقماً قياسياً في مسابقة السباحة.",
@@ -196,6 +222,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Make waves",
     meaningAr: "يُحدث تأثيرًا",
+    literalMeaningAr: "يصنع أمواجًا",
     explanationAr: "تحقيق شيء مهم يجذب الانتباه أو يُحدث تغييرًا.",
     exampleEn: "Her new book made waves in the literary world.",
     exampleTranslationAr: "أحدثت كتابتها الجديدة تأثيرًا في عالم الأدب.",
@@ -203,6 +230,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Break new ground",
     meaningAr: "يفتح مجالًا جديدًا",
+    literalMeaningAr: "يكسر أرضًا جديدة",
     explanationAr: "القيام بشيء جديد لم يُجرَ من قبل.",
     exampleEn: "This research breaks new ground in renewable energy.",
     exampleTranslationAr: "يُحدث هذا البحث تقدمًا في مجال الطاقة المتجددة.",
@@ -210,6 +238,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Think outside the box",
     meaningAr: "يفكّر بابتكار",
+    literalMeaningAr: "يفكر خارج الصندوق",
     explanationAr: "الابتعاد عن الأفكار التقليدية والابتكار.",
     exampleEn: "We need to think outside the box to solve this problem.",
     exampleTranslationAr: "نحتاج إلى التفكير بابتكار لحل هذه المشكلة.",
@@ -217,7 +246,8 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Take a risk",
     meaningAr: "يغامر",
-    explanationAr: "اتخاذ قرار قد لا يucceed، لكنه يحتوي على فرصة للنجاح.",
+    literalMeaningAr: "يأخذ خطرًا",
+    explanationAr: "اتخاذ قرار قد لا ي succeed، لكنه يحتوي على فرصة للنجاح.",
     exampleEn: "He took a risk by starting his own business.",
     exampleTranslationAr: "غامر ببدء مشروعه الخاص.",
   ),
@@ -226,6 +256,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Strike gold",
     meaningAr: "يجد شيئًا ثمينًا",
+    literalMeaningAr: "يضرب الذهب",
     explanationAr: "تحقيق نجاح أو فوز غير متوقع.",
     exampleEn: "The app struck gold after going viral.",
     exampleTranslationAr: "حقق التطبيق نجاحًا كبيرًا بعد أن انتشر.",
@@ -233,6 +264,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Come out of nowhere",
     meaningAr: "يظهر فجأة",
+    literalMeaningAr: "يخرج من العدم",
     explanationAr: "شخص أو مشروع يظهر من دون توقع وينجح.",
     exampleEn: "This band came out of nowhere and became famous overnight.",
     exampleTranslationAr: "ظهرت هذه الفرقة فجأة وصارت مشهورة بين ليلة وضحاها.",
@@ -240,6 +272,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Strike it lucky",
     meaningAr: "يحالفه الحظ",
+    literalMeaningAr: "يضرب الحظ",
     explanationAr: "تحقيق نجاح أو فوز بسبب الحظ.",
     exampleEn: "He struck it lucky and won the lottery.",
     exampleTranslationAr: "حالفه الحظ وفاز في اليانصيب.",
@@ -247,6 +280,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Have a golden touch",
     meaningAr: "يُucceed في كل شيء",
+    literalMeaningAr: "له لمسة ذهبية",
     explanationAr: "شخص يحقق نجاحًا في كل ما يفعله.",
     exampleEn: "Every project he starts has a golden touch.",
     exampleTranslationAr: "كل مشروع يبدأه يُucceed.",
@@ -254,6 +288,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A golden opportunity",
     meaningAr: "فرصة ذهبية",
+    literalMeaningAr: "فرصة ذهبية",
     explanationAr: "فرصة نادرة ومهمة لا يجب تفويتها.",
     exampleEn: "This job offer is a golden opportunity — don’t miss it!",
     exampleTranslationAr: "هذا العرض الوظيفي فرصة ذهبية — لا تفوت الفرصة!",
@@ -261,6 +296,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Chance of a lifetime",
     meaningAr: "فرصة العمر",
+    literalMeaningAr: "فرصة في العمر",
     explanationAr: "فرصة نادرة لا تتكرر.",
     exampleEn: "This scholarship is a chance of a lifetime.",
     exampleTranslationAr: "هذا المنحة فرصة العمر.",
@@ -268,6 +304,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A shot at success",
     meaningAr: "فرصة للنجاح",
+    literalMeaningAr: "رصاصة نحو النجاح",
     explanationAr: "فرصة للوصول إلى النجاح.",
     exampleEn: "This is my shot at success — I can’t waste it.",
     exampleTranslationAr: "هذه فرصتي للنجاح — لا يمكنني تضييعها.",
@@ -275,6 +312,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A lucky break",
     meaningAr: "فرصة سعيدة",
+    literalMeaningAr: "استراحة محظوظة",
     explanationAr: "حدث جيد يحدث دون تخطيط.",
     exampleEn: "Getting that job was a lucky break.",
     exampleTranslationAr: "الحصول على تلك الوظيفة كانت فرصة سعيدة.",
@@ -282,6 +320,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A stroke of luck",
     meaningAr: "ضربة حظ",
+    literalMeaningAr: "ضربة من الحظ",
     explanationAr: "حدث جيد يحدث دون تخطيط.",
     exampleEn: "Finding a parking spot was a stroke of luck.",
     exampleTranslationAr: "إيجاد مكان لوقوف السيارة كانت ضربة حظ.",
@@ -289,6 +328,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A lucky guess",
     meaningAr: "تخمين محظوظ",
+    literalMeaningAr: "تخمين بفضل الحظ",
     explanationAr: "إجابة صحيحة بدون معرفة حقيقية.",
     exampleEn: "Guessing the password was a lucky guess.",
     exampleTranslationAr: "تخمين كلمة المرور كان تخمينًا محظوظًا.",
@@ -298,6 +338,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Fall short",
     meaningAr: "يفشل في تحقيق الهدف",
+    literalMeaningAr: "يسقط قصيرًا",
     explanationAr: "عدم القدرة على بلوغ الهدف أو التوقعات.",
     exampleEn: "The team fell short of their goal this season.",
     exampleTranslationAr: "فشل الفريق في بلوغ هدفه هذا الموسم.",
@@ -305,7 +346,8 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Go down in flames",
     meaningAr: "يفشل فشلاً ذريعاً",
-    explanationAr: "الفشل بشكل مثير للجدل أو مفاجئ.",
+    literalMeaningAr: "يسقط بلهب",
+    explanationAr: "الانهيار الكامل بعد محاولة فاشلة.",
     exampleEn:
         "The whole project went down in flames when the main investor withdrew.",
     exampleTranslationAr:
@@ -314,6 +356,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Back to the drawing board",
     meaningAr: "يعود إلى نقطة البداية",
+    literalMeaningAr: "يعود إلى لوحة الرسم",
     explanationAr:
         "الاضطرار إلى البدء في التخطيط لمشروع أو خطة من البداية بعد الفشل.",
     exampleEn:
@@ -324,6 +367,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Go belly up",
     meaningAr: "يفشل أو يُغلق",
+    literalMeaningAr: "ينقلب بطنه لأعلى",
     explanationAr: "أن يفشل مشروع أو شركة.",
     exampleEn: "The restaurant went belly up after a year of operation.",
     exampleTranslationAr: "أُغلق المطعم بعد سنة من العمل.",
@@ -331,6 +375,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Crash and burn",
     meaningAr: "يفشل بشكل مفاجئ وفظيع",
+    literalMeaningAr: "يسقط ويحترق",
     explanationAr: "الانهيار الكامل بعد محاولة فاشلة.",
     exampleEn: "His business plan crashed and burned in just a few months.",
     exampleTranslationAr: "فشل مشروعه التجاري بشكل مفاجئ وفظيع خلال بضعة أشهر.",
@@ -338,6 +383,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Hit rock bottom",
     meaningAr: "يصل إلى أدنى درجات الفشل",
+    literalMeaningAr: "يصطدم بالأرض",
     explanationAr: "الوصول إلى أسوأ حالة ممكنة في الحياة أو العمل.",
     exampleEn: "After losing his job and home, he hit rock bottom.",
     exampleTranslationAr: "بعد فقدان وظيفته وبيته، وصل إلى أدنى درجات الفشل.",
@@ -345,6 +391,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Sink or swim",
     meaningAr: "ينجح أو يفشل",
+    literalMeaningAr: "يغرق أو يسبح",
     explanationAr: "الوضع بين النجاح أو الفشل التام.",
     exampleEn: "It’s sink or swim in this competitive industry.",
     exampleTranslationAr: "إما أن تنجح أو تفشل في هذا المجال التنافسي.",
@@ -352,6 +399,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Throw in the towel",
     meaningAr: "يستسلم",
+    literalMeaningAr: "يرمي المناشف",
     explanationAr: "الاعتراف بالهزيمة أو الاستسلام والتوقف عن المحاولة.",
     exampleEn: "After trying for months, he decided to throw in the towel.",
     exampleTranslationAr: "بعد المحاولة لأشهر، قرر الاستسلام.",
@@ -359,6 +407,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Take a hit",
     meaningAr: "يتعرض للخسارة",
+    literalMeaningAr: "يتلقى ضربة",
     explanationAr: "الخسارة في المال أو السمعة أو الصحة.",
     exampleEn: "The company took a hit when sales dropped.",
     exampleTranslationAr: "تعرضت الشركة للخسارة عندما انخفضت المبيعات.",
@@ -366,6 +415,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Wipe out",
     meaningAr: "يفشل تمامًا",
+    literalMeaningAr: "يُمحى بالكامل",
     explanationAr: "الانهيار أو الفشل التام في مشروع أو محاولة.",
     exampleEn: "The startup wiped out after the market crash.",
     exampleTranslationAr: "فشلت الشركة الناشئة تمامًا بعد انخفاض السوق.",
@@ -375,6 +425,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Miss the boat",
     meaningAr: "يفوّت الفرصة",
+    literalMeaningAr: "يفوّت القارب",
     explanationAr:
         "تفويت فرصة للقيام بشيء بسبب التأخير أو البطء في اتخاذ القرار.",
     exampleEn:
@@ -384,6 +435,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Fall flat on your face",
     meaningAr: "يفشل بشكل محرج",
+    literalMeaningAr: "يسقط مسطحًا على وجهه",
     explanationAr: "الفشل بشكل واضح أو محرج.",
     exampleEn: "His presentation fell flat on his face — no one was impressed.",
     exampleTranslationAr: "فشل عرضه التقديمي بشكل محرج — لم يُبهر أحدًا.",
@@ -391,6 +443,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Bite the dust",
     meaningAr: "يفشل / يتعرض للهزيمة",
+    literalMeaningAr: "يعض التراب",
     explanationAr: "الفشل أو التوقف عن العمل أو الموت.",
     exampleEn: "After years of use, my old laptop finally bit the dust.",
     exampleTranslationAr:
@@ -399,6 +452,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Throw your hat in the ring",
     meaningAr: "يدخل في المنافسة",
+    literalMeaningAr: "يرمي قبعتك في الحلبة",
     explanationAr: "الانضمام إلى منافسة أو محاولة لتحقيق هدف.",
     exampleEn: "He decided to throw his hat in the ring for the election.",
     exampleTranslationAr: "قرر الدخول في المنافسة الانتخابية.",
@@ -406,6 +460,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Go under",
     meaningAr: "يفشل أو يُغلق",
+    literalMeaningAr: "يذهب تحت",
     explanationAr: "أن تفشل شركة أو مشروع.",
     exampleEn: "Many small businesses go under during economic crises.",
     exampleTranslationAr:
@@ -414,6 +469,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Go bust",
     meaningAr: "يفشل ماليًا",
+    literalMeaningAr: "ينفجر",
     explanationAr: "أن تُغلق شركة بسبب الديون أو الخسائر.",
     exampleEn: "The company went bust after the lawsuit.",
     exampleTranslationAr: "أُغلقت الشركة بسبب الدعوى القضائية.",
@@ -421,6 +477,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Wash your hands of",
     meaningAr: "أبرأ من",
+    literalMeaningAr: "يغسل يديه من",
     explanationAr: "التخلي عن مسؤولية شيء أو شخص.",
     exampleEn:
         "After the incident, the manager washed his hands of the project.",
@@ -429,6 +486,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Throw in the towel",
     meaningAr: "يستسلم",
+    literalMeaningAr: "يرمي المناشف",
     explanationAr: "الاعتراف بالهزيمة أو الاستسلام والتوقف عن المحاولة.",
     exampleEn: "After trying for months, he decided to throw in the towel.",
     exampleTranslationAr: "بعد المحاولة لأشهر، قرر الاستسلام.",
@@ -436,6 +494,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Wipe out",
     meaningAr: "يفشل تمامًا",
+    literalMeaningAr: "يُمحى بالكامل",
     explanationAr: "الانهيار أو الفشل التام في مشروع أو محاولة.",
     exampleEn: "The startup wiped out after the market crash.",
     exampleTranslationAr: "فشلت الشركة الناشئة تمامًا بعد انخفاض السوق.",
@@ -443,6 +502,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Fall apart",
     meaningAr: "ينهار / يفشل",
+    literalMeaningAr: "يسقط أجزاء",
     explanationAr: "أن ينهار شيء أو مشروع.",
     exampleEn: "After the CEO left, the company began to fall apart.",
     exampleTranslationAr: "بعد مغادرة المدير التنفيذي، بدأ الشركة في الانهيار.",
@@ -452,6 +512,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Pull through",
     meaningAr: "ينجو من الوضع الصعب",
+    literalMeaningAr: "يُسحب عبر",
     explanationAr: "النجاح في التغلب على موقف صعب أو مرض.",
     exampleEn: "She pulled through the surgery and is now recovering.",
     exampleTranslationAr: "نجت من الجراحة وتعود للتعافي الآن.",
@@ -459,6 +520,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Come through",
     meaningAr: "ينجح في الوفاء بال.Promise",
+    literalMeaningAr: "يأتي عبر",
     explanationAr: "النجاح في إنجاز شيء مهم أو الصمود في المواقف الصعبة.",
     exampleEn: "He came through when the team needed him most.",
     exampleTranslationAr: "نجح في الوفاء بال.Promise عندما احتاجه الفريق أكثر.",
@@ -466,6 +528,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Rise above",
     meaningAr: "يتخطى الصعوبات",
+    literalMeaningAr: "ينهض فوق",
     explanationAr: "النجاح في التغلب على التحديات أو المشاعر السلبية.",
     exampleEn: "She rose above the criticism and continued her work.",
     exampleTranslationAr: "تخطت الانتقادات واستمرت في عملها.",
@@ -473,6 +536,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Keep your head above water",
     meaningAr: "يتمسك بالحياة / يُحافظ على الوضع",
+    literalMeaningAr: "يبقي رأسه فوق الماء",
     explanationAr: "النجاح في التغلب على الديون أو الصعوبات المالية.",
     exampleEn: "I’m working two jobs just to keep my head above water.",
     exampleTranslationAr: "أعمل في وظيفتين فقط لأُحافظ على الوضع.",
@@ -480,6 +544,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Hang in there",
     meaningAr: "اصبر / لا تستسلم",
+    literalMeaningAr: "تعلق وابقَ",
     explanationAr: "الاستمرار في المحاولة رغم الصعوبات.",
     exampleEn: "The work is hard, but hang in there — it will get easier.",
     exampleTranslationAr: "العمل صعب، لكن اصبر — سيصبح أسهل.",
@@ -487,6 +552,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Bounce back",
     meaningAr: "يعود أقوى",
+    literalMeaningAr: "يرتد مرة أخرى",
     explanationAr: "التعافي من فشل أو خسارة بشكل أسرع.",
     exampleEn: "After losing the election, she bounced back and ran again.",
     exampleTranslationAr: "بعد خسارة الانتخابات، عادت أقوى وترشحت مرة أخرى.",
@@ -494,6 +560,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Turn the tables",
     meaningAr: "يُغيّر الوضع لصالحه",
+    literalMeaningAr: "يُحوّل الطاولات",
     explanationAr: "التحول من الوضع السيء إلى الجيد.",
     exampleEn: "The underdog turned the tables and won the match.",
     exampleTranslationAr:
@@ -502,6 +569,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Turn the corner",
     meaningAr: "يتغلب على الصعوبات",
+    literalMeaningAr: "يُدار الزاوية",
     explanationAr: "تحقيق تحسن بعد فترة صعبة أو فشل.",
     exampleEn: "After months of losses, the company finally turned the corner.",
     exampleTranslationAr:
@@ -510,6 +578,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Pull yourself together",
     meaningAr: "تُجمّع نفسك",
+    literalMeaningAr: "اجمع نفسك",
     explanationAr: "التحكم في مشاعرك بعد صدمة أو فشل.",
     exampleEn: "After the breakup, she had to pull herself together.",
     exampleTranslationAr: "بعد الانفصال، اضطرت إلى تجميع نفسها.",
@@ -517,6 +586,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Get back on your feet",
     meaningAr: "يعود لطبيعته",
+    literalMeaningAr: "يعود إلى قدميه",
     explanationAr: "التعافي من مشكلة مالية أو شخصية.",
     exampleEn: "After losing his job, he worked hard to get back on his feet.",
     exampleTranslationAr: "بعد فقدان وظيفته، عمل بجد للعودة لطبيعته.",
@@ -526,6 +596,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Excel at",
     meaningAr: "يتفوق في",
+    literalMeaningAr: "يتميز في",
     explanationAr: "التميز أو القدرة العالية في مجال معين.",
     exampleEn: "He excels at solving complex problems.",
     exampleTranslationAr: "يتفوق في حل المشكلات المعقدة.",
@@ -533,6 +604,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Achieve a milestone",
     meaningAr: "يحقق إنجازًا مهمًا",
+    literalMeaningAr: "يصل إلى نقطة ميل",
     explanationAr: "بلوغ نقطة مهمة في مسار العمل أو الحياة.",
     exampleEn: "Graduating from university was a major milestone for him.",
     exampleTranslationAr: "كان التخرج من الجامعة إنجازًا مهمًا له.",
@@ -540,6 +612,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Set the bar high",
     meaningAr: "يضبط المعايير عالية",
+    literalMeaningAr: "يضع العارضة مرتفعة",
     explanationAr: "وضع معايير عالية للنجاح أو الأداء.",
     exampleEn: "The company set the bar high for the new product launch.",
     exampleTranslationAr: "وضعت الشركة معايير عالية لإطلاق المنتج الجديد.",
@@ -547,6 +620,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Make a breakthrough",
     meaningAr: "يحقق اختراقًا",
+    literalMeaningAr: "يُحدث اختراقًا",
     explanationAr: "تحقيق تقدم كبير في مجال علمي أو تجاري.",
     exampleEn: "Scientists made a breakthrough in cancer research.",
     exampleTranslationAr: "حقق العلماء اختراقًا في أبحاث السرطان.",
@@ -554,6 +628,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Pave the way",
     meaningAr: "يُمهّد الطريق",
+    literalMeaningAr: "يُمهد الطريق",
     explanationAr: "القيام بشيء يُسهل حدوث شيء آخر في المستقبل.",
     exampleEn: "Her research paved the way for new treatments.",
     exampleTranslationAr: "أبحاثها مهدت الطريق لعلاجات جديدة.",
@@ -561,6 +636,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Go the extra mile",
     meaningAr: "يبذل جهدًا إضافيًا",
+    literalMeaningAr: "يمشي ميلًا إضافيًا",
     explanationAr: "بذل مجهود أكبر من المتوقع للوصول إلى النجاح.",
     exampleEn: "She always goes the extra mile to help her students.",
     exampleTranslationAr: "هي دائمًا تبذل جهدًا إضافيًا لمساعدة طلابها.",
@@ -568,6 +644,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Stand out",
     meaningAr: "يبرز بين الآخرين",
+    literalMeaningAr: "يقف خارج الصف",
     explanationAr: "التميز بشكل لافت عن الآخرين.",
     exampleEn: "His creative ideas help him stand out in the office.",
     exampleTranslationAr: "أفكاره الإبداعية تجعله يبرز في المكتب.",
@@ -575,6 +652,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Make a name for yourself",
     meaningAr: "يُعرف باسمك",
+    literalMeaningAr: "يصنع اسمًا لنفسه",
     explanationAr: "الحصول على سمعة جيدة في مجال معين.",
     exampleEn: "He made a name for himself as a talented artist.",
     exampleTranslationAr: "أصبح معروفًا باسمه كفنان موهوب.",
@@ -582,6 +660,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Earn your stripes",
     meaningAr: "تكسب احترامك",
+    literalMeaningAr: "تكسب شرائطك",
     explanationAr: "إثبات قيمتك من خلال العمل الجاد أو التحديات.",
     exampleEn: "She earned her stripes by leading the project successfully.",
     exampleTranslationAr: "كانت تستحق احترامها بقيادة المشروع بنجاح.",
@@ -589,6 +668,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Take the lead",
     meaningAr: "يُصبح القائد",
+    literalMeaningAr: "يأخذ الريادة",
     explanationAr: "البدء في توجيه أو إدارة مشروع أو فريق.",
     exampleEn: "He took the lead in the new marketing campaign.",
     exampleTranslationAr: "أصبح القائد في حملة التسويق الجديدة.",
@@ -598,6 +678,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Face the music",
     meaningAr: "يواجه العواقب",
+    literalMeaningAr: "يواجه الموسيقى",
     explanationAr: "التعامل مع النتائج السلبية لعمل قمت به.",
     exampleEn: "He had to face the music after missing the deadline.",
     exampleTranslationAr: "اضطر لمواجهة العواقب بعد تفويت الموعد النهائي.",
@@ -605,6 +686,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Turn things around",
     meaningAr: "يُغيّر الوضع",
+    literalMeaningAr: "يُحوّل الأمور",
     explanationAr: "تحقيق تحسن بعد فترة صعبة أو فشل.",
     exampleEn: "The new manager turned things around in just a few months.",
     exampleTranslationAr: "غَيّر المدير الجديد الوضع خلال بضعة أشهر فقط.",
@@ -612,6 +694,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Climb the ladder",
     meaningAr: "يتدرج في الترقيات",
+    literalMeaningAr: "يصعد السلم",
     explanationAr: "الصعود في السلم الوظيفي أو المهني.",
     exampleEn: "He’s been climbing the ladder at his company for years.",
     exampleTranslationAr: "كان يتدرج في الترقيات في شركته لسنوات.",
@@ -619,6 +702,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Get ahead",
     meaningAr: "يتقدم على الآخرين",
+    literalMeaningAr: "يسبق الآخرين",
     explanationAr: "تحقيق نجاح أو مكانة أعلى من الآخرين.",
     exampleEn: "She studied hard to get ahead in her career.",
     exampleTranslationAr: "درست بجد لتحقق تقدمًا في مسيرتها المهنية.",
@@ -626,6 +710,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Push the boundaries",
     meaningAr: "يتجاوز الحدود",
+    literalMeaningAr: "يدفع الحدود",
     explanationAr: "الابتعاد عن الأفكار التقليدية والابتكار.",
     exampleEn: "This artist pushes the boundaries of modern art.",
     exampleTranslationAr: "هذا الفنان يتجاوز حدود الفن الحديث.",
@@ -633,6 +718,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Set a record",
     meaningAr: "يُسجّل رقمًا قياسيًا",
+    literalMeaningAr: "يُسجّل رقماً",
     explanationAr: "تحقيق نتيجة لم تُسجل من قبل.",
     exampleEn: "She set a record in the swimming competition.",
     exampleTranslationAr: "سجّلت رقماً قياسياً في مسابقة السباحة.",
@@ -640,6 +726,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Make waves",
     meaningAr: "يُحدث تأثيرًا",
+    literalMeaningAr: "يصنع أمواجًا",
     explanationAr: "تحقيق شيء مهم يجذب الانتباه أو يُحدث تغييرًا.",
     exampleEn: "Her new book made waves in the literary world.",
     exampleTranslationAr: "أحدثت كتابتها الجديدة تأثيرًا في عالم الأدب.",
@@ -647,6 +734,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Break new ground",
     meaningAr: "يفتح مجالًا جديدًا",
+    literalMeaningAr: "يكسر أرضًا جديدة",
     explanationAr: "القيام بشيء جديد لم يُجرَ من قبل.",
     exampleEn: "This research breaks new ground in renewable energy.",
     exampleTranslationAr: "يُحدث هذا البحث تقدمًا في مجال الطاقة المتجددة.",
@@ -654,6 +742,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Think outside the box",
     meaningAr: "يفكّر بابتكار",
+    literalMeaningAr: "يفكر خارج الصندوق",
     explanationAr: "الابتعاد عن الأفكار التقليدية والابتكار.",
     exampleEn: "We need to think outside the box to solve this problem.",
     exampleTranslationAr: "نحتاج إلى التفكير بابتكار لحل هذه المشكلة.",
@@ -661,7 +750,8 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Take a risk",
     meaningAr: "يغامر",
-    explanationAr: "اتخاذ قرار قد لا يucceed، لكنه يحتوي على فرصة للنجاح.",
+    literalMeaningAr: "يأخذ خطرًا",
+    explanationAr: "اتخاذ قرار قد لا ي succeed، لكنه يحتوي على فرصة للنجاح.",
     exampleEn: "He took a risk by starting his own business.",
     exampleTranslationAr: "غامر ببدء مشروعه الخاص.",
   ),
@@ -670,6 +760,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Strike gold",
     meaningAr: "يجد شيئًا ثمينًا",
+    literalMeaningAr: "يضرب الذهب",
     explanationAr: "تحقيق نجاح أو فوز غير متوقع.",
     exampleEn: "The app struck gold after going viral.",
     exampleTranslationAr: "حقق التطبيق نجاحًا كبيرًا بعد أن انتشر.",
@@ -677,6 +768,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Come out of nowhere",
     meaningAr: "يظهر فجأة",
+    literalMeaningAr: "يخرج من العدم",
     explanationAr: "شخص أو مشروع يظهر من دون توقع وينجح.",
     exampleEn: "This band came out of nowhere and became famous overnight.",
     exampleTranslationAr: "ظهرت هذه الفرقة فجأة وصارت مشهورة بين ليلة وضحاها.",
@@ -684,6 +776,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Strike it lucky",
     meaningAr: "يحالفه الحظ",
+    literalMeaningAr: "يضرب الحظ",
     explanationAr: "تحقيق نجاح أو فوز بسبب الحظ.",
     exampleEn: "He struck it lucky and won the lottery.",
     exampleTranslationAr: "حالفه الحظ وفاز في اليانصيب.",
@@ -691,13 +784,15 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Have a golden touch",
     meaningAr: "يُucceed في كل شيء",
+    literalMeaningAr: "له لمسة ذهبية",
     explanationAr: "شخص يحقق نجاحًا في كل ما يفعله.",
     exampleEn: "Every project he starts has a golden touch.",
-    exampleTranslationAr: "كل مشروع يبدأه يُucceed.",
+    exampleTranslationAr: "كل مشروع يبدأه يُsuccess.",
   ),
   Idiom(
     phrase: "A golden opportunity",
     meaningAr: "فرصة ذهبية",
+    literalMeaningAr: "فرصة ثمينة",
     explanationAr: "فرصة نادرة ومهمة لا يجب تفويتها.",
     exampleEn: "This job offer is a golden opportunity — don’t miss it!",
     exampleTranslationAr: "هذا العرض الوظيفي فرصة ذهبية — لا تفوت الفرصة!",
@@ -705,6 +800,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "Chance of a lifetime",
     meaningAr: "فرصة العمر",
+    literalMeaningAr: "فرصة في العمر",
     explanationAr: "فرصة نادرة لا تتكرر.",
     exampleEn: "This scholarship is a chance of a lifetime.",
     exampleTranslationAr: "هذا المنحة فرصة العمر.",
@@ -712,6 +808,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A shot at success",
     meaningAr: "فرصة للنجاح",
+    literalMeaningAr: "رصاصة نحو النجاح",
     explanationAr: "فرصة للوصول إلى النجاح.",
     exampleEn: "This is my shot at success — I can’t waste it.",
     exampleTranslationAr: "هذه فرصتي للنجاح — لا يمكنني تضييعها.",
@@ -719,6 +816,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A lucky break",
     meaningAr: "فرصة سعيدة",
+    literalMeaningAr: "استراحة محظوظة",
     explanationAr: "حدث جيد يحدث دون تخطيط.",
     exampleEn: "Getting that job was a lucky break.",
     exampleTranslationAr: "الحصول على تلك الوظيفة كانت فرصة سعيدة.",
@@ -726,6 +824,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A stroke of luck",
     meaningAr: "ضربة حظ",
+    literalMeaningAr: "ضربة من الحظ",
     explanationAr: "حدث جيد يحدث دون تخطيط.",
     exampleEn: "Finding a parking spot was a stroke of luck.",
     exampleTranslationAr: "إيجاد مكان لوقوف السيارة كانت ضربة حظ.",
@@ -733,6 +832,7 @@ final List<Idiom> successIdioms = [
   Idiom(
     phrase: "A lucky guess",
     meaningAr: "تخمين محظوظ",
+    literalMeaningAr: "تخمين بفضل الحظ",
     explanationAr: "إجابة صحيحة بدون معرفة حقيقية.",
     exampleEn: "Guessing the password was a lucky guess.",
     exampleTranslationAr: "تخمين كلمة المرور كان تخمينًا محظوظًا.",
