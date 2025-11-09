@@ -11,7 +11,7 @@ void main() async {
   Hive.registerAdapter(FavoriteIdiomAdapter());
   // فتح الـ Box
   await Hive.openBox<FavoriteIdiom>('favorites');
-
+  await Hive.openBox('settings'); // ✅ Box جديد لحفظ الإعدادات
   runApp(const MyApp());
 }
 

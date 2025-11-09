@@ -26,6 +26,45 @@ class _CategoryScreenState extends State<CategoryScreen> {
   bool _isSpeakingExampleNormal = false;
   String _searchQuery = '';
   late List<Idiom> _filteredIdioms = widget.idioms;
+  bool _alphabeticalOrder = false; // ✅ جديد: ترتيب أبجدي
+
+  @override
+  void initState() {
+    super.initState();
+    // ✅ جلب الحالة من Hive
+    _loadSortPreference();
+  }
+
+  Future<void> _loadSortPreference() async {
+    final box =
+        Hive.box('settings'); // ✅ افتراض أنك ستحتفظ بالاعدادات في Box منفصل
+    setState(() {
+      _alphabeticalOrder = box.get('alphabeticalOrder', defaultValue: false);
+      _applySorting(); // ✅ تطبيق الترتيب فورًا
+    });
+  }
+
+  Future<void> _saveSortPreference() async {
+    final box = Hive.box('settings');
+    await box.put('alphabeticalOrder', _alphabeticalOrder);
+  }
+
+  void _toggleSort() {
+    setState(() {
+      _alphabeticalOrder = !_alphabeticalOrder;
+      _saveSortPreference();
+      _applySorting();
+    });
+  }
+
+  void _applySorting() {
+    if (_searchQuery.isEmpty) {
+      _filteredIdioms = List.from(widget.idioms);
+    }
+    if (_alphabeticalOrder) {
+      _filteredIdioms.sort((a, b) => a.phrase.compareTo(b.phrase));
+    }
+  }
 
   Future<FlutterTts> _getTts() async {
     _flutterTts ??= FlutterTts();
@@ -40,6 +79,9 @@ class _CategoryScreenState extends State<CategoryScreen> {
       _searchQuery = query;
       if (query.isEmpty) {
         _filteredIdioms = widget.idioms;
+        if (_alphabeticalOrder) {
+          _filteredIdioms.sort((a, b) => a.phrase.compareTo(b.phrase));
+        }
       } else {
         _filteredIdioms = widget.idioms.where((idiom) {
           return idiom.phrase.toLowerCase().contains(query.toLowerCase()) ||
@@ -50,6 +92,10 @@ class _CategoryScreenState extends State<CategoryScreen> {
                   .toLowerCase()
                   .contains(query.toLowerCase());
         }).toList();
+        // ✅ ترتيب النتائج في البحث أيضًا (اختياري)
+        if (_alphabeticalOrder) {
+          _filteredIdioms.sort((a, b) => a.phrase.compareTo(b.phrase));
+        }
       }
     });
   }
@@ -59,7 +105,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
     final exists = box.values.any((fav) => fav.phrase == idiom.phrase);
 
     if (exists) {
-      // الحذف
       final item = box.values.firstWhere((fav) => fav.phrase == idiom.phrase);
       item.delete();
       if (mounted) {
@@ -68,7 +113,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
         );
       }
     } else {
-      // الإضافة
       final favorite = FavoriteIdiom(
         phrase: idiom.phrase,
         meaningAr: idiom.meaningAr,
@@ -84,10 +128,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
       }
     }
 
-    // تحديث الحالة لعكس التغيير في الأيقونة
-    setState(() {
-      // إعادة بناء الـ ListView
-    });
+    setState(() {});
   }
 
   Future<void> _speak(String text,
@@ -160,18 +201,55 @@ class _CategoryScreenState extends State<CategoryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        iconTheme: const IconThemeData(
-          color: Colors.white,
-        ),
+        iconTheme: const IconThemeData(color: Colors.white),
         title: Text(
           widget.categoryName,
-          style: const TextStyle(
-            color: Colors.white,
-          ),
+          style: const TextStyle(color: Colors.white),
         ),
         centerTitle: true,
         backgroundColor: Colors.blue.shade600,
-        // 🔍 إضافة شريط البحث في الأعلى
+        actions: [
+          // ✅ زر الترتيب الأبجدي
+          PopupMenuButton<bool>(
+            icon: const Icon(Icons.sort, color: Colors.white),
+            onSelected: (value) {
+              _toggleSort();
+            },
+            itemBuilder: (context) => [
+              PopupMenuItem(
+                value: false,
+                child: Row(
+                  children: [
+                    Icon(
+                      _alphabeticalOrder
+                          ? Icons.circle_outlined
+                          : Icons.check_circle,
+                      color: _alphabeticalOrder ? null : Colors.blue,
+                    ),
+                    const SizedBox(width: 8),
+                    const Text("الترتيب الأصلي"),
+                  ],
+                ),
+              ),
+              PopupMenuItem(
+                value: true,
+                child: Row(
+                  children: [
+                    Icon(
+                      _alphabeticalOrder
+                          ? Icons.check_circle
+                          : Icons.circle_outlined,
+                      color: _alphabeticalOrder ? Colors.blue : null,
+                    ),
+                    const SizedBox(width: 8),
+                    const Text("ترتيب أبجدي"),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ],
+        // 🔍 شريط البحث
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(50.0),
           child: Container(
@@ -218,7 +296,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        // زر المفضلة في الأعلى
                         Row(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
@@ -233,7 +310,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             ),
                           ],
                         ),
-                        // العبارة الإنجليزية
                         Text(
                           idiom.phrase,
                           style: TextStyle(
@@ -244,8 +320,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           textAlign: TextAlign.right,
                         ),
                         const SizedBox(height: 16),
-
-                        // أزرار نطق العبارة (TTS)
                         Row(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
@@ -289,35 +363,21 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           ],
                         ),
                         const SizedBox(height: 16),
-
-                        // خط فاصل خفيف
                         const Divider(
                             color: Colors.grey, height: 10, thickness: 0.5),
-
                         const SizedBox(height: 12),
-
-                        // المعنى
                         _buildSection("المعنى:", idiom.meaningAr,
                             color: Colors.teal.shade700),
-
                         const SizedBox(height: 10),
-
-                        // الشرح الحرفي (إذا وُجد)
                         if (idiom.literalMeaningAr != null &&
                             idiom.literalMeaningAr!.isNotEmpty)
                           _buildSection(
                               "المعنى الحرفي:", idiom.literalMeaningAr!,
                               color: Colors.orange.shade700),
-
                         const SizedBox(height: 10),
-
-                        // الشرح
                         _buildSection("الشرح:", idiom.explanationAr,
                             color: Colors.grey.shade800),
-
                         const SizedBox(height: 10),
-
-                        // المثال بالإنجليزية (LTR)
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
@@ -345,10 +405,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             ),
                           ],
                         ),
-
                         const SizedBox(height: 8),
-
-                        // أزرار نطق المثال (TTS)
                         Row(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
@@ -391,53 +448,11 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             ),
                           ],
                         ),
-
                         const SizedBox(height: 8),
-
-                        // ترجمة المثال
                         _buildSection(
                             "ترجمة المثال:", idiom.exampleTranslationAr,
                             color: Colors.grey.shade800),
-
                         const SizedBox(height: 16),
-
-                        // أزرار النطق القديمة (يمكن إزالتها إذا لم تكن مطلوبة)
-                        // Row(
-                        //   mainAxisAlignment: MainAxisAlignment.end,
-                        //   children: [
-                        //     Tooltip(
-                        //       message: 'نطق ببطء (0.2x)',
-                        //       child: IconButton(
-                        //         padding: EdgeInsets.zero,
-                        //         constraints: const BoxConstraints(),
-                        //         icon: SizedBox(
-                        //           width: 24,
-                        //           height: 24,
-                        //           child: Image.asset(
-                        //             'assets/turtle.png',
-                        //             color: _isSpeakingSlow ? Colors.green.shade700 : Colors.black,
-                        //             fit: BoxFit.contain,
-                        //           ),
-                        //         ),
-                        //         onPressed: () => _speak(idiom.phrase, rate: 0.2, isSlow: true),
-                        //       ),
-                        //     ),
-                        //     const SizedBox(width: 8),
-                        //     Tooltip(
-                        //       message: 'نطق طبيعي (0.4x)',
-                        //       child: IconButton(
-                        //         padding: EdgeInsets.zero,
-                        //         constraints: const BoxConstraints(),
-                        //         icon: Icon(
-                        //           Icons.campaign,
-                        //           color: _isSpeakingNormal ? Colors.blue.shade700 : Colors.black,
-                        //           size: 24,
-                        //         ),
-                        //         onPressed: () => _speak(idiom.phrase, rate: 0.4, isSlow: false),
-                        //       ),
-                        //     ),
-                        //   ],
-                        // ),
                       ],
                     ),
                   ),
