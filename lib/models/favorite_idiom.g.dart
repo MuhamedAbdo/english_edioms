@@ -6,12 +6,21 @@ class FavoriteIdiomAdapter extends TypeAdapter<FavoriteIdiom> {
 
   @override
   FavoriteIdiom read(BinaryReader reader) {
+    final phrase = reader.readString();
+    final meaningAr = reader.readString();
+    final explanationAr = reader.readString();
+    final exampleEn = reader.readString();
+    final exampleTranslationAr = reader.readString();
+    final literalMeaningAr =
+        reader.readBool() ? reader.readString() : null; // ✅ قراءة optional
+
     return FavoriteIdiom(
-      phrase: reader.readString(),
-      meaningAr: reader.readString(),
-      explanationAr: reader.readString(),
-      exampleEn: reader.readString(),
-      exampleTranslationAr: reader.readString(),
+      phrase: phrase,
+      meaningAr: meaningAr,
+      explanationAr: explanationAr,
+      exampleEn: exampleEn,
+      exampleTranslationAr: exampleTranslationAr,
+      literalMeaningAr: literalMeaningAr,
     );
   }
 
@@ -22,15 +31,9 @@ class FavoriteIdiomAdapter extends TypeAdapter<FavoriteIdiom> {
     writer.writeString(obj.explanationAr);
     writer.writeString(obj.exampleEn);
     writer.writeString(obj.exampleTranslationAr);
+    writer.writeBool(obj.literalMeaningAr != null); // ✅ تحقق من null
+    if (obj.literalMeaningAr != null) {
+      writer.writeString(obj.literalMeaningAr!);
+    }
   }
-
-  @override
-  int get hashCode => typeId.hashCode;
-
-  @override
-  bool operator ==(Object other) =>
-      identical(this, other) ||
-      other is FavoriteIdiomAdapter &&
-          runtimeType == other.runtimeType &&
-          typeId == other.typeId;
 }

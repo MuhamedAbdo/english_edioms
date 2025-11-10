@@ -105,6 +105,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
     final exists = box.values.any((fav) => fav.phrase == idiom.phrase);
 
     if (exists) {
+      // الحذف
       final item = box.values.firstWhere((fav) => fav.phrase == idiom.phrase);
       item.delete();
       if (mounted) {
@@ -113,12 +114,14 @@ class _CategoryScreenState extends State<CategoryScreen> {
         );
       }
     } else {
+      // الإضافة
       final favorite = FavoriteIdiom(
         phrase: idiom.phrase,
         meaningAr: idiom.meaningAr,
         explanationAr: idiom.explanationAr,
         exampleEn: idiom.exampleEn,
         exampleTranslationAr: idiom.exampleTranslationAr,
+        literalMeaningAr: idiom.literalMeaningAr, // ✅ نسخ الحقل الجديد
       );
       box.add(favorite);
       if (mounted) {

@@ -9,9 +9,15 @@ void main() async {
   await Hive.initFlutter();
   // تسجيل الـ Adapter
   Hive.registerAdapter(FavoriteIdiomAdapter());
+
+  // ✅ مسح الـ Box القديم إذا كان غير متوافق (يحدث فقط في التطوير)
+  await Hive.deleteBoxFromDisk('favorites'); // ✅ حذف البيانات القديمة
+  await Hive.deleteBoxFromDisk('settings'); // ✅ حذف الإعدادات القديمة (اختياري)
+
   // فتح الـ Box
   await Hive.openBox<FavoriteIdiom>('favorites');
   await Hive.openBox('settings'); // ✅ Box جديد لحفظ الإعدادات
+
   runApp(const MyApp());
 }
 

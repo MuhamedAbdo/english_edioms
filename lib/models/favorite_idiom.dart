@@ -19,11 +19,15 @@ class FavoriteIdiom extends HiveObject {
   @HiveField(4)
   final String exampleTranslationAr;
 
+  @HiveField(5)
+  final String? literalMeaningAr; // ✅ حقل جديد
+
   FavoriteIdiom({
     required this.phrase,
     required this.meaningAr,
     required this.explanationAr,
     required this.exampleEn,
     required this.exampleTranslationAr,
+    this.literalMeaningAr, // ✅ اختياري
   });
 }
